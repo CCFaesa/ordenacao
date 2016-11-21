@@ -2,25 +2,21 @@ package modelo;
 
 public class No {
 	private Item item;
-	private No proximoNo;
-	
+	private No proximo;
+
 	public No(Item item) {
 		this.item = item;
 	}
 
-	public No getProx() {
-		return this.proximoNo;
+	public No getProximo() {
+		return this.proximo;
 	}
 
-	public void setProx(No novo) {
-		this.proximoNo = novo;
+	public void setProximo(No novo) {
+		this.proximo = novo;
 	}
 
-	public Item getInfo() {
+	public Item getItem() {
 		return item;
-	}
-
-	public void setInfo(Item item) {
-		this.item = item;
 	}
 }

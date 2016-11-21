@@ -13,6 +13,8 @@ public class ListaEncadeada {
 			ultimo = no;
 			quantidadeNos++;
 		}else{
+			ultimo.setProx(no);
+			quantidadeNos++;
 		}
 	}
 	
