@@ -8,7 +8,7 @@ public class Principal {
 		Item[] a = ArquivoUtilitario.arquivoToVetorItem("Texto1.txt");
 	
 		for (Item item : a) {
-			System.out.println(item.getPalavra());
+			System.out.println(item.getParagrafo() + " - " + item.getPalavra());
 		}
 		System.out.println("Ola ordenacao");
 	}
