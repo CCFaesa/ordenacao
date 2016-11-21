@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
+import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
 
@@ -16,7 +17,7 @@ public abstract class ArquivoUtilitario {
 	 * */
 	private static Item[] arquivoToVetorItem(String caminho){
 
-		Lista lista = new Lista();
+		ListaEncadeada listaEncadeada = new ListaEncadeada();
 		
 		try {
 			FileReader fr = new FileReader(new File(caminho));
@@ -30,7 +31,7 @@ public abstract class ArquivoUtilitario {
 				String[] dado = verificaTexto(linha, separador).split(separador);
 				
 				for (int i = 0; i < dado.length; i++) {
-					lista.inserirUltimo(new No(new Item(numLinha, dado[i] + (i==dado.length-1?"\n\n":""))));
+					listaEncadeada.add(new No(new Item(numLinha, dado[i] + (i==dado.length-1?"\n\n":""))));
 				}
 				
 				numLinha++;
@@ -42,8 +43,8 @@ public abstract class ArquivoUtilitario {
 			e.printStackTrace();
 		}
 		
-		Item atual = lista.getPrimeiro().getInfo();
-		Item[] itens = new Item[lista.getQuantNos()];
+		Item atual = listaEncadeada.getPrimeiro().getInfo();
+		Item[] itens = new Item[listaEncadeada.getQuantidadeNos()];
 		
 		int ini = 0;
 		while(atual != null){
@@ -61,7 +62,7 @@ public abstract class ArquivoUtilitario {
 	 * 
 	 * */
 	public static String verificaTexto(String linha, String separador){
-		Lista lista = new Lista();
+		ListaEncadeada listaEncadeada = new ListaEncadeada();
 		String[] temp = linha.replace(","," ").replace("."," ").split("|");
 		StringBuilder palavraTemp = new StringBuilder();
 		boolean eEspaco = false;
@@ -78,7 +79,7 @@ public abstract class ArquivoUtilitario {
 			}
 
 			if(!palavraTemp.toString().equals("") && (eEspaco || (temp.length-1 == p))){
-				lista.inserirUltimo(new No(new Item(cont, palavraTemp.toString())));
+				listaEncadeada.add(new No(new Item(cont, palavraTemp.toString())));
 				cont++;
 				palavraTemp = new StringBuilder();
 				eEspaco = false;
@@ -86,7 +87,7 @@ public abstract class ArquivoUtilitario {
 			
 		}
 		
-		Item atual = lista.getPrimeiro().getInfo();
+		Item atual = listaEncadeada.getPrimeiro().getInfo();
 		palavraTemp = new StringBuilder();
 		
 		while(atual != null){

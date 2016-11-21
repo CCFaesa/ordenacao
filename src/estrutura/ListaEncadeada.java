@@ -17,5 +17,31 @@ public class ListaEncadeada {
 			quantidadeNos++;
 		}
 	}
+
+	public No getPrimeiro() {
+		return primeiro;
+	}
+
+	public void setPrimeiro(No primeiro) {
+		this.primeiro = primeiro;
+	}
+
+	public No getUltimo() {
+		return ultimo;
+	}
+
+	public void setUltimo(No ultimo) {
+		this.ultimo = ultimo;
+	}
+
+	public int getQuantidadeNos() {
+		return quantidadeNos;
+	}
+
+	public void setQuantidadeNos(int quantidadeNos) {
+		this.quantidadeNos = quantidadeNos;
+	}
+	
+	
 	
 }
