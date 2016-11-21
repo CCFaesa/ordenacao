@@ -55,9 +55,9 @@ public abstract class ArquivoUtilitario {
 	 * 
 	 * 
 	 * */
-	public static String verificaTexto(String a, String separador){
+	public static String verificaTexto(String linha, String separador){
 		Lista lista = new Lista();
-		String[] temp = a.replace(","," ").replace("."," ").split("|");
+		String[] temp = linha.replace(","," ").replace("."," ").split("|");
 		StringBuilder palavraTemp = new StringBuilder();
 		boolean eEspaco = false;
 		int cont = 0;
