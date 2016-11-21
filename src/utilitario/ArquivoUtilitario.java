@@ -10,6 +10,10 @@ import modelo.No;
 public abstract class ArquivoUtilitario {
 	
 	
+	/**
+	 * Recebe o caminho do arqivo como parametro e 
+	 * retorna um vetor de itens
+	 * */
 	private static Item[] arquivoToVetorItem(String caminho){
 
 		Lista lista = new Lista();
@@ -52,7 +56,8 @@ public abstract class ArquivoUtilitario {
 	
 	
 	/**
-	 * 
+	 * Trata a linha retirando os caracteres especiais e substituindo pelo que foi
+	 * passado por parametro
 	 * 
 	 * */
 	public static String verificaTexto(String linha, String separador){
