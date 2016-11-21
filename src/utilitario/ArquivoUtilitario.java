@@ -15,7 +15,7 @@ public abstract class ArquivoUtilitario {
 	 * Recebe o caminho do arqivo como parametro e 
 	 * retorna um vetor de itens
 	 * */
-	private static Item[] arquivoToVetorItem(String caminho){
+	public static Item[] arquivoToVetorItem(String caminho){
 
 		ListaEncadeada listaEncadeada = new ListaEncadeada();
 		
