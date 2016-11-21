@@ -3,7 +3,6 @@ package modelo;
 public class Item {
 	private int paragrafo;
 	private String palavra;
-	private Item proximo;
 	
 	public Item(int paragrafo, String palavra) {
 		super();
@@ -25,14 +24,5 @@ public class Item {
 
 	public void setPalavra(String palavra) {
 		this.palavra = palavra;
-	}
-	public Item getProximo() {
-		return this.proximo;
-	}
-
-	public void setProximo(Item item) {
-		this.proximo = item;
-	}
-	
-	
+	}	
 }

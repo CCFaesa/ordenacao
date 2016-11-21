@@ -14,6 +14,7 @@ public class ListaEncadeada {
 			quantidadeNos++;
 		}else{
 			ultimo.setProximo(no);
+			ultimo = no;
 			quantidadeNos++;
 		}
 	}

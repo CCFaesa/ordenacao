@@ -43,12 +43,12 @@ public abstract class ArquivoUtilitario {
 			e.printStackTrace();
 		}
 		
-		Item atual = listaEncadeada.getPrimeiro().getItem();
+		No atual = listaEncadeada.getPrimeiro();
 		Item[] itens = new Item[listaEncadeada.getQuantidadeNos()];
 		
 		int ini = 0;
 		while(atual != null){
-		  itens[ini] = atual;
+		  itens[ini] = atual.getItem();
 		  atual = atual.getProximo();
 		  ini++;
 		}
@@ -87,11 +87,11 @@ public abstract class ArquivoUtilitario {
 			
 		}
 		
-		Item atual = listaEncadeada.getPrimeiro().getItem();
+		No atual = listaEncadeada.getPrimeiro();
 		palavraTemp = new StringBuilder();
 		
 		while(atual != null){
-			palavraTemp.append(atual.getPalavra());
+			palavraTemp.append(atual.getItem().getPalavra());
 			palavraTemp.append(separador);
 			atual = atual.getProximo();
 		}
