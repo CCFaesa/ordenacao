@@ -31,7 +31,7 @@ public abstract class ArquivoUtilitario {
 				String[] dado = verificaTexto(linha, separador).split(separador);
 				
 				for (int i = 0; i < dado.length; i++) {
-					listaEncadeada.add(new No(new Item(numLinha, dado[i] + (i==dado.length-1?"\n\n":""))));
+					listaEncadeada.add(new No(new Item(numLinha, dado[i])));
 				}
 				
 				numLinha++;
