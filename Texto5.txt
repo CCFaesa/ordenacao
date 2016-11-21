@@ -1,0 +1,808 @@
+Chip conecta processador quantico a rede de fibra optica
+Conversor fotonico
+Engenheiros da Universidade de Yale, nos EUA, criaram um pequeno chip capaz de converter a luz visivel em luz infravermelha e viceversa, sem perder o estado quantico dos fotons originais.
+Desta forma, o componente funciona como um acoplamento entre os delicados chips quanticos e a rede de dados de fibras opticas.
+Este e um elemento essencial para as tao sonhadas redes quanticas, ja usadas em sistemas avancados de criptografia e que, mais no futuro, serao a base da internet quantica.
+Embora o progresso no campo dos processadores quanticos tenhase acelerado muito nos ultimos anos, a construcao de redes quanticas praticas, que consigam transmitir informacoes a grandes distancias, ainda depende do desenvolvimento de componentes de interface entre o processamento e a transmissao de dados.
+Este dispositivo, criado agora por Xiang Guo e seus colegas, e uma peca chave nesse processo.
+Conexao quantica
+O novo chip permite que dispositivos quanticos sejam baseados em uma nuvem ultrafria de atomos de rubidio ou em centro de nitrogenio no meio de um diamante troquem informacoes atraves de longas distancias, utilizando a infraestrutura de fibra optica ja existente.
+Para isso, o microcircuito converte os fotons para uma frequencia na faixa do infravermelho, que podem entao ser transmitidos pela rede de fibras opticas que compoe a internet. Ao chegar ao destino, outro chip identico reverte o processo, convertendo o sinal infravermelho em um foton que pode ser lido pelo processador quantico.
+O prototipo apresentou uma eficiencia de 14%, mas a equipe ja adiantou que isso se deve a problemas na conectividade dos elementos que compoem o chip segundo eles, nao sera dificil chegar a uma eficiencia de 100% porque eles ja identificaram os materiais semicondutores necessarios para isso.
+Tecnologia armazena energia solar para noite inteira
+Armazenamento de energia limpa
+Um novo sistema de armazenamento termico de energia consegue converter a energia solar coletada durante o dia e armazenala com uma eficiencia que garante o abastecimento continuo por um periodo de 8 a 12 horas.
+Ainda que muito progresso venha sendo feito recentemente no armazenamento das fontes limpas de energia para lidar com os problemas de intermitencia das fontes eolica e solar, principalmente esta nova tecnologia e nada menos do que 20 vezes melhor do que os sistemas termais apresentados ate agora.
+O sistema e baseado em uma bateria de fluxo, que usa a energia solar para fundir um material de mudanca de fase, armazenando a energia, que e liberada quando necessario mediante a resolidificacao do material.
+Sal com grafite
+A chave para a melhoria foi mesclar um material de mudanca de fase de baixo custo o cloreto de sodio, ou sal de cozinha com espumas de grafite de alta porosidade e elevada conducao eletrica.
+A espuma de grafite aprisiona o sal em seus poros, facilitando e tornando mais rapida a fusao e a solidificacao. A equipe demonstrou que esta alteracao de fase se da de forma sustentavel ao longo do tempo.
+Esta combinacao reduziu a quantidade total de material necessario para construir o sistema e, por decorrencia, seu custo. Ao mesmo tempo, a transferencia de energia termica tornouse significativamente mais eficiente, proporcionando de 8 a 12 horas de armazenamento de energia uma noite tipica de armazenamento para uma usina de energia termossolar, por exemplo.
+Usina modular
+O proximo passo do projeto sera construir uma plantapiloto 50 vezes maior do que o prototipo em escala de laboratorio testado agora.
+Nos estamos planejando desenvolver uma usina em escala industrial na forma de um sistema modular, de forma que o sistema em escala piloto que estamos construindo podera de fato ser usado como um modulo para um sistema em escala total, que sera formado por muitos modulos empilhados ou dispostos em conjunto, disse o professor Wenhua Yu, do Laboratorio Nacional Argonne, nos EUA.
+Aprendizagem de Turing cria maquinas que aprendem
+Os Kilobots usados nos experimentos ja haviam demonstrado inteligencia artificial coletiva em experimentos anteriores. Imagem U. Sheffield
+Aprendizado de maquina
+Pesquisadores que trabalham com enxames de robos grupos de pequenos robos que trabalham de forma cooperativa afirmam que ja e possivel fazer maquinas que aprendem como sistemas naturais ou artificiais funcionam apenas observando esses sistemas sem precisar que os humanos lhes descrevam o que esta ocorrendo ou lhes digam onde procurar padroes.
+Se esse conceito de fato puder ser levado adiante, ele podera viabilizar avancos na forma como as maquinas robos e computadores incluidos inferem conhecimento e utilizam esse conhecimento para detectar comportamentos e anormalidades, seja no funcionamento de maquinas em um ambiente industrial, seja de seres vivos.
+Quem garante todas essas possibilidades e um trio formado por Wei Li, Melvin Gauci e Roderich Gross, da Universidade de Sheffield, no Reino Unido, que batizaram a nova forma de aprendizado de maquina de Aprendizagem de Turing.
+De acordo com o trio, com o aprendizado de Turing os computadores tornamse capazes de prever, entre outras coisas, como as pessoas e outros seres vivos se comportam, o que pode melhorar as aplicacoes de seguranca e tornar os jogos de computador mais realisticos.
+A inovacao apresentada pelo trio e inspirada na obra do pioneiro da computacao Alan Turing, que propos um teste para estabelecer quando uma maquina poderia se fazer passar por um ser humano sem que os seres humanos percebessem o famoso teste de Turing.
+Nesse teste, um interrogador troca mensagens com dois jogadores em uma sala diferente um humano e uma maquina. O interrogador tem que descobrir qual dos dois jogadores e humano.
+Ao contrario do teste de Turing original, no entanto, os nossos interrogadores nao sao humanos, mas sim programas de computador que aprendem por si mesmos, explica Gross.
+A equipe colocou um enxame de robos sob vigilancia e queria saber quais regras causavam seus movimentos. Um segundo enxame formado por robos que aprendem tambem foi posto sob vigilancia. Os movimentos das duas equipes de robos foram registrados e os dados de movimentacao foram mostrados ao programa interrogador.
+Sua tarefa e distinguir entre os robos dos dois enxames. Ele e recompensado pela categorizacao correta dos dados de movimento do enxame original como genuinos e aqueles do outro enxame como falsos. Os robos de aprendizagem que conseguem enganar o interrogador fazendoo acreditar que seus dados de movimento eram genuinos recebem uma recompensa, continua Gross.
+O resultado e que, depois de varias rodadas, o programa interrogador se torna capaz de monitorar movimentos de grupos e acertar quais sao os movimentos genuinos, mesmo tendo de lidar com enxames de robos que aprendem e se tornam cada vez mais craques em enganalo.
+A equipe afirma que a Aprendizagem de Turing tem a grande vantagem de eliminar a necessidade de que seres humanos informem aos programas o que e onde procurar em busca de padroes, como nas tecnicas convencionais de inteligencia artificial.
+Imagine, por exemplo, que voce queira um robo que pinte no melhor estilo Picasso. Um algoritmo de aprendizagem de maquina convencional avaliaria as pinturas do robo para o quao elas se assemelham a uma pintura de Picasso. Mas, para comecar, alguem teria de suprir os algoritmos com dados que descrevam o que e considerado ser semelhante a um Picasso.
+Ja a aprendizagem de Turing nao exige esse conhecimento previo. Basta recompensar o robo se ele pintar algo que seja considerado genuino pelos interrogadores. Assim, a Aprendizagem de Turing ira simultaneamente aprender como interrogar e como pintar.
+Ensino de Maquina inteligencia artificial a servico da educacao
+Ensino de maquina
+O aprendizado de maquina e um campo da inteligencia artificial ja bem estabelecido, com inumeras utilidades, sobretudo na interpretacao de grandes massas de dados.
+Agora o interesse esta se voltando para o ensino de maquina, um campo que mistura ciencia da computacao e psicologia para tentar desenvolver licoes que sejam mais facilmente aprendidas pelos humanos.
+Minha esperanca e que o ensino de maquina tenha um impacto no mundo educacional. Ele e muito diferente da forma como as pessoas normalmente pensam sobre educacao. Ele nos dara licoes mais eficazes e personalizadas para estudantes humanos reais, preve Jerry Zhu, da Universidade WisconsinMadison, nos EUA.
+No ano passado, a Fundacao XPrize lancou um premio milionario para o primeiro programa que consiga dar uma palestra para uma plateia humana. Mas Zhu e seus colegas querem desenvolver palestras otimizadas, ou seja, palestras que permitam um aprendizado melhor do que as aulas tradicionais.
+Modelo de estudante
+Em vez de lidar com montanhas de dados sem saber que padroes podem ser revelados por sua analise, como ocorre no aprendizado de maquina, o pesquisador envolvido com o ensino de maquina ja sabe de antemao o conhecimento que quer repassar aos alunos.
+Ensino de Maquina inteligencia artificial a servico da educacao
+Assim, o foco estara nos estudantes, e na forma como eles aprendem.
+Para que a abordagem do ensino de maquina funcione, ele precisara de um bom modelo de como o aluno se comporta ou seja, como o comportamento do aluno muda com diferentes tipos de aprendizagem ou experiencias praticas, disse o professor Timothy Rogers, membro da equipe. Alem disso, o modelo precisa ser computacional; ele tem que ser capaz de fazer previsoes quantitativas concretas sobre o comportamento do aluno.
+Os programas usarao algoritmos sofisticados para ajudar a modelar os estudantes humanos reais e descobrir as melhores licoes possiveis para que eles aprendam o maximo e o mais rapidamente possivel.
+Embora a definicao de melhor caiba a cada professor em cada situacao, um exemplo seria identificar o menor numero de exercicios necessarios para um aluno em particular apreender um conceito. Poderiam cinco questoes realmente boas ensinar o material, em vez de 20? exemplifica Zhu.
+Modelagem do aprendizado
+Em ultima instancia, nos esperamos que o trabalho possa ser usado para ajudar os professores a desenvolver ementas de cursos e planos de aula que promovam a aprendizagem em uma ampla variedade de campos, disse Rogers, citando matematica, ciencias e leitura como exemplos.
+E, igualmente importante, o esforco para fazer os modelos cognitivos da aprendizagem lidarem com problemas do mundo real e algo que podera levar a novos e importantes avancos em nossa compreensao de como as pessoas aprendem de forma geral, finalizou.
+O trabalho esta nos primeiros estagios, mas a equipe espera apresentar resultados praticos do ensino de maquina nos proximos dois anos.
+Inteligencia artificial vai nos levar a uma Singularidade Tecnologica?
+Singularidade tecnologica
+A derrota do vicecampeao de Go por um programa de computador criado pelo Google causou um frisson na Coreia do Sul, onde o jogo e muito mais popular do que o xadrez.
+Quase ao mesmo tempo, uma conferencia realizada em Berlim, na Alemanha, reuniu os maiores especialistas do mundo em inteligencia artificial para debater a questao que cientistas, futurologos e preocupados em geral se fazem ha decadas ate onde a inteligencia artificial pode ir?
+Sera que os programas de computador realmente se tornarao tao inteligentes quanto o homem? Sera que estamos realmente caminhando para a chamada singularidade tecnologica?
+A singularidade tecnologica e definida como uma data no futuro quando a inteligencia das maquinas supera a nossa propria inteligencia e passa a melhorarse a um ritmo exponencial, nao dependendo mais do ser humano.
+Hardware humano
+Danko Nikolic, um neurocientista do Instituto Max Planck de Pesquisas do Cerebro Alemanha, nao se amedrontou de estar diante de uma plateia formada pelos principais pesquisadores da inteligencia artificial e fez uma afirmacao ousada Nunca faremos uma maquina que seja mais inteligente do que nos.
+Voce nao pode exceder a inteligencia humana, nunca. Voce pode assintoticamente que tangencia, mas nao coincide aproximarse dela, mas voce nao pode excedela, sentenciou o neurocientista.
+Nikolic esta convencido de que muitos pesquisadores de inteligencia artificial que acreditam o contrario estao negligenciando um aspecto importante da inteligencia humana o cerebro nao e o unico hardware que os seres humanos precisam para serem bons em aprender as coisas.
+Para ele, as ferramentas mais basicas para o aprendizado sao as instrucoes contidas em nossos genes, aprimoradas ao longo de bilhoes de anos de evolucao. Tecnicas de aprendizado de maquina podem imitar o cerebro, mas nao contam com os elementos mais profundos que nos ajudam a aprender. A unica maneira de chegarmos perto de uma mente artificial que aprende tao bem quanto nos e repetir a evolucao humana, defende Nikolic.
+Imprevisivel
+Mas talvez a singularidade chegue em outras configuracoes.
+Para varios dos especialistas que participaram do debate, a singularidade tecnologica pode ser melhor imaginada como uma aceleracao do progresso humano, apesar de ser alimentada por um avanco tecnologico no futuro proximo. Para eles, tratase de colocar as mentes humanas e a mentes artificiais juntas para resolver problemas do mundo real.
+Isto parece ja estar acontecendo, conforme demonstrado ha poucos dias quando um fisico quantico robotico fez descobertas ineditas.
+Outro ponto levantado pelos especialistas e que, se a singularidade sera atingida por inteligencias artificiais formadas a partir de grandes quantidades de dados humanos, e se deveremos trabalhar ao lado dessas inteligencias sinteticas, entao queremos que elas sejam tao diversas quanto nos somos.
+Mas, no frigir dos ovos, e dificil prever nao apenas qual seria o grande avanco que faria a inteligencia artificial dar um salto tecnologico que a levaria a singularidade, como tambem o que poderia acontecer depois disso, ja que, tornandose as maquinas mais inteligentes do que nos, nossas mentes tornamse incapazes, ou inadequadas, para imaginar o que elas seriam capazes de fazer.
+A razao pela qual eles chamam de singularidade e que e um ponto alem do qual voce nao consegue enxergar. Uma vez que as maquinas atinjam niveis humanos de inteligencia, voce nao pode comecar a imaginar o que vai acontecer, alertou Mehmet Akten, um cientista da computacao e artista que estuda inteligencia artificial na Universidade de Londres.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Diferentemente da programacao convencional, em que um programa executa sempre a mesma funcao com dados diferentes, a adaptabilidade propoe um comportamento diverso diante de cada nova circunstancia.
+Um programa adaptativo tem uma critica sobre aquilo que ele fez e o resultado que obteve. Quando isso acontece, ele modifica o seu proprio comportamento e comeca a operar com aquele aprendizado que conseguiu a partir da experiencia anterior, explica o professor Joao Jose Neto, da Escola Politecnica da USP.
+Decisoes economicas
+Os programas adaptativos, uma tecnica de inteligencia artificial, ja sao usados na busca de solucoes de problemas ligados a tomada de decisao, uma atividade diaria na administracao, na economia e na gestao de empresas.
+Lidando com um grande volume de variaveis muito volateis e efemeras, tomar uma decisao sobre como agir e um desafio frequentemente alem da capacidade de raciocinio e memoria dos seres humanos.
+Mais do que isso, o proprio conjunto de variaveis e inconstante, o que obriga as decisoes a serem reavaliadas continuamente.
+e ai que a adaptabilidade entra, ponderando as variaveis e agregando o historico de experiencias anteriores malsucedidas.
+Mas os programas adaptativos nao sao voltados apenas para o passado. Alem das atividades com problemas ja conhecidos, o grupo de pesquisadores da USP trabalha tambem com problemas ainda desconhecidos o proprio problema deve ser descoberto, equacionado e, so entao, e possivel buscar a melhor solucao dentro do espectro de solucoes possiveis.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Paraiso
+O professor Joao Jose ressalta, contudo, que o paraiso para quem domina as tecnicas adaptativas sao os jogos de computador.
+Uma caracteristica dos jogos e o potencial infinito de mudanca de comportamento e de exposicao a condicoes diversas.
+Alem disso, jogos sao simulacoes, o que pode ser perfeitamente utilizado como metodo de ensino e treinamento caso o programa possua uma logica que procure simular exatamente o fenomeno real correlato.
+A funcionalidade do simulador, porem, depende justamente da sua adaptabilidade, variando de acordo com a atividade e com o comportamento dos agentes que interagem com ele.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Os programas adaptativos estao na agenda da IBM, que coloca a tecnologia como uma das cinco prioridades da empresa. Imagem IBM
+Linguagem natural
+Um dos trabalhos em desenvolvimento a menina dos olhos da equipe, nas palavras do pesquisador esta ligado a linguagem natural, usando as tecnicas da adaptabilidade em programas de traducao e de transcricao automatica de textos ou da fala.
+Ao contrario dos programas ja existentes, que se apegam preferencialmente a fonetica, o projeto se atem a formacao das palavras, a filtragem dos erros e a analise, procurando descobrir a sentenca correta.
+Apesar do enorme campo de aplicacao, contudo, o professor Joao Jose afirma que o medo da teoria ainda e o grande empecilho a formacao de novos profissionais na area.
+As pessoas acham que para fazer esse tipo de coisa tem que saber muita teoria. e preciso saber um pouco de teoria, sim, que e a base em cima da qual nos construimos as coisas, mas e preciso tambem baixar um pouco a guarda e conhecer um pouquinho dessa teoria dita complicada. Ela nao e complicada, a pessoa precisa de um ano de experiencia trabalhando um pouco com essas coisas para se inteirar, afirma ele.
+Inteligencia artificial proxima de replicar adaptacao biologica
+Apesar dos avancos no campo dos supercomputadores, o cerebro humano continua a ser o dispositivo de processamento de informacoes mais flexivel e mais eficiente que se conhece.
+Por isso, nao e de hoje que pesquisadores tentam compreendelo com vistas a imitar seu poder de computacao.
+Embora ainda nao se saiba exatamente como serao os computadores neuromorficos, tem havido um verdadeiro renascimento no campo da inteligencia artificial o que inclui a recente demonstracao de que cerebros artificiais deverao ser construidos com processadores imprecisos.
+Redes neurais artificiais
+Os modelos de computadores e processadores neuromorficos projetados para replicar a forma como os processos cerebrais memorizam ou recuperam informacoes sao chamados de redes neurais artificiais.
+Ha decadas, a informatica tem usado redes neurais artificiais para resolver muitos problemas do mundo real que envolvem tarefas como classificacao, estimativa e controle.
+No entanto, as redes neurais artificiais nao levam em consideracao algumas das caracteristicas basicas do cerebro humano, tais como retardos de transmissao dos sinais entre os neuronios, potenciais de membrana e correntes sinapticas.
+Uma nova geracao de redes neurais chamadas redes neurais pulsadas foram entao desenvolvidas para modelar a dinamica do cerebro de forma um pouco mais fiel, levando em conta o comportamento dos disparos dos neuronios.
+Silvia Ferrari e seus colegas da Universidade Duke, nos Estados Unidos, desenvolveram agora uma nova variacao de rede neural pulsada para replicar com precisao ainda melhor os processos de aprendizagem do comportamento cerebral.
+Embora os sistemas de engenharia atuais sejam muito eficazes em controles dinamicos, eles ainda nao sao capazes de lidar com danos e falhas imprevisiveis com que os cerebros biologicos lidam facilmente, disse Silvia.
+Foi nisso que ela e seus alunos trabalharam.
+Inteligencia artificial proxima de replicar adaptacao biologica
+Os chips neurais mais avancados usam componentes chamados memristores outra equipe ja trabalha com eles para a reproducao em hardware do cerebro de um gato. Imagem NanoLetters
+Como ensinar um cerebro artificial
+A equipe elaborou um algoritmo que ensina as redes neurais pulsadas qual informacao e relevante e quao importante cada fator e para resolver o problema em questao como um todo.
+Embora o objetivo seja, no futuro, imitar o cerebro humano ou, pelo menos, o cerebro de mamiferos a equipe comecou com o cerebro muito mais simples de um inseto.
+Nosso metodo foi testado treinando um inseto virtual para navegar em um terreno desconhecido e encontrar alimentos, disse Xu Zhang, que foi quem botou a mao na massa para que tudo funcionasse. O sistema nervoso foi modelado por uma grande rede neural pulsada com conexoes sinapticas desconhecidas e aleatorias entre esses neuronios.
+Alem do inseto virtual, eles usaram simulacoes de computador para mostrar que o algoritmo funciona no controle de voo de avioes e na navegacao de robos.
+Teste biologico
+Agora Zhang esta se preparando para testar biologicamente seu modelo neural artificial.
+Para isso, ele vai usar celulas cerebrais cultivadas em laboratorio alteradas geneticamente para responder a certos tipos de luz.
+Esta tecnica, chamada optogenetica, permite controlar a forma como as celulas nervosas se comunicam quando o padrao de luz muda, a atividade neural alterase em resposta ao sinal optico.
+Os pesquisadores esperam que a rede neural viva adaptese ao longo do tempo aos padroes de luz, adquirindo a capacidade de armazenar e recuperar informacoes sensoriais.
+Se o modelo funcionar, entao os pesquisadores poderao usar o modelo para voltar ao hardware e construir circuitos que facam o mesmo.
+Primeiro cerebro eletronico neuromorfico esta online
+Neurocomputador
+Pesquisadores da Universidade de Heidelberg, na Alemanha, vao disponibilizar o acesso via internet ao seu neurocomputador BrainScales.
+Construido pela equipe do professor Karlheinz Meier para auxiliar na execucao do Projeto Cerebro Humano, o BrainScales foi o primeiro a comprovar que os processadores neuromorficos podem superar os processadores digitais.
+Neuroprocessadores, ou processadores neuromorficos, sao aqueles que tentam imitar o funcionamento do cerebro humano.
+O sistema BrainScales vai alem dos paradigmas de uma maquina de Turing e da arquitetura von Neumann, ambos projetados durante meados do seculo 20 pelos pioneiros da computacao Alan Turing e John von Neumann. Ele nem executa uma sequencia de instrucoes, nem e construido como um sistema de unidades fisicamente separadas de processamento e memoria.
+Ele e mais uma imagem direta, feita sobre silicio, das redes neuronais encontradas na natureza, imitando celulas, conexoes e comunicacoes intercelulares por meio da mais moderna microeletronica analogica e digital, explicou o professor Meier.
+O prototipo mais recente do neurocomputador e composto por 20 chips chamados Spikey, com um total de 4 milhoes de neuronios e 1 bilhao de sinapses.
+Darwin, um processador neuromorfico com plasticidade cerebral
+Compressao do tempo
+Primeiro cerebro eletronico neuromorfico esta online
+Segundo a equipe, processos de aprendizado e tecnicas evolucionarias podem ser emuladas no neurocomputador com uma aceleracao de 1.000 vezes em relacao aos mecanismos naturais, de forma que um dia biologico pode ser comprimido para 100 segundos na maquina.
+O equipamento esta sendo disponibilizado para uso pela rede de pesquisas do Projeto Cerebro Humano, mas outras instituicoes e ate mesmo empresas foram convidadas a se juntar ao esforco e descobrir novos usos para os neuroprocessadores.
+Alem das pesquisas basicas em inteligencia artificial e autoorganizacao de redes neurais, o professor Meier afirma que o equipamento sera util para equipes trabalhando com aprendizado profundo, uma tecnica que empresas como Google e Facebook vem utilizando para analisar grandes volumes de dados e qualquer grande simulacao de eventos naturais.
+Durante o evento no qual foi anunciada a conexao do BrainScales a internet, a equipe da Universidade de Manchester, no Reino Unido, responsavel pelo desenvolvimento do cerebro eletronico SpiNNaker anunciou que seu neuroprocessador tambem esta entrando em operacao, mas local, com uma capacidade de processamento comparavel a do BrainScales.
+Como os computadores pretendem imitar o cerebro
+Pesquisadores neuromorficos
+Apesar de toda a sua sofisticacao, os computadores empalidecem quando sao comparados com o mais simples dos cerebros.
+O cortex de um camundongo, por exemplo, opera 9.000 vezes mais rapido e consome 40.000 vezes menos energia do que uma simulacao de suas funcoes feita em computador valores que podem aumentar conforme as tecnicas de medicao da atividade cerebral melhoram.
+Isso, contudo, e um incentivo para os pesquisadores que trabalham na tentativa de construir os primeiros processadores neuromorficos que operam imitando o funcionamento dos neuronios.
+A ultima grande novidade na area surgiu ha exatamente um ano, quando a equipe do Dr. Kwabena Boahen, da Universidade de Stanford, nos Estados Unidos, apresentou seu Neurogrid.
+Do alto do seu lugar no podio, o Dr. Boahen foi agora convidado pelo renomado IEEE Instituto de Engenheiros Eletricos e Eletronicos para fazer um apanhado dos principais avancos na area, destacando os projetos mais promissores.
+O artigo analisa como os pesquisadores neuromorficos estao usando silicio e software para construir sistemas eletronicos que imitam neuronios e sinapses, com vistas a construir uma geracao de computadores mais eficientes e mais rapidos.
+Efervescencia cerebral
+Em seu artigo, Boahen observa o contexto mais amplo da investigacao neuromorfica, comecando pelo Projeto Cerebro Humano da Uniao Europeia, que tem como objetivo simular um cerebro humano em um supercomputador.
+Ja o projeto norteamericano Brain sigla para pesquisa do cerebro atraves de neurotecnologias inovadoras avancadas adotou uma abordagem de construcao de ferramentas, desafiando os cientistas a desenvolver novos tipos de mecanismos que possam ler a atividade de milhares ou mesmo milhoes de neuronios no cerebro, assim como registrar padroes complexos de atividade.
+Outras equipes estao se voltando para o hardware, como o projeto Synapse da IBM sigla de sistemas de eletronica plastica neuromorfica adaptativa e escalavel.
+Como o nome indica, o projeto Synapse envolve uma tentativa de redesenhar os chips que receberam o codinome de Golden Gate para emular a capacidade dos neuronios para fazer um grande numero de conexoes sinapticas, uma caracteristica que ajuda o cerebro a resolver problemas em paralelo.
+Ate o momento, um chip Golden Gate e composto por 256 neuronios digitais, cada um equipado com 1.024 circuitos sinapticos, mas a IBM ja esta trabalhando para aumentar consideravelmente o numero de neuronios em cada processador.
+O projeto BrainScales, da Universidade de Heidelberg, na Alemanha, mereceu destaque na analise, com seu objetivo ambicioso de imitar o comportamento de neuronios e sinapses usando chips analogicos.
+Seu chip Hicann sigla para rede neural analogica com grande numero de entradas devera ser o nucleo de um sistema projetado para acelerar as simulacoes do cerebro, permitindo aos pesquisadores modelar interacoes medicamentosas que podem levar meses para serem feitas no metodo tradicional de laboratorio.
+No momento, o chip Hicann consegue emular 512 neuronios, cada um equipado com 224 circuitos sinapticos, mas a equipe tambem ja esta trabalhando para aumentar esse poder neuronal.
+Metrica para processadores neurais
+O Dr. Boahen avalia que cada uma dessas equipes tem feito escolhas tecnicas diferentes, como a possibilidade de dedicar cada circuito de hardware para modelar um unico elemento neural por exemplo, uma unica sinapse ou varias por exemplo, ativando o circuito de hardware duas vezes para modelar o efeito de duas sinapses ativas.
+Estas escolhas, obviamente, resultam em diferentes ganhos e perdas em termos de capacidade e desempenho.
+Para tentar avaliar qual delas tem mais vantagens, Boahen propoe uma metrica que tente dar conta do custo total do sistema, incluindo o tamanho do chip, quantos neuronios ele simula e a energia que consome.
+Talvez seja melhor ouvir as outras equipes antes, mas a metrica proposta por Boahen conclui que seu proprio chip, o Neurogrid, e o mais eficiente em termos de simular neuronios.
+A seu favor esta o fato de que o grande objetivo e construir um sistema que seja acessivel o suficiente para ser amplamente utilizado em pesquisa por qualquer grupo que queira se dedicar a area.
+Boahen destaca que seu prototipo custou US40,000, mas foi construido na universidade com uma tecnologia de microeletronica de 15 anos atras.
+Fabricado hoje em grandes quantidades, cada computador Neurogrid completo a placa inteira poderia custar 100 vezes menos, o que faz o pesquisador sonhar com um milhao de computadores neuromorficos vendidos a US 400 cada um.
+Neurocompilador
+Antes disso, porem, sera necessario projetar o software que permita programar um computador neuromorfico.
+E este e um desafio ainda a ser vencido por todas as equipes, qualquer que seja a abordagem utilizada para a implementacao do cerebro de silicio.
+Neste momento, voce tem que saber como o cerebro funciona para programar um desses, disse Boahen. Queremos criar um neurocompilador de modo que voce nao precise saber nada sobre sinapses e neuronios para poder usar um desses.
+Computador neuromorfico simula cerebro em tempo real
+Cerebro versus supercomputador
+No final do ano passado, o supercomputador Sequoia, da IBM, o segundo mais rapido do mundo atualmente, rodou uma simulacao do cerebro humano formada por mais de 530 bilhoes de neuronios.
+Isso foi possivel porque o Sequoia e muito rapido, fazendo 16 quatrilhoes de calculos de ponto flutuante por segundo.
+Embora impressionantes, os numeros estao longe de se aproximar das marcas alcancadas pelo cerebro humano, que tem um poder computacional muito maior.
+O mais interessante e que o cerebro nao e mais rapido do que um supercomputador na verdade, ele e bem mais lento.
+Sua grande vantagem e que ele e massivamente paralelo, com redes de neuronios trabalhando simultaneamente para resolver um grande numero de problemas ao mesmo tempo.
+Mas sera possivel que um dia os supercomputadores sejam tao super a ponto de rivalizar com o cerebro humano? Se nao, como os cientistas poderao simular o cerebro para aprender como ele funciona e verificar se suas teorias estao corretas ou nao?
+Computacao neuromorfica
+A saida esta na computacao neuromorfica, que aposta nao no aumento de calculos por segundo, mas em imitar a forma como o cerebro humano funciona.
+e o que estao fazendo Sam Fok, Alex Neckar e Kwabena Boahen, da Universidade de Stanford, nos Estados Unidos.
+Eles estao desenvolvendo o Neurogrid rede neural, em traducao livre, uma mistura inovadora de hardware e software que ja e capaz de simular a atividade de 1 milhao de neuronios.
+Ora, isso e muito menos do que o Sequoia faz entao, qual e a vantagem?
+A vantagem e que o Neurogrid simula o cerebro humano em tempo real, ou seja, uma simulacao de 1 segundo de processamento no cerebro leva 1 segundo no Neurogrid, enquanto o poderoso supercomputador leva 1.500 segundos.
+Simular o cerebro em tempo real e essencial porque as simulacoes precisam ser rodadas centenas ou milhares de vezes, cada vez ajustando um parametro para avaliar os resultados.
+Quando ampliada para mais neuronios, a nova plataforma neuromorfica podera nao apenas ajudar a compreender melhor o cerebro, mas tambem modelar condicoes medicas como autismo, esquizofrenia e demencias.
+Processamento hibrido analogicodigital
+O Neurogrid nao e um computador no sentido comum do termo ele nao serve, por exemplo, para simular o Big Bang, o clima ou prever epidemias.
+Mas o que ele pode fazer o diferencia de qualquer plataforma computacional que ja exista.
+Cada um dos processadores do Neurogrid contem cerca de 65.000 neuronios de silicio, ou sinapses artificiais, cuja atividade pode ser programada por meio de 80 parametros diferentes, permitindo que os cientistas repliquem as caracteristicas unicas de cada tipo de neuronio.
+A diferenca fundamental entre a forma como a computacao tradicional simula o cerebro e a maneira que o Neurogrid funciona esta em como os calculos sao realizados e comunicados atraves do sistema.
+Os computadores tradicionais sao digitais, ou seja, o processador executa as instrucoes essencialmente respondendo verdadeiro ou falso para uma serie de perguntas.
+Os neuronios tambem fazem isso quando se comunicam, disparando ou nao um potencial de acao.
+Contudo, as computacoes que o cerebro faz para determinar se o neuronio vai disparar ou nao e um processo naolinear, mais parecido com um sinal analogico.
+Para replicar esse comportamento hibrido, o Neurogrid usa um sinal analogico para os calculos e um sinal digital para a comunicacao, aproximandose mais da forma como o cerebro trabalha.
+E ele faz isso gastando muito menos energia o Sequoia consome 8 megawatts de eletricidade, contra 5 watts do Neurogrid.
+Processador neuromorfico supera processadores digitais
+Processadores analogicos
+Processadores de computador que imitam o cerebro estao se mostrando capazes de superar os chips convencionais em aspectos cruciais.
+Eles tambem poderao revolucionar a nossa compreensao de como o cerebro funciona.
+Tentativas de simular o cerebro geralmente envolvem construir programas de computador para que se comportem como grupos de neuronios sao as redes neurais artificiais.
+As tentativas mais avancadas, contudo, envolvem um projeto realmente neuromorfico, que tenta recriar o hardware do cerebro usando componentes analogicos.
+Os circuitos analogicos morreram depois que os computadores digitais se tornaram mais poderosos, diz Karlheinz Meier, da Universidade de Heidelberg, na Alemanha.
+Meier, contudo, esta ajudando a ressuscitalos.
+Processador neuromorfico
+O processador Spikey, criado por Meier e uma equipe envolvendo pesquisadores de 15 universidades europeias, ja possui 400 neuronios.
+O processador e a finalizacao de um projeto que deu os primeiros resultados em 2009, quando o grupo apresentou o primeiro prototipo do seu cerebro em um chip.
+Os neuronios reais possuem uma tensao eletrica em sua membrana externa, o que o processador Spikey imita usando capacitores, componentes eletronicos que armazenam cargas eletricas.
+Tal como em um neuronio real, quando a tensao aplicada atinge um certo nivel, o condensador tornase condutor, disparando um sinal nervoso esse sinal e chamado spike em ingles, de onde deriva o nome do processador neuromorfico.
+O Spikey tambem imita as sinapses, as conexoes entre os neuronios, por meio das chamadas sinapses artificiais.
+Sinapses artificiais
+Em um processador digital normal, cada elemento de informacao so pode ter um valor 0 ou 1.
+Mas os componentes analogicos podem ter niveis variaveis de resistencia para simular as conexoes entre os neuronios.
+Essa resistencia pode se tornar mais forte ou mais fraca dependendo de quantas vezes os componentes sao usados e o principio dos chamados memristores, componentes eletronicos que estao viabilizando a construcao de computadores que aprendem.
+Ja existem outros processadores neuromorficos com numero similar de neuronios, como um apresentado recentemente por uma equipe do MIT
+Contudo, ate agora cada processador analogico so conseguia imitar um circuito particular do cerebro o Spikey, por sua vez, pode recriar qualquer padrao.
+A equipe conectou os neuronios de maneiras diferentes para imitar circuitos cerebrais diferentes. Eles ja modelaram seis redes neurais, incluindo uma encontrada no sistema olfativo dos insetos.
+Vantagens dos processadores neuromorficos
+Processadores neuromorficos tem vantagens sobre os chips convencionais, o que os torna uteis em determinadas situacoes.
+Por exemplo, eles nao separam a memoria da computacao propriamente dita, ou do calculo a informacao e armazenada na forca sinaptica. Assim, processadores neuromorficos rodam mais rapido usando menos energia.
+Eles tambem lidam melhor com defeitos. Interromper uma via em um processador digital convencional pode inutilizalo completamente, mas um processador neuromorfico vai continuar funcionando, ainda que mais lentamente.
+A NASA esta financiando uma outra pesquisa nos EUA que pretende criar um processador neuromorfico para controlar robos exploradores, que ficarao menos imunes a danos induzidos pela radiacao do espaco.
+A IBM tambem ja se convenceu dos ganhos, tendo apresentado seu primeiro processador cognitivo no ano passado.
+Esses chips inovadores tambem permitirao que as teorias de como o cerebro funciona sejam testadas, em experimentos que sistematicamente mudam a forma como cada neuronio e cada rede neural se comportam.
+Neuromorfico multicore
+A equipe esta agora ampliando o Spikey como parte de um projeto chamado BrainScales. Em vez de 400 neuronios, teremos 200 mil, disse Thomas Pfeil, membro da equipe.
+Os pesquisadores ja imprimiram todos os componentes em uma unica pastilha de silicio, com 20 centimetros de diametro, o que lhes permitiu incorporar muito mais conexoes.
+No proximo ano, ele sera utilizado para simular parte do cortex do cerebro de um rato.
+A seguir, a equipe planeja conectar seis wafers em paralelo, criando um processador neuromorfico de seis nucleos, capaz de simular mais de um milhao de neuronios.
+O objetivo a medio prazo e modelar todo o cortex visual de um rato.
+Processador analogico imita o cerebro
+A corrente eletrica flui ao longo dos transistores de forma semelhante ao movimento dos ions ao longo dos canais ionicos em uma celula ou seja, este e um processador analogico. Imagem Guy Rachmuth
+Processador neuromorfico analogico
+Pesquisadores criaram um processador inteiramente eletronico que imita o funcionamento das sinapses cerebrais.
+Como o cerebro nao e digital, como os processadores eletronicos, os cientistas decidiram criar um processador analogico.
+Usando cerca de 400 transistores, o chip neuromorfico imita como os neuronios cerebrais se adaptam em resposta a novas informacoes um fenomeno conhecido como plasticidade cerebral.
+A corrente eletrica flui ao longo dos transistores de forma semelhante ao movimento dos ions ao longo dos canais ionicos em uma celula.
+Ou seja, o chip nao e digital, ele e analogico, como o cerebro humano.
+Os pesquisadores construiram os transistores para que eles imitassem a atividade dos diferentes canais ionicos presentes nas ligacoes entre os neuronios.
+Nos podemos ajustar os parametros do circuito para replicar canais ionicos especificos, explicou ChiSang Poon, coordenador da pesquisa. Nos agora temos um mecanismo para capturar qualquer um dos processos ionicos que ocorrem em um neuronio.
+Canais ionicos
+O novo processador neuromorfico nao imita unicamente os disparos dos neuronios, ele reproduz as condicoes de geracao dos potenciais de acao que levam ao disparo dos neuronios.
+Se voce quer realmente imitar o cerebro de forma realistica, voce tem que fazer mais do que disparar os neuronios. Voce precisa capturar os processos intracelulares, que sao baseados em canais ionicos, explica Poon.
+Dean Buonomano, professor de neurobiologia da Universidade da California, nao envolvido diretamente com a pesquisa, afirmou que o nivel de realismo biologico do chip e impressionante.
+O novo chip representa um avanco significativo nos esforcos para incorporar o que nos sabemos sobre a biologia dos neuronios e da plasticidade sinaptica em processadores CMOS, completou ele.
+Simulacoes biologicas
+De fato, se ainda esta longe dos equipamentos de consumo, o processador neural analogico pode se tornar imediatamente uma ferramenta importante para aumentar justamente estes conhecimentos sobre o cerebro.
+Mesmo os supercomputadores precisam de horas para simular funcoes neurais especificas, como o sistema de processamento visual humano.
+Ja o processador neuromorfico analogico e mais rapido do que o proprio sistema biologico, o que permitira acelerar muito esses estudos.
+Outra aplicacao potencial do novo chip e na construcao de interfaces entre equipamentos eletronicos e sistemas biologicos, por exemplo, estabelecendo canais de comunicacao direta entre o cerebro e equipamentos robotizados, como as proteses.
+Os 400 transistores imitam o funcionamento de uma unica sinapse.
+Se parece pouco, basta ver que um processador estadodaarte tem cerca de 700 milhoes de transistores o que abriria a possibilidade teorica da emulacao de de quase dois milhoes de sinapses em um unico chip. Mas este e um futuro distante.
+Processadores que imitam o cerebro
+Com o advento da computacao organica, as pesquisas rumo a um processador neural mostram sinais de convergencia.
+Mas ainda e dificil afirmar se serao os processadores moleculares que evoluirao rumo aos seus equivalentes eletronicos, ou se serao estes que irao incorporar mecanismos que imitem o cerebro, criando o chamado processador neuromorfico.
+O trabalho agora apresentado pelo Dr. Poon e seus colegas do MIT enquadrase nesta segunda categoria, similar aos processadores cognitivos da IBM.
+Computadores neurais cientistas querem reproduzir cerebro de gato
+Cerebro de gato artificial Computadores neurais mais proximos
+Pesquisadores comprovaram que os memristores, uma especie de elo perdido da eletronica, podem ser a base para a construcao de circuitos artificiais neuromorficos, que imitam o funcionamento do cerebro. Imagem NanoLetters
+Cerebro de gato artificial
+Um gato e capaz de reconhecer um rosto mais rapidamente e de forma mais eficiente do que o mais rapido supercomputador existente hoje.
+Esta foi uma das razoes pelas quais um grupo de cientistas da Universidade de Michigan, nos Estados Unidos, resolveu inspirarse no cerebro do felino para criar um novo tipo de computador, inspirado na biologia.
+O objetivo e mais do que construir uma nova forma de reconhecer padroes se tiverem sucesso, sua maquina sera capaz de aprender e fazer um numero de tarefas simultaneas e tomar decisoes que nao podem ser programadas em um computador.
+Memristor
+Embora a inspiracao na natureza nunca tenha faltado, e nem tampouco o sonho de fazer maquinas pensantes, a equipe do professor Wei Lu acredita agora ter a peca fundamental que lhes permitira construir uma maquina verdadeiramente neural.
+Essa peca atende pelo nome de memristor, uma especie de elo perdido da eletronica, um componente eletronico com um comportamento similar ao de um resistor, mas capaz de lembrar do passado, o que significa que ele funciona como uma memoria naovolatil memristor e uma juncao dos termos memoria e resistor.
+Ao contrario de um resistor comum, que oferece uma resistencia fixa a passagem da corrente, a resistencia de um memristor e controlada pela memoria das correntes e das tensoes as quais ele ja foi exposto. Para saber mais detalhes sobre o memristor, veja a reportagem Elo perdido da eletronica permitira computador que aprende.
+O primeiro memristor foi criado ha apenas dois anos. Como ele foi construido com dioxido de titanio, era dificil integralo com os chips a base de silicio. Varios pesquisadores tentaram construir memristores de silicio, mas todos apresentam uma alteracao abrupta na resistencia.
+Sinapse artificial
+Lu e sua equipe construiram o seu proprio memristor e verificaram que ele pode substituir um transistor tradicional e emular uma sinapse biologica. A vantagem e que o seu memristor contem silicio e ainda assim consegue funcionar de forma suave.
+O fluxo de corrente que pode passar por um memristor tem a ver com o movimento ionico em seu interior, com a resistencia variando conforme esses ions se movem. Os primeiros resistores com memoria utilizavam um eletrodo de prata para injetar os ions no silicio. Mas essa estrutura acaba criando canais de conducao no componente, fazendo com que a resistencia se altere abruptamente.
+A equipe do professor Lu eliminou o eletrodo de prata, aplicando tanto a prata quanto o silicio na forma de peliculas com cerca de 25 nanometros de espessura. Isso permite o controle preciso da taxa entre as duas substancias, garantindo o funcionamento suave do memristor.
+Agora, eles demonstraram que seu novo memristor pode conectar circuitos eletronicos convencionais e sustentar um processo que e fundamentalmente o que se acredita ser a base da memoria e do aprendizado verificado em sistemas biologicos.
+Nos estamos construindo um computador da mesma maneira que a natureza constroi um cerebro, arriscase o professor Lu. A ideia e usar um paradigma completamente diferente em relacao aos computadores convencionais. O cerebro do gato representa uma meta realista porque ele e muito mais simples do que um cerebro humano, ainda que seja extremamente dificil de replicar em termos de complexidade e eficiencia.
+Rotas neurais
+Em um computador, as funcoes logicas e de memoria estao localizadas em partes diferentes do circuito e cada unidade capaz de fazer um calculo ligase apenas aos seus vizinhos mais proximos.
+Com isso, os computadores executam as instrucoes dos programas de forma linear, linha por linha.
+Ja no cerebro de um mamifero, os neuronios sao conectados entre si por sinapses, que funcionam como interruptores reconfiguraveis, que podem formar rotas ligando milhares de neuronios.
+O mais importante em seu funcionamento e que as sinapses conseguem se lembrar dessas rotas com base na intensidade e no sincronismo dos sinais eletricos gerados pelos neuronios.
+O grande numero de rotas estabelecidas significa que o cerebro pode executar operacoes paralelamente de forma natural e intensiva.
+e por isso que nos e os gatos podemos reconhecer um rosto instantaneamente no meio de uma multidao, enquanto um supercomputador vai demorar muito tempo e gastar um bocado de energia para fazer o mesmo.
+Plasticidade cerebral
+Cerebro de gato artificial Computadores neurais mais proximos
+O memristor retem a memoria das conexoes e ainda e capaz de um processo de aprendizado chamado plasticidade dependente da temporizacao. Imagem Wei Lu
+Ate agora, porem, Lu conectou apenas dois blocos logicos eletronicos usando o lendario memristor.
+Mas foi o suficiente para demonstrar que ele retem a memoria das conexoes e ainda e capaz de um processo de aprendizado chamado plasticidade dependente da temporizacao.
+Esse tipo de plasticidade referese a capacidade que as conexoes entre os neuronios tem de se tornarem mais fortes dependendo dos intervalos dos disparos dos neuronios associados.
+Os cientistas acreditam que esta plasticidade dependente do tempo seja a base da memoria e do aprendizado no cerebro dos mamiferos.
+O sucesso do cerebro de gato artificial dependera, obviamente da correcao dessa teoria se e mesmo esta plasticidade, e somente ela, que fundamenta o aprendizado. E da possibilidade de replicar as interconexoes com os memristores para um numero muito maior de circuitos.
+Computadores inspirados na biologia
+Mesmo que a tentativa de replicar um cerebro de mamifero encontre desafios ainda nao computados, os primeiros resultados das pesquisas com os memristores mostram uma possibilidade concreta de que maquinas equivalentes aos supercomputadores atuais tenham o tamanho de um smartphone ou, no maximo, de um iPad dentro de alguns anos.
+Apesar de alguns pesquisadores menos realistas sonharem com a construcao de um cerebro humano artificial em 10 anos, as pesquisas de inspiracao biologica parecem ser um caminho natural para a construcao de computadores mais espertos do que os atuais.
+Um grupo europeu esta tentando construir um cerebro em um chip e ate um neuronio artificial ja foi demonstrado. Mas talvez o cerebro de gato do professor Lu sintase mais a vontade com o computador cognitivo inspirado no cerebro de um camundongo ou com o robo controlado por neuronios de rato.
+Computacao cognitiva IBM simula o cerebro de um gato
+Os cientistas vislumbram a fabricacao, no futuro, daquilo que eles chamam de chip sinaptronico, um processador que funcione utilizando os mesmos mecanismos das sinapses cerebrais. Imagem IBM
+Cientistas da IBM anunciaram a realizacao de uma simulacao computadorizada equivalente ao cerebro de um gato, contendo 1 bilhao de neuronios disparando e 10 trilhoes de sinapses individuais sinapses sao os mecanismos de troca de informacoes entre os neuronios.
+Computacao cognitiva
+O simulador, que representa um progresso significativo na chamada computacao cognitiva, foi elaborado pelos pesquisadores da empresa em colaboracao com cientistas da Universidade de Stanford e do Laboratorio Nacional Lawrence Berkeley, ambos dos Estados Unidos.
+Segundo os pesquisadores, seu objetivo e criar um programa de computador capaz de simular e emular as habilidades do cerebro para a sensacao, percepcao, acao, interacao e cognicao.
+E, em vez de gigantescos supercomputadores que ocupam predios inteiros, eles esperam fazer isto em um dispositivo do tamanho do proprio cerebro humano e gastando tao pouca energia quanto este veja mais sobre o projeto Cerebro Azul e sobre o computador cognitivo.
+Chip sinaptronico
+Os cientistas vislumbram a fabricacao, no futuro, daquilo que eles chamam de chip sinaptronico, um processador que funcione utilizando os mesmos mecanismos das sinapses cerebrais.
+Para isso eles pretendem se basear na nanotecnologia e nos avancos das memorias de mudanca de fase e nas juncoes de tunelamento magneticas, criando processadores que funcionem em principios radicalmente diferentes da computacao convencional, do tipo von Neumann.
+Conforme os mundos fisico e digital continuam a se mesclar e a computacao se incorpora no tecido da nossa vida diaria, e imperativo que criemos um sistema de computacao mais inteligente que possa nos ajudar a compreender a grande quantidade de informacoes disponiveis, de forma muito parecida com o nosso cerebro, que e capaz de interpretar rapidamente e agir frente a problemas complexos, Josephine Cheng, diretora de pesquisas da IBM.
+Materia Azul
+Alem da simulacao cortical em grande escala, a equipe revelou o desenvolvimento de um novo algoritmo, chamado BlueMatter materia azul, que sintetiza os dados neurologicos e que ja esta sendo utilizado para a proxima etapa da pesquisa, que preve alcancar resultados semelhantes na simulacao do cerebro humano.
+Utilizando tecnicas de imageamento por ressonancia magnetica, os cientistas estao medindo e mapeando as conexoes entre todas as localizacoes corticais e subcorticais no cerebro humano. Isso equivale a desenhar uma especie de esquema eletrico do cerebro, uma vez que quase todas as sinapses sao eletricas um numero menor delas e quimica.
+Segundo os cientistas, esse mapeamento devera permitir o conhecimento da vasta rede de comunicacoes cerebrais e, eventualmente, a compreensao de como o cerebro representa e processa as informacoes.
+Simulacao do cerebro
+Para executar a simulacao cortical do cerebro quase em tempo real, superando em numero os neuronios e as sinapses encontradas no cortex de um gato, a equipe construiu um simulador cortical que incorpora uma serie de inovacoes em computacao, memoria e comunicacao, assim como sofisticados detalhes biologicos obtidos por meio da neurofisiologia e da neuroanatomia.
+Os pesquisadores insistem que seu simulador e uma ferramenta, um instrumento cientifico, de grandeza comparavel a de um acelerador linear de particulas ou de um microscopio eletronico.
+Hipoteses sobre o funcionamento do cerebro
+De fato, esta e a mais poderosa ferramenta ja construida para testar hipoteses sobre a estrutura do cerebro, sobre sua dinamica e sobre seu funcionamento.
+O algoritmo Materia Azul, quando combinado com o simulador cortical, permite que os cientistas testem varias hipoteses matematicas sobre a estrutura e o funcionamento do cerebro, assim como permite que eles avaliem como sua estrutura afeta sua funcao.
+Vale ressaltar que o proprio objetivo dos cientistas descobrir como funcionam os nucleos computacionais do cerebro e como o processamento cerebral utiliza os circuitos biologicos em suas dimensoes micro e macro esta baseado na hipotese de que o cerebro funciona de forma semelhante a de um computador. Ou, pelo menos, de que e possivel reproduzir o funcionamento do cerebro utilizando estruturas naobiologicas, como um chip. Somente o avanco das pesquisas confirmara se alguma dessas hipoteses e valida.
+Embora esperem inserir todo o dispositivo, no futuro, no interior de um unico chip, a simulacao do cerebro de um gato rodou em um supercomputador Blue Gene, com 147.456 CPUs e 144 terabytes de memoria principal, o que revela a distancia que ainda separa a pesquisa do seu objetivo final de construcao de um chip sinaptronico.
+UFRJ inaugura supercomputador que funciona sozinho
+UFRJ inaugura maior supercomputador universitario do pais
+Com uma operacao remota e sem precisar de tecnicos, o sistema nao tem precedentes no pais. Imagem UFRJ
+Eficiencia e remoto
+A Coppe UFRJ inaugurou o supercomputador Lobo Carneiro, o mais potente instalado em uma universidade federal do pais. Com capacidade de 226 teraflops, ele pode executar 226 trilhoes de operacoes matematicas por segundo.
+Algumas das vantagens do supercomputador sao eficiencia energetica e operacao remota, que permitem que o equipamento prescinda do acompanhamento presencial 24 horas por dia, como e a regra para os demais computadores de alto desempenho em atividade no Brasil.
+O sistema de engenharia, concebido exclusivamente para este supercomputador, foi montado pelos pesquisadores da Coppe em parceria com tecnicos da startup brasileira Versatus HPC e Silicon Graphics International consorcio vencedor da licitacao.
+A relacao capacidade computacional e eficiencia energetica do Lobo Carneiro e muito boa. O sistema foi concebido para preservar ao maximo a vida util do equipamento e a operacao pode ser feita remotamente, de forma segura, com autocontrole e redundancia. Esse modelo de sistema de engenharia nao tem precedentes no pais, ressaltou o professor Guilherme Travassos.
+O supercomputador tera seu uso compartilhado por pesquisadores da Coppe, de outras unidades da UFRJ, centros de pesquisa de instituicoes e empresas, publicas e privadas. A preservacao do sistema e a eficiencia energetica, requisitos que foram exigidos pela Coppe na licitacao, vao ao encontro da responsabilidade pelo investimento publico, ressalta o diretor da Coppe, Edson Watanabe.
+O nome do supercomputador e uma homenagem ao professor Fernando Lobo Carneiro responsavel pela implantacao da posgraduacao em engenharia civil no Brasil.
+Supercomputador sem pessoas
+O sistema de engenharia montado para o Lobo Carneiro permitiu dispensar o acompanhamento presencial, uma instalacao inedita do ponto de vista do controle e da automacao.
+O padrao e que haja ao menos um profissional presente no centro de operacao de um supercomputador. Mas o Nacad datacentro da Coppe , e completamente diferente. Ele e remoto, nao tem pessoal tecnico e dispensa a redundancia de equipamentos, que so seriam usados na falha dos equipamentos titulares. Nessa configuracao nao e necessario ter geradores, aparelhos de ar condicionado e nobreaks extras. Qualquer possivel falha, o equipamento desliga sozinho e se preserva, explicou Marcelo Pinheiro, da Versatus.
+Para isso foi necessario um alto nivel de automacao, com o sistema de refrigeracao e de nobreaks dialogando com o computador. O desligamento e preparado para ocorrer em temperaturas confortaveis, de forma que o equipamento nao seja exposto a situacoes criticas. Ha multiplas camadas de protecao. Tambem ha pontos de checagem para a recuperacao dos trabalhos, quando ocorrer esse desligamento, afirma Marcelo.
+Duas vezes e meia mais potente e com maior eficiencia energetica do que o supercomputador adquirido anteriormente pela Coppe, o Galileu, o supercomputador Lobo Carneiro consumira do consumo da maquina anterior.
+Robo da primeiros sinais de consciencia
+O agente de software LIDA conseguiu pela primeira vez completar testes padronizados de avaliacao do estado de alerta, ou estado de consciencia, no mesmo tempo gasto por humanos. Imagem Nevit Dilmen Wikimedia
+Consciencia robotica
+Ela ainda nao e um robo no sentido comum do termo, porque ainda nao tem um corpo.
+Mas e o que mais aproxima ate hoje daquilo que se poderia chamar de uma mente robotica.
+O programa, projetado para ser usado para animar um robo, conseguiu pela primeira vez completar testes padronizados de avaliacao do estado de alerta, ou estado de consciencia, no mesmo tempo gasto por humanos.
+O nome dessa consciencia robotica e LIDA, uma sigla para Learning Intelligent Distribution Agent, agente de distribuicao inteligente do aprendizado, em traducao livre.
+LIDA e filha de Stan Franklin, da Universidade de Memphis, com uma participacao especial de Bernard Baars, do Instituto de Neurociencias de San Diego e Tamas Madl, filosofo da Universidade de Viena, na austria.
+Funcionamento da mente
+O programa foi inspirado por uma teoria bem estabelecida sobre a consciencia humana, chamada Teoria do Espaco de Trabalho Global TAG ou GWT, sigla do ingles Global Workspace Theory.
+Segundo a TAG, o processamento inconsciente a captura e processamento de imagens e sons, por exemplo e feito por regioes diferentes e autonomas do cerebro, trabalhando paralelamente.
+Nos apenas nos tornariamos conscientes da informacao quando ela e considerada importante o suficiente para ser transmitida para o ambiente de trabalho global, uma rede de neuronios interconectados que se espalha por todo o cerebro.
+Quem decide o que e importante para ser transmitido a teoria nao diz, mas ela afirma que aquilo que experimentamos como consciencia e justamente essa transmissao, que permite que as informacoes sejam compartilhadas por diferentes areas do cerebro.
+Varios experimentos, usando eletrodos para detectar a atividade cerebral, tem dado suporte a essa nocao de difusao das informacoes pelo cerebro como base da consciencia, embora como exatamente a teoria se traduziria em cognicao e experiencia consciente seja algo ainda longe de estar claro.
+Mente robotica
+O professor Stan Franklin e seus colegas implementaram a teoria em um programa voltado para o controle de um robo, enriquecendo as bases da TAG com hipoteses sobre como esses processos de difusao da informacao no cerebro se coordenam.
+O resultado foi a mente robotica LIDA, que Franklin acredita ser uma reconstrucao do processo de cognicao do cerebro humano.
+LIDA e uma mente artificial inteiramente gerada por software, ao contrario de experimentos de inteligencia artificial que procuram replicar os proprios neuronios ou ate construir um cerebro em um chip.
+O funcionamento de LIDA baseiase na hipotese de que a consciencia e composta de uma serie de ciclos, com duracao de poucos milissegundos, e cada um subdividido em estagios inconscientes e conscientes.
+Entretanto, so porque esses ciclos cognitivos sao consistentes com algumas caracteristicas da consciencia humana, como os experimentos demonstram, isso nao significa que e assim que a mente humana trabalha.
+Foi por isso que os cientistas resolveram colocar a mente robotica para competir com mentes humanas.
+Robo da primeiros sinais de consciencia
+Os pesquisadores defendem que seu agente de software LIDA tem consciencia funcional, diferente da consciencia fenomenica apresentada pelos humanos. Imagem Gengiskanhg Wikimedia
+Robo versus humano
+Para melhorar as bases da comparacao, os pesquisadores determinaram que as temporizacoes usadas nos ciclos de LIDA seriam os mesmos observados em dados neurologicos de humanos.
+Por exemplo, os detectores de dados sensoriais do programa checam as informacoes a cada 30 milissegundos, o tempo que o cerebro humano leva para fazer uma associacao entre uma imagem e uma categoria textual.
+A mente robotica foi submetida a dois testes de consciencia.
+O primeiro consiste em uma versao do teste do tempo de reacao, em que alguem deve apertar um botao sempre que uma luz verde a sua frente se acender. LIDA levou cerca de 280 milissegundos para apertar seu botao virtual depois que a luz se acendeu, enquanto um humano medio leva cerca de 200 milissegundos.
+O segundo teste usa uma barra horizontal piscante que aparece na base de uma tela e entao se move para cima ao longo de 12 posicoes. Quando a velocidade de subida da barra e lenta, as pessoas veem a linha em movimento. Quando a velocidade e alta, as pessoas enxergam 12 linhas piscantes.
+Quando os pesquisadores criaram um teste semelhante para LIDA, eles descobriram que, em altas velocidades, ela tambem falha na percepcao de que a linha esta se movendo. A velocidade da ilusao de optica robotica e comparavel a dos humanos.
+Robo consciente?
+Mas isto significa que a mente robotica LIDA seja consciente?
+Eu digo que LIDA e funcionalmente consciente, diz Franklin, porque ela usa a difusao dos inputs para guiar suas acoes e seu aprendizado.
+O pesquisador estabelece uma demarcacao clara entre essa consciencia funcional e a chamada consciencia fenomenica, ou consciencia fenomenologica, nao atribuindo a sua mente robotica uma capacidade de subjetividade.
+Mas ele afirma que nao ha, em principio, nenhuma razao que impeca que LIDA se torne totalmente consciente um dia A arquitetura podera servir de base para a consciencia fenomenica, apenas precisamos descobrir como trazela a tona.
+Pode um computador se tornar consciente?
+Se o pesquisador estiver correto, e se a teoria tiver um poder explicativo do funcionamento da mente humana suficiente para embasar a criacao de uma mente artificial, resta uma questao de largo alcance
+Em que ponto um modelo de consciencia pode ele proprio tornarse consciente? Se e que pode.
+Antonio Chella, um roboticista da Universidade de Palermo, na Italia, afirma que, antes que se possa atribuir consciencia a um agente de software como LIDA, ela vai precisar de um corpo.
+A consciencia de nos mesmos, e do mundo, e baseada em uma continua interacao entre nosso cerebro, nosso corpo e o mundo, diz ele. Estou curioso para ver um robo LIDA.
+Ja Murray Shanahan, tambem roboticista, da Imperial College London, discorda, e diz que um corpo robotico nao e necessario. Somente faz sentido comecar a falar sobre consciencia no contexto de algo que interage de forma intencional com um ambiente espacotemporal, diz ele. Mas eu fico totalmente satisfeito com uma interacao com um ambiente virtual.
+Cientista propoe teoria unificada da inteligencia artificial
+Franklin, criador de LIDA, afirma estar planejando construir uma versao da consciencia robotica capaz de interagir com humanos, provavelmente de forma virtual sem um corpo robotico.
+Quando isto acontecer, eu ficarei tentado a atribuir consciencia fenomenica ao agente, afirma ele.
+Objetividade e subjetividade
+O problema e que, mesmo que LIDA consiga um dia ter experiencias subjetivas, como poderemos provar isto?
+Nao existem testes objetivos da subjetividade nao ha como provar objetivamente, por exemplo, que cada um de nos nao e o unico ser consciente de si mesmo em um mundo de zumbis.
+Os filosofos veem lidando com isto por mais de 2.000 anos, diz Franklin. Para ele, talvez so possamos admitir que os computadores tenham subjetividade quando eles se tornarem suficientemente inteligentes e comunicativos.
+Alem de todo um campo de estudos sobre os direitos dos robos, quando isto eventualmente acontecer restara tambem a questao se as inteligencias artificiais serao capazes de evoluir.
+Computador Watson vence humanos em jogo de perguntas
+Desenvolvido um simulador do sistema nervoso humano
+Outra grande vantagem do novo simulador neuronal e que ele foi disponibilizado como software livre, podendo ser baixado gratuitamente pela internet. Imagem Sensopac
+Pesquisadores da Universidade de Granada, na Espanha, desenvolveram um simulador que, segundo eles, permite reproduzir qualquer parte do sistema nervoso do corpo humano, como a retina, o cerebelo, os centros de audicao ou os centros nervosos.
+Medicamentos e maquinas inteligentes
+O simulador, chamado EDLUT Event driven look up table based simulator, permitira que os cientistas analisem e compreendam as funcoes dos centros nervosos do corpo humano, pesquisem novas patologias e ate mesmo testem novos medicamentos.
+O programa tambem devera ser util para o desenvolvimento de melhores robos e maquinas inteligentes inspiradas no funcionamento das diversas partes do sistema nervoso humano.
+O simulador do sistema nervoso permite a simulacao de milhares de neuronios simultaneamente. Os melhores programas disponiveis ate agora nao passam de algumas dezenas.
+Neuronios compilados
+A incorporacao de um grande numero de neuronios foi possivel porque o novo programa usa uma arquitetura parecida com o funcionamento dos programas de computador.
+Na primeira passagem, ele compila o comportamento de um neuronio, ou de varios tipos de neuronios. A seguir, ele simula os sistemas neuronais de media e grande escala a partir desses modelos precompilados.
+Outra grande vantagem do novo simulador neuronal e que ele foi disponibilizado como software livre, podendo ser baixado gratuitamente pela internet 
+O simulador do sistema nervoso e mais um resultado do Projeto Sensopac, cujos avancos anteriores podem ser vistos em Vem ai o Robo habilis cerebro artificial ja controla mao e braco roboticos e Cerebelo artificial vai permitir aprendizado e interacao dos robos humanoides.
+Cientista propoe teoria unificada da inteligencia artificial
+Revivendo os antigos modelos baseados em regras com os resultados mais recentes dos sistemas probabilisticos, cientista cria uma linguagem de computador que pode fazer renascer o campo da inteligencia artificial. Imagem MIT
+Regras do pensamento
+Nas decadas de 1950 e 1960, os pesquisadores da nascente inteligencia artificial dedicaramse a tentativa de descobrir como o pensamento funciona e em que regras esse funcionamento se baseia.
+Mas essas regras logo revelaramse muito mais complicadas do que se poderia imaginar.
+Desde entao, as pesquisas sobre a inteligencia artificial temse apoiado, nao em regras bem definidas, mas em probabilidades padroes estatisticos que os computadores podem aprender a partir da analise de grandes conjuntos de dados, os chamados dados de treinamento.
+Inteligencia probabilistica
+O enfoque probabilistico tem sido responsavel pela maior parte dos progressos recentes no campo da inteligencia artificial, como os sistemas de reconhecimento de voz ou de traducao automatizada de textos entre idiomas diferentes.
+Mas Noah Goodman, um cientista do MIT, que divide seu tempo entre o departamento de Ciencias Cognitivas e Cerebrais e o laboratorio de Ciencia da Computacao e Inteligencia Artificial, acha que a inteligencia artificial cedeu muito quando desistiu das regras.
+Ao combinar os antigos sistemas baseados em regras com insights dos sistemas probabilisticos mais recentes, Goodman descobriu uma forma para modelar o pensamento que podera ter grandes implicacoes para o campo da inteligencia artificial e para a ciencia cognitiva.
+Linguagem matematica
+Os primeiros pesquisadores da inteligencia artificial viam o pensar como uma inferencia logica se voce sabe que as aves podem voar e se lhe for informado que um pintassilgo e uma ave, voce pode deduzir que os pintassilgos podem voar.
+Um dos primeiros projetos de inteligencia artificial foi o desenvolvimento de uma linguagem matematica muito parecida com uma linguagem de computador por meio da qual os pesquisadores pudessem codificar afirmacoes como as aves podem voar e pintassilgos sao aves.
+Se essa linguagem fosse rigorosa o suficiente, algoritmos de computador seriam capazes de rastrear alegacoes escritas com ela e calcular todas as deducoes logicamente validas.
+Assim que tivessem desenvolvido linguagens como essa, os pesquisadores poderiam comecar a usalas para codificar montanhas de afirmacoes do senso comum, que seriam armazenadas em gigantescas bases de dados.
+Solucao bracal
+O problema com esta abordagem e que, por exemplo, nem todas as aves podem voar. E entre as aves que nao voam, ha diferencas fundamentais entre um canarinho que nao pode voar porque esta em uma gaiola e um canarinho que nao voa por estar com uma asa quebrada, e uma outra distincao totalmente diferente entre os canarinhos em qualquer situacao e um pinguim.
+As linguagens matematicas que os primeiros pesquisadores da inteligencia artificial desenvolveram eram flexiveis o suficiente para representar essas distincoes conceituais, mas escrever todas as distincoes necessarias mesmo para as tarefas cognitivas mais rudimentares mostrou ser muito mais dificil do que o previsto.
+Incerteza das informacoes
+Na inteligencia artificial probabilistica, por outro lado, um computador e alimentado com montanhas de exemplos de alguma coisa como fotos de passaros e e levado a deduzir, por conta propria, o que esses exemplos tem em comum.
+Essa abordagem funciona muito bem com conceitos concretos, como ave, mas tem problemas com conceitos mais abstratos por exemplo, voar, uma capacidade compartilhada por passaros, helicopteros, pipas e superherois.
+Podese apresentar montanhas de imagens de coisas em pleno voo a um sistema probabilistico, mas mesmo que ele consiga descobrir o que todas elas tem em comum, muito provavelmente ele ira incorretamente identificar nuvens, ou o sol ou as antenas no topo dos edificios, como instancias de voo.
+E ha que se considerar que voo e um conceito concreto quando comparado a outros como, digamos, gramatica ou maternidade.
+Linguagem Church
+Como uma ferramenta de pesquisa, Goodman desenvolveu uma linguagem de programacao chamada Church em homenagem ao grande logico norteamericano Alonzo Church que, como as primeiras linguagens da inteligencia artificial, inclui regras de inferencia.
+Mas as regras da linguagem Church sao probabilisticas.
+Estabelecido que um pintassilgo e uma ave, um programa escrito em Church e capaz de concluir que os pintassilgos provavelmente podem voar. Mas se for informado ao programa que um pintassilgo pode pesar quase 100 quilogramas, ele pode rever a sua estimativa de probabilidade inicial, concluindo que, na verdade, os pintassilgos provavelmente nao podem voar.
+Com o raciocinio probabilistico, voce tem a a estruturacao de graca, diz Goodman. Um programa em Church que nunca se deparou com um passaro que nao pode voar inicialmente vai definir a probabilidade de que qualquer passaro voe em 99,99 por cento.
+Mas, conforme ele aprende mais sobre emas, pinguins e pintassilgos em gaiolas e com as asas quebradas, ele reve suas probabilidades para levar em conta as novas informacoes.
+Solucao artificial
+Em ultima instancia, as probabilidades representam todas as distincoes conceituais que os primeiros pesquisadores de inteligencia artificial teriam de codificar manualmente.
+Mas o sistema em Church aprende essas distincoes por si mesmo, ao longo do tempo de forma muito parecida com que os seres humanos aprendem novos conceitos e reveem os antigos.
+O que e brilhante aqui e que o sistema permite que voce construa um modelo cognitivo de uma forma fantasticamente mais simples e transparente do que era possivel ate agora, comenta Nick Chater, professor de ciencias cognitivas e da Universidade College London.
+Voce pode pensar em todas as coisas que um ser humano conhece tentar listalas seria uma tarefa sem fim. Mas o truque magico aqui esta dizendo, Nao, digame apenas algumas poucas coisas, e entao o cerebro ou neste caso, o sistema em Church pode fazer o resto, usando o calculo probabilistico e tracando todas as consequencias e inferencias. E tambem, quando voce da novas informacoes ao sistema, ele pode descobrir as consequencias dessas novas informacoes, diz Chater.
+Simuladores da mente
+Mas Chater tambem adverte que, embora os programas em Church tenham um excelente desempenho em tarefas especificas, atualmente eles exigem recursos computacionais intensivos demais para servirem como simuladores da mente de proposito geral.
+Isto e um problema serio se voce estiver pensando em rodar programas em Church para resolver todos os problemas do mundo, diz Chater. Mas o sistema acabou de ser construido, e estas coisas sao sempre muito mal otimizadas em suas primeiras versoes.
+Chater salienta ainda que simplesmente fazer o sistema funcionar ja e um grande feito e o tipo de coisa que alguem poderia produzir como uma sugestao teorica, e voce pensa, Uau, isso e fantasticamente inteligente, mas eu tenho certeza de que voce nunca vai fazelo funcionar na pratica. E o milagre e que o sistema roda, e funciona.
+Computador Watson vence humanos em jogo de perguntas
+Mas sera que o Watson representa o antecessor da Skynet, a poderosa rede que adquiriu consciencia e dominou o mundo do filme Exterminador do Futuro? Imagem IBM
+Elementar
+O supercomputador Watson, fabricado pela IBM, venceu um jogo de perguntas contra dois humanos que haviam sido os melhores colocados de todos os tempos na competicao.
+O jogo, chamado Jeopardy Arrisquese, em traducao livre, consiste em ouvir dicas sobre algum assunto e fazer a pergunta certa. Os participantes devem apostar nas suas proprias respostas que tem sempre o formato de perguntas.
+Os participantes humanos eram Ken Jennings, que havia obtido o recorde de 74 vitorias consecutivas na serie, que e lider de audiencia na TV norteamericana, e Brad Rutter, que havia ganho o maior premio na competicao, US 3 milhoes.
+O participante eletronico e Watson, um supercomputador batizado em homenagem ao fundador da IBM, Thomas Watson. Ele honrou bem o nome que recebeu, assim como o de seu antecessor eletronico, Deep Blue, o supercomputador que venceu o campeao de xadrez Garry Kasparov, em 1997.
+Nao tao elementar
+e dificil comparar os competidores. Estimase que um cerebro humano consuma 20 watts, enquanto o Watson consome 80 kilowatts ele nem mesmo ficou na sala onde acontece o programa, mas um piso acima, em uma sala especial para a sobrevivencia de computadores, o que inclui refrigeracao a agua, geradores e nobreaks.
+Junto aos competidores, Watson aparecia como um simbolo claramente inspirado no HALL9000, do classico 2001 Uma Odisseia no Espaco, embora o sintetizador de voz nao fosse tao bom.
+Mas certamente esta nao e a comparacao que se deve fazer.
+O fato e que, embora seja o supercomputador Watson que esta levando a fama, com seus circuitos de silicio, o grande vencedor nesse embate historico e o software que esta rodando nele.
+O programa que venceu Kasparov tinha que lidar com um jogo logico e previsivel, seguindo regras simples, que podem ser facilmente traduzidas em termos matematicos.
+Mas um jogo em que dicas, frases soltas, e ate palavras, devem ser interpretadas, compreendidas e traduzidas em perguntas que facam sentido e algo muito diferente.
+Computador Watson vence humanos em jogo de perguntas
+Este e o corpo do supercomputador Watson, incluindo sua memoria e seu cerebro. Imagem IBM
+Inteligencia artificial
+Certamente Watson e seus algoritmos constituem o produto mais acabado, o estado da arte, da chamada inteligencia artificial, uma area de pesquisas que surgiu fazendo grandes promessas, mas que cedo compreendeu estar enfrentando um desafio mais complicado do que o previsto inicialmente.
+E ao vencer um desafio tao mais proximo do humano, da comunicacao humana, o programa pode estar muito mais proximo de uma utilizacao pratica.
+O supercomputador Deep Blue deu muita exposicao de midia e reforco de marca para a IBM, mas nao resultou em nem um centavo de receita adicional para a empresa, menos ainda em uma nova area de negocios.
+Mas compreender palavras e expressoes, incluindo girias e termos ambiguos, coloca o programa em condicoes de atender a necessidades ja existentes e que valem bilhoes de dolares no mercado.
+Aplicacoes praticas
+A comparacao com o Google e inevitavel. Quando voce quer descobrir algo, obter uma informacao, ou mesmo a resposta para uma pergunta, voce digita no formulario de busca algumas palavras relacionadas ao tema e espera que o Google lhe indique sites e documentos onde voce mesmo podera encontrar as respostas.
+O novo programa pode lhe dar as respostas diretamente a partir de uma base de dados.
+O supercomputador Watson nao estava ligado a internet, ele e meramente um conjunto enciclopedico de dados, que os engenheiros da IBM estimam ser o equivalente a 1 milhao de livros. Delhe acesso a todos os sites do mundo e seu poder de digerir e compreender informacao crescera de forma explosiva.
+Qualquer dicionario lhe respondera instantaneamente o significado de uma palavra dada. Mas peca uma palavra para representar uma determinada situacao e voce comecara a ter problemas.
+Watson e seu software podem tentar. Pelo menos eles se sairam melhores do que os campeoes humanos nessa tarefa.
+Isto podera ser de grande utilidade para procurar casos medicos semelhantes ao que se esta tratando, respostas para o problema de um cliente ligando para um 0800 ou a jurisprudencia para um determinado caso.
+Ou para um novo mecanismo de busca que consiga conversar mais amigavelmente com seus usuarios.
+Computador Watson vence humanos em jogo de perguntas
+Este e o rosto do supercomputador Watson. Imagem IBM
+Nos vencemos
+Mas sera que o Watson representa o antecessor da Skynet, a poderosa rede que adquiriu consciencia e dominou o mundo distopico do filme Exterminador do Futuro?
+Um antecessor muito distante certamente. Watson representa o primeiro sistema artificial capaz de entender razoavelmente uma conversa com humanos.
+Antes de adquirirem qualquer coisa proxima a uma consciencia de si mesmos, os computadores terao que se tornar capazes de evoluir, melhorando a si proprios, dispensando os programadores. Mas isto ainda e assunto para ficcao cientifica.
+O fato e que o computador e uma das ferramentas mais valiosas que o homem ja construiu. E continuara sendo cada vez mais util.
+O que nos leva a conclusao bastante simples de que quem realmente venceu hoje nao foram os computadores fomos nos, os humanos, e nossas maravilhosas criacoes.
+Cerebro artificial ajudara a entender o cerebro biologico
+O objetivo nao e criar um monstrengo para jogar xadrez ou pilotar uma nave espacial, mas compreender o mau funcionamento do cerebro humano, que leva a doencas como Parkinson e Alzheimer. Imagem Nevit Dilmen Wikimedia
+Maquina unica
+Construir um cerebro artificial, copiado do verdadeiro, para entender como esta extraordinaria maquina funciona e deixa de funcionar.
+Esse e o desafio do Projeto Cerebro Humano, centrado na Escola Politecnica Federal de Lausanne EPFL, na Suica, mas incluindo pesquisadores de varias partes da Europa.
+O projeto esta agora disputando um financiamento da Uniao Europeia de um bilhao de euros.
+mil artigos cientificos sobre o cerebro sao publicados anualmente, afirma Henry Markram. Em vez de deixar esses artigos dormindo nas bibliotecas, o Projeto Cerebro Humano pretende integralos para construir uma maquina unica no mundo.
+Cerebro artificial
+Markram e seus colegas ja estao trabalhando desde 2005 em um projeto de cerebro artificial, chamado Cerebro Azul Blue Brain, o mais proximo tecnicamente possivel do cerebro biologico.
+Nesse caso, o trabalho foi realizado com tecnicas de engenharia reversa em vez de desenhar um objeto antes de ser construido, pegase um objeto existente para depois preparar um plano.
+O primeiro passo foi dado com as proteinas, essas moleculas grandes que formam as celulas, e em seguida com os neuronios, atraves dos quais passam as informacoes, e as celulas gliais que os alimentam e modulam as transmissoes, feixes de ions que passam de uma celula a outra atraves de longos filamentos.
+Tudo isso e reconstruido virtualmente a partir de dados coletados da materia viva.
+Dispostos em forma de estrela em torno de um microscopio infravermelho, uma duzia de caixinhas prolongadas por uma pipeta de plastico parecem se alimentar da mesma fonte de luz verde.
+Cada unidade contem doze neuronios de rato, cuja atividade a maquina decifra precisamente a atividade e entao modelada no computador.
+Simulando um cerebro
+Essa e a essencia do projeto. Desde 2005, essas experiencias temse revelado uma verdadeira mina de informacoes sobre o funcionamento basico das celulas cerebrais.
+Atraves delas, o Cerebro Azul ja foi capaz de simular uma coluna neocortical de ratos, unidade de base do cerebro, composta de 10 mil neuronios, cada um capaz de criar entre si ate 30 milhoes de conexoes.
+Mas o cerebro humano, o objetivo final do Projeto Cerebro Humano, conta pelo menos 100 milhoes de neuronios. E, hoje, e necessario a potencia total de um computador portatil para simular o comportamento de um unico neuronio.
+Isso quer dizer que precisamos melhorar a potencia dos computadores. Estimase que um cerebro humano virtual exigiria uma maquina mil vezes mais potente do que o maior supercomputador existente.
+O Projeto Cerebro Humano vai, portanto, trabalhar lado a lado com os fabricantes de hardware para tentar encontrar solucoes em termos de potencia de calculo, consumo de energia e dissipacao de calor.
+E pensar que o nosso cerebro e capaz de fazer mais e melhor do que todas estas maquinas, quase sem esquentar a cabeca
+Um cerebro artificial para entender o natural
+Hoje, e necessaria a potencia total de um computador portatil para simular o comportamento de um unico neuronio. Imagem Mary MoyeRowley
+Doencas do cerebro
+Quanto a sua replica virtual, o objetivo nao e criar um monstrengo para jogar xadrez ou pilotar uma nave espacial, como nos classicos da ficcao cientifica.
+Vai ser como uma enorme instalacao de imagens por ressonancia magnetica de um hospital. O objetivo nao e criar um brinquedo divertido, explica Henry Markram.
+Seu credo e simples a medicina mantem cada vez mais a saude de nossos corpos, mas ninguem encontrou ainda a cura para as doencas do cerebro Parkinson, Alzheimer e outras que afetam dois bilhoes de pessoas no mundo.
+Os pesquisadores do Projeto Cerebro Humano pretendem transformar a maquina deles em uma ferramenta de ultima geracao para a compreensao do cerebro, simulando situacoes reais, administrando nela medicamentos ou novas moleculas virtuais, mas tambem alimentandoa com todos os conhecimentos atuais e futuros. Para Markram, tratase de uma questao de interesse da humanidade.
+Desenvolvido um simulador do sistema nervoso humano
+Robotica e informatica
+Outra sumidade em neurociencia, o professor Pierre Magistretti, diretor do polo de pesquisa sobre os fundamentos biologicos das doencas mentais, diz que se trata de uma situacao onde todos so tem a ganhar.
+E a medicina nao vai ser a unica a desfrutar desta magnifica conquista.
+O Projeto Cerebro Humano tambem sera util para a robotica os robos alimentarao o cerebro artificial com sensacoes, para as proteses de interfaces do sistema nervoso e, claro, para a informatica, que tem muito a aprender com a extraordinaria capacidade do cerebro humano.
+Cerebro mundial
+Os norteamericanos tambem estao prestes a anunciar um grande programa de pesquisa sobre o cerebro, definido como o novo objetivo Lua deste terceiro milenio.
+Sera que Henry Markram esta com medo da concorrencia?
+Nao, responde sem rodeios, preferindo o termo emulacao. A abordagem deles e diferente da nossa e os dados que serao publicados estarao a disposicao de toda a comunidade cientifica. Nossa estrategia e mundial, nao e cada um no seu canto. Vamos encontrar formas de colaborar e agregar valor aos resultados deles, disse o professor, com a consciencia tranquila de quem tem razao.
+Inteligencia artificial derrota pilotos humanos em combate simulado
+O sistema utiliza uma tecnica conhecida como logica nebulosa genetica. Imagem Nicholas Ernest
+Briga automatizada
+Um sistema de inteligencia artificial para pilotagem de cacas derrotou dois pilotos humanos em uma simulacao de combate.
+O piloto robotico, batizado de Alpha, usou quatro jatos virtuais para defender uma area litoranea dos dois cacas e nao sofreu perdas.
+Desenvolvido por uma equipe de pesquisadores da Universidade de Cincinnati, nos Estados Unidos, o sistema tambem venceu um instrutor de pilotos da Forca Aerea NorteAmericana reconhecido por sua experiencia.
+Na simulacao, os dois jatos que atacavam o litoral chamada de equipe azul tinham um sistema de armas mais poderoso que os jatos usados pelo Alpha, chamados de equipe vermelha.
+Apesar da desvantagem, o sistema criado por inteligencia artificial conseguiu se livrar dos inimigos depois de realizar uma serie de manobras evasivas.
+Logica nebulosa
+O sistema usa uma forma de inteligencia artificial baseada no conceito de logica nebulosa tambem conhecida como difusa, ou fuzzy, com o programa analisando uma serie ampla de opcoes antes de tomar a decisao.
+Devido ao fato de um caca virtual produzir uma quantidade grande de dados para serem interpretados, nem sempre fica obvio quais as manobras sao mais vantajosas ou mesmo em que momento uma arma deve ser disparada. Sistemas que usam a logica nebulosa podem pesar a importancia desses dados individuais antes de tomar uma decisao mais ampla.
+Redes neurais humanizam visao de carros sem motorista
+Carros sem motorista comecam a olhar as coisas de um jeito mais humano
+Iniciativas de software de codigo livre para carros sem motorista estao ajudando a minimizar as preocupacoes com seguranca. Imagem Florian Lehmann TUM
+Duvidas do piloto automatico
+Como a tecnologia de reconhecimento de imagens em um carro sem motorista ira responder a uma forma desfocada aparecendo de repente na rua ou na estrada?
+Em uma situacao similar, os seres humanos geralmente sao capazes de diferenciar entre, digamos, um ciclista distraido que de repente se desvia em direcao a pista e folhas e poeira a beira da estrada sopradas pelo vento. A nossa resposta e baseada principalmente na intuicao podemos nao ter certeza do que a forma realmente e, mas sabemos se ela se parece com um ser humano, com um redemoinho ou com um saco de papel.
+Mas o que o piloto automatico de um carro sem motorista deve fazer? Acionar violentamente os freios presumindo ser um pedestre ou ciclista, correndo o risco de causar uma colisao com os carros que veem atras, ou apenas manter seu trajeto, correndo o risco de causar uma vitima?
+A melhor solucao, sem duvida, e desenvolver uma tecnologia que permita que os softwares de reconhecimento de imagens fiquem melhores e nao precisem correr tantos riscos.
+E Jonas Kubilius e seus colegas da Universidade de Leuven, na Belgica, acabam de demonstrar que as maquinas podem aprender a reagir a objetos estranhos de forma muito similar a dos seres humanos.
+Redes neurais convolucionais profundas
+As melhores tecnologias de reconhecimento de imagens atualmente sao treinadas para reconhecer um conjunto fixo de objetos.
+As teorias de reconhecimento de objetos concordam que a forma tem importancia primordial, mas nao ha consenso sobre como a forma pode ser representada, e ate agora todas as tentativas de implementar um modelo de percepcao de formatos que poderia funcionar com estimulos realistas falharam, disse Jonas.
+Ele foi buscar uma alternativa nas redes neurais convolucionais profundas, algoritmos de inteligencia artificial que se mostraram capazes de capturar aspectos importantes da percepcao humana dos objetos.
+Carros sem motorista comecam a olhar as coisas de um jeito mais humano
+Ainda nao se sabe o que sera exigido para que um carro autonomo possa receber sua carteira de motorista. Imagem Umich
+Nos descobrimos que as redes neurais profundas nao apenas sao boas em tomar decisoes objetivas Isto e um carro, mas tambem desenvolvem sensibilidades de nivel humano a forma dos objetos Isto se parece com ....
+Em outras palavras, as maquinas podem aprender a nos dizer o que uma nova forma digamos, uma letra de um novo alfabeto ou um objeto borrado na estrada lhes lembra. Isso significa que estamos no caminho certo para desenvolver maquinas com um sistema visual e vocabulario tao flexivel e versatil como o nosso, acrescentou o pesquisador.
+Erros de motorista automatico
+Isto significa que em breve poderemos entregar com seguranca o controle do nosso carro para um software?
+Nao e bem assim. Nos nao estamos la ainda. E mesmo que as maquinas, em algum momento, sejam equipadas com um sistema visual tao poderoso como o nosso, os carros de autoconducao ainda cometerao erros ocasionais embora, ao contrario dos motoristas humanos, eles nao ficarao distraidos porque estao cansados ou ocupados digitando texto no celular. No entanto, mesmo nas raras ocasioes quando os carros autonomos poderao errar, suas decisoes serao pelo menos tao razoaveis quanto as nossas, opina Jonas.
+Rede de neuronios artificiais aprender a usar linguagem humana
+O modelo questiona a abordagem mais usada nas neurociencias, de que o cerebro funcionaria como um computador. Imagem ANNABELL Project Un. Sassari
+Modelo cognitivo
+Um modelo cognitivo, composto por dois milhoes de neuronios artificiais, simulados em software, mostrouse capaz de aprender a se comunicar usando a linguagem humana a partir de um estado de mente em branco, somente atraves da comunicacao com um interlocutor humano.
+A pesquisa lanca novas luzes sobre os processos neurais que fundamentam nao apenas o desenvolvimento da linguagem, mas todo o processo de funcionamento da mente humana, alem de questionar os modelos mais usados pelas neurociencias.
+O modelo, chamado ANNABELL sigla em ingles para Rede Neural Artificial com Comportamento Adaptativo Usado para Aprendizagem de Linguas, foi desenvolvido por um grupo de pesquisadores das universidades de Sassari Italia e Plymouth Reino Unido.
+Analogia cerebrocomputador
+As neurociencias ja aprenderam um bocado sobre os neuronios e suas interconexoes as sinapses. Mas um conhecimento detalhado de um neuronio individual e de quais sao as funcoes das varias areas do cerebro em que bilhoes deles ficam ativos ao mesmo tempo nao sao suficientes para dar pistas sobre como o cerebro executa suas funcoes cognitivas.
+Uma tendencia na comunidade cientifica tem sido pensar que o cerebro funciona de forma semelhante a um computador, ja que os computadores tambem funcionam atraves de sinais eletricos. De fato, muitos pesquisadores tem proposto modelos baseados na analogia cerebrofuncionacomoumcomputador desde o final dos anos 1960.
+Entretanto, alem das diferencas estruturais entre neuronios e transistores, existem diferencas profundas entre o cerebro e um computador, especialmente nos mecanismos de aprendizagem e de processamento de informacao. Computadores funcionam atraves de programas instrucoes passo a passo desenvolvidos por programadores humanos, e nao ha nenhuma evidencia da existencia de tais programas em nosso cerebro.
+Hoje, muitos pesquisadores ja aceitam que o nosso cerebro e capaz de desenvolver habilidades cognitivas elevadas simplesmente atraves da interacao com o meio ambiente, a partir de muito pouco conhecimento inato o que equivale dizer, naquela analogia com o computador, que o cerebro nao tem programas.
+Plasticidade e comutacao sinapticas
+O modelo ANNABELL parece confirmar essa abordagem, funcionando sem qualquer conhecimento precodificado sobre a linguagem ele aprende a conversar apenas atraves da comunicacao com um interlocutor humano, gracas a dois mecanismos fundamentais, que tambem estao presentes no cerebro biologico a plasticidade sinaptica e a comutacao sinaptica.
+A plasticidade sinaptica e a capacidade das conexoes entre dois neuronios para aumentar sua eficiencia quando os dois neuronios sao frequentemente disparados simultaneamente, ou quase simultaneamente.
+O mecanismo de computacao sinaptica, ou comutacao neural, e baseado nas propriedades de determinados neuronios chamados neuronios biestaveis para se comportarem como interruptores que podem ser ligados ou desligados por um sinal de controle vindo de outros neuronios. Quando ligados, os neuronios biestaveis transmitem o sinal de uma parte do cerebro para outra, caso contrario bloqueiam o sinal isto sim, e muito parecido com um transistor eletronico.
+Programa aprende a falar
+Simulando esses dois mecanismos nos neuronios artificiais modelados em software, o programa se mostrou capaz de aprender a falar e se comunicar com um interlocutor humano.
+Ele foi validado usando um banco de dados de cerca de 1.500 sentencas de entrada, selecionadas com base na literatura sobre o desenvolvimento da capacidade de falar dos seres humanos.
+O programa respondeu elaborando cerca de 500 novas frases, que contem substantivos, verbos, adjetivos, pronomes e outras classes gramaticais, demonstrando a capacidade de se expressar por meio de uma linguagem humana que nao lhe foi ensinada previamente.
+Com modelos mais proximos da realidade, a expectativa e que sistemas de inteligencia artificial, usados em programas de computador e em robos, tornemse capazes de aprender de forma mais parecida com a humana, sem depender de programas que especifiquem cada passo desses raciocinios artificiais.
+Rede neural artificial aprende palavras, imagens e musica
+Imagem Osogami Otsuka
+Redes neurais artificiais
+Redes neurais artificiais tem sido estudadas com a esperanca de criar maquinas programas de computador com uma capacidade de aprender similar a humana.
+Uma rede neural biologica e complexa demais para ser mapeada exatamente em uma rede neural artificial, mas Takayuki Osogami e Makoto Otsuka, da IBM Research de Toquio, deram alguns passos importantes.
+Os dois desenvolveram neuronios artificiais que imitam matematicamente um modelo de aprendizagem cerebral para aprender palavras, imagens e ate musica o modelo e conhecido como plasticidade cerebral dependente dos tempos de disparo.
+Os neuronios matematicos de Takayuki e Makoto formam um tipo de rede neural artificial estocastica que define uma maquina de Boltzmann dinamica DyBM, um sistema capaz de aprender sobre informacoes de varios contextos atraves do treinamento a repeticao que leva a perfeicao, por assim dizer.
+Ciencia em bits
+A dupla ensinou a palavra Science ciencia a sete neuronios artificiais, um neuronio por bit, na forma de uma imagem bitmap. Assim, a imagem da palavra Science tornouse
+Os 1s representam as linhas que compoem as letras, enquanto os 0s traduzem os espacos em branco em torno das letras.
+O que esses sete neuronios aprenderam foi ler e gravar informacoes de 7 bits em uma unica tacada. A palavra Science e expressa na forma de sequencias de 7 x 35 bits que equivalem a uma imagem bitmap monocromatica de 245 bits. Os sete neuronios leem e memorizam cada pedaco de 7 bits de informacao na imagem.
+Por exemplo, 0100010 e a decima coluna da imagem total de acordo com a ordem de aprendizado, e os neuronios lembram esses pedacos na ordem em que aprenderam. Ao memorizar a palavra da esquerda para a direita e da direita para a esquerda, os neuronios conseguem reconhecer ciencia para a frente, para tras ou em qualquer ordem como fazemos ao resolver um jogo de palavras embaralhadas.
+Mais neuronios, mais memoria
+As coisas ficam mais complicadas, e mais interessantes, quando esses neuronios artificiais aprendem sobre diferentes temas em diferentes formatos, tais como a imagem da evolucao humana.
+Desta vez, 20 neuronios artificiais foram incumbidos da tarefa de aprender esta imagem, que mostra como nos evoluimos, da esquerda para a direita. Por que usar 20 neuronios artificiais desta vez? Porque uma coluna da imagem que mostra a evolucao humana consiste de 20 bits.
+Rede neural artificial aprende palavras, imagens e musica
+Aprender a tabua da evolucao levou apenas 19 segundos. Imagem Osogami Otsuka
+Os neuronios aprenderam as partes da imagem alinhadas na ordem correta de evolucao dos macacos ao Homo sapiens. Rodando a simulacao, os neuronios foram aprendendo mais ao longo do tempo, detectando os erros e repetindo as simulacoes. Foram necessarios apenas 19 segundos para os 20 neuronios aprenderem a imagem corretamente.
+Para aprender a compor uma musica foi usada uma musica tradicional alema chamada Ich bin ein Musikante a partir das notas musicais, foram necessarios 12 neuronios e 900.000 rodadas da simulacao, o que levou 28 minutos no mesmo computador.
+Maquina de Boltzmann dinamica
+A maquina de Boltzmann dinamica de Takayuki e Makoto nao consegue apenas memorizar e recordar padroes sequenciais. Ela pode tambem detectar anomalias em padroes sequenciais e fazer previsoes sobre padroes futuros.
+Assim, a rede neural artificial pode ser usada para prever riscos de conducao assumidos pelos motoristas a partir de dados coletados por cameras montadas no carro. Ou compor novas musicas, ate atender ao gosto do fregues, ou mesmo detectar e corrigir erros gramaticais em textos.
+A dupla pretende a seguir integrar sua maquina de Boltzmann dinamica a tecnicas de aprendizagem por reforco para obter comportamentos otimizados de deteccao de anomalias e calculo de previsoes.
+Neuronio artificial conecta-se a celulas humanas
+O neuronio artificial interpreta sinais eletricos de outros neuronios e gera sinais quimicos compativeis com os neuronios humanos vivos. 
+Bioeletronica
+Um neuronio artificial totalmente funcional promete dar impulso ao campo da bioeletronica.
+O neuronio artificial nao contem nenhuma parte viva, mas e capaz de imitar o funcionamento das celulas nervosas humanas e comunicar-se de forma semelhante as sinapses.
+Ate agora, os neuronios e sinapses artificiais vinham sendo criados por memristores, componentes eletronicos que registram uma memoria das correntes eletricas que o atravessaram. Mais recentemente comecaram a surgir os transistores sinapticos.
+A equipe da professora Agneta Richter-Dahlfors, do Instituto Karolinksa, na Suecia, vem trabalhando em uma linha similar a esta ultima, usando transistores ionicos para controlar neuronios.
+O novo componente recebe sinais quimicos e gera sinais eletricos correspondentes, sinais estes que podem ser usados para acionar diretamente neuronios de verdade, abrindo caminho para a criacao de interfaces entre o eletronico e o biologico.
+Terapias neurologicas
+Nosso neuronio artificial e feito de polimeros condutores e funciona como um neuronio humano, explica a professora Agneta.
+Neuronio artificial conecta-se a celulas humanas
+O prototipo ainda e grande, e precisara ser miniaturizado. 
+O componente de sensoriamento do neuronio artificial detecta uma mudanca nos sinais quimicos em uma pipeta e traduz isto em um sinal eletrico. Este sinal eletrico e em seguida convertido na liberacao do neurotransmissor acetilcolina em uma segunda pipeta, cujo efeito sobre as celulas humanas vivas pode ser monitorado, adicionou.
+Como primeira linha de aplicacao, a equipe espera que o neuronio bioeletronico possa ser utilizado em terapias neurologicas de estimulacao eletrica.
+A seguir, nos queremos miniaturizar este dispositivo para permitir sua implantacao no corpo humano, prosseguiu Agneta. Prevemos que, no futuro, adicionando o conceito de comunicacao sem fio, o biossensor possa ser colocado em uma parte do corpo, e acionar a liberacao de neurotransmissores em locais distantes. Usando esse sensoriamento autorregulado, ou, eventualmente, um controle remoto, abrem-se oportunidades novas e excitantes para futuras pesquisas e tratamentos de disturbios neurologicos.
+incriveis e aterrorizantes avancos na inteligencia artificial
+Stephen Hawking, Bill Gates e Elon Musk tem algo em comum alem de riqueza e inteligencia. Eles estao todos aterrorizados com uma possivel revolucao das maquinas. Tambem conhecido como apocalipse da inteligencia artificial, este e um cenario hipotetico onde as maquinas artificialmente inteligentes se tornam a forma de vida ou nao vida dominante na Terra. Pode ser que os robos se rebelem e tornem-se nossos senhores, ou, pior, eles podem exterminar a humanidade e reivindicar a Terra para si mesmos.
+Mas este apocalipse das maquinas realmente pode acontecer no mundo real? O que levou pessoas respeitaveis e de renome mundial como Musk e Hawking a expressar sua preocupacao sobre este cenario hipotetico? Podem filmes de Hollywood, como O Exterminador do Futuro, estarem certos, afinal de contas? Vamos descobrir por que razao muitas pessoas importantes, mesmo os principais cientistas, estao preocupados com a evolucao da inteligencia artificial e por que isso poderia acontecer muito em breve.
+Eles estao aprendendo a enganar e trapacear
+Mentir e um comportamento universal. Os humanos fazem isso o tempo todo, e ate mesmo alguns animais, como esquilos e passaros, usam a mentira como recurso para a sobrevivencia. No entanto, mentir ja nao se limita aos seres humanos e animais. Pesquisadores do Georgia Institute of Technology desenvolveram robos artificialmente inteligentes capazes de trapacear. A equipe de pesquisa, liderada pelo professor Ronald Arkin, espera que os seus robos possam ser usados pelos militares no futuro.
+Uma vez aperfeicoados, os militares podem implantar esses robos inteligentes no campo de batalha. Eles podem servir como guardas, protegendo suprimentos e municao dos inimigos. Ao aprender a arte de mentir, estes robos podem ganhar tempo ate que os reforcos sejam capazes de chegar, mudando suas estrategias de patrulhamento para enganar outros robos inteligentes ou mesmo seres humanos.
+No entanto, o professor Arkin admite que existem preocupacoes eticas significativas a respeito de sua pesquisa. Se suas descobertas vazam para fora do ambiente militar e caem nas maos erradas, isso poderia significar uma catastrofe.
+Eles estao comecando a assumir nossos trabalhos
+Muitos de nos tem medo daqueles robos assassinos do cinema, mas os cientistas dizem que devemos estar mais preocupados com as menos terriveis, mas mesmo assim assustadoras, maquinas de eliminacao de nossos trabalhos. Varios especialistas estao preocupados que os avancos na inteligencia artificial e na automacao poderiam resultar em muitas pessoas perdendo seus empregos para robos. Nos Estados Unidos, 250.000 robos ja executam trabalhos que os humanos costumavam fazer. O que e mais alarmante e que este numero esta aumentando em dois digitos a cada ano.
+E nao sao so os trabalhadores que estao preocupados com maquinas que desempenham trabalhos humanos; especialistas em IA estao preocupados tambem. Andrew Ng, do Brain Project do Google e cientista-chefe da Baidu equivalente chinesa do Google, tem expressado preocupacoes sobre o perigo do avanco da inteligencia artificial. Robos inteligentes nos ameacam, segundo ele, porque sao capazes de fazer quase tudo melhor do que quase qualquer um.
+Instituicoes muito respeitadas tambem lancaram estudos que refletem essa preocupacao. Por exemplo, a Universidade de Oxford conduziu um estudo que sugere que nos proximos 20 anos, 35% dos postos de trabalho no Reino Unido serao substituidos por robos artificialmente inteligentes.
+Eles estao comecando a ficar mais inteligentes que hackers humanos
+Os filmes de Hollywood costumam retratar hackers como foras da lei sexys e legais. Na vida real, nao e bem assim. Hacking pode ser chato na vida real, mas, nas maos erradas, tambem pode ser muito perigoso. O que e mais perigoso e o fato de que os cientistas estao desenvolvendo sistemas de hacking com inteligencia artificial altamente inteligentes para lutar contra maus hackers.
+Em agosto de 2016, sete equipes estao definidas para competir no Cyber Grand Challenge da DARPA. O objetivo deste concurso e apresentar hackers robos superinteligentes, capazes de atacar as vulnerabilidades dos inimigos e, ao mesmo tempo, constatar e arrumar as suas proprias fraquezas, protegendo seu desempenho e funcionalidade.
+Embora os cientistas estejam desenvolvendo robos hackers para o bem comum, eles tambem reconhecem que, em maos erradas, os seus sistemas de hacking superinteligentes poderiam desencadear o caos e a destruicao. Basta imaginar o quao perigoso seria se uma inteligencia artificial tomasse o controle desses hackers autonomos inteligentes. Estariamos no minimo indefesos.
+Eles estao comecando a entender o nosso comportamento
+O Facebook e, inegavelmente, a mais influente e poderosa plataforma de midia social hoje. Para muitos de nos, tornou-se uma parte essencial da nossa rotina. Mas cada vez que usamos o Facebook, estamos interagindo, sem saber, com uma inteligencia artificial. Mark Zuckerberg ja explicou como o Facebook esta usando a inteligencia artificial para entender o nosso comportamento.
+Ao compreender como nos comportamos ou interagimos com as coisas no Facebook, a IA e capaz de fazer recomendacoes sobre coisas que poderiamos achar interessantes ou que serviriam as nossas preferencias. Zuckerberg tem um plano para desenvolver inteligencias artificiais ainda mais avancadas para serem usadas em outras areas, como a medicina. Por agora, a IA do Facebook so e capaz de reconhecer padroes e tem uma aprendizagem supervisionada, mas e previsivel que, com os recursos da rede social, os cientistas acabem chegando a IAs superinteligentes capazes de aprender novas habilidades e melhorar a si mesmas, algo que poderia ou melhorar as nossas vidas ou nos levar a extincao. A linha parece ser bem tenue.
+Eles vao em breve substituir nossos amantes
+Muitos filmes, como Ex-Machina e Ela, tem explorado a ideia de seres humanos se apaixonando e tendo relacoes sexuais com robos. Mas sera que isso poderia acontecer na vida real? A controversa resposta e sim, e isso vai acontecer em breve. O Dr. Ian Pearson, um futurologo, divulgou um relatorio chocante em 2015 que diz que o sexo humano com robos vai ser mais comum do que o ultrapassado sexo entre humanos em 2050. Pearson conduziu o relatorio em parceria com a Bondara, uma das lojas de brinquedos sexuais lideres do Reino Unido.
+O relatorio tambem inclui as seguintes previsoes em 2025, muitos ricos terao acesso a alguma forma de robos sexuais artificialmente inteligentes. Em 2030, as pessoas comuns vao se envolver em algum tipo de sexo virtual da mesma maneira como as pessoas casualmente assistem filmes porno hoje. Em 2035, muitas pessoas terao brinquedos sexuais que interagem com o sexo de realidade virtual. Finalmente, em 2050, o sexo humano com robos vai se tornar a norma.
+Claro, existem pessoas que sao contra os robos sexuais artificialmente inteligentes. Uma delas e a Dra. Kathleen Richardson, da Universidade de Montfort, no Reino Unido, especialista em etica na robotica. Ela acredita que os encontros sexuais com maquinas irao criar expectativas irreais e incentivar o comportamento misogino em relacao as mulheres. Nao e um cenario muito dificil de se imaginar.
+Eles estao comecando a ficar muito semelhantes aos humanos
+Ela pode parecer uma mulher comum, mas nao e. Yangyang e uma maquina de inteligencia artificial que vai cordialmente apertar sua mao e dar-lhe um abraco caloroso. Ela foi desenvolvida por Hiroshi Ishiguro, um especialista em robos japones, e Song Yang, professora de robotica chinesa. Yangyang teve sua aparencia baseada na professora Yang.
+Yangyang nao e o unico robo que se parece estranhamente como um ser humano. A Universidade Tecnologica Nanyang de Cingapura NTU tambem criou sua propria versao de robo humana. Ela se chama Nadine e esta trabalhando como recepcionista na NTU. Alem de ter um lindo cabelo moreno e pele macia, Nadine tambem pode sorrir, conhecer e cumprimentar as pessoas, apertar as maos e fazer contato visual. O que e ainda mais surpreendente e que ela pode reconhecer convidados e falar com eles com base em conversas anteriores. Assim como Yangyang, Nadine foi baseada em sua criadora, a professora Nadia Thalmann.
+Eles estao comecando a sentir emocoes
+O que separa os humanos dos robos? e a inteligencia? Nao, robos com inteligencia artificial sao muito mais inteligentes do que nos. e a aparencia? Nao, os cientistas desenvolveram robos que sao muito semelhantes aos seres humanos. Talvez a unica qualidade restante que nos diferencia das IAs e a capacidade de sentir emocoes. Infelizmente, muitos cientistas estao trabalhando com ardor para conquistar essa fronteira final.
+Especialistas do grupo East Asia da Microsoft criaram um programa software de inteligencia artificial que pode sentir as emocoes e falar com as pessoas de uma forma mais natural e humana. Chamado Xiaoice, esta IA responde a perguntas como uma menina de 17 anos de idade. Se ela nao sabe o tema, pode mentir. Se e pega, pode ficar com raiva ou vergonha. Xiaoice tambem pode ser sarcastica, malvada e impaciente, qualidades com as quais todos podemos nos relacionar.
+A imprevisibilidade de Xiaoice lhe permite interagir com as pessoas como se ela fosse um ser humano. Por agora, esta IA e uma novidade, uma forma do povo chines se divertir quando esta entediado ou solitario. Mas seus criadores estao trabalhando para aperfeicoa-la. Segundo a Microsoft, Xiaoice ja entrou em uma autoaprendizagem e em um loop de autocrescimento e so vai ficar melhor. Quem sabe, Xiaoice poderia ser a avo da Skynet.
+Eles vao invadir nossos cerebros
+Nao seria incrivel se pudessemos aprender frances em questao de minutos apenas simplesmente baixando o idioma em nossos cerebros? Essa facanha aparentemente impossivel pode acontecer no futuro proximo. Ray Kurzweil, futurista, inventor e diretor de engenharia do Google preve que ate 2030 nanobots implantados em nossos cerebros nos farao semelhantes a Deus. Robos minusculos dentro de nossas cabecas nos farao capazes de acessar e aprender qualquer informacao em questao de minutos. Poderiamos ser capazes de arquivar os nossos pensamentos e memorias, e seria possivel enviar e receber e-mails, fotos e videos diretamente em nossos cerebros
+Kurzweil, que esta envolvido com o desenvolvimento da inteligencia artificial no Google, acredita que atraves da implantacao de nanobots dentro de nossas cabecas, nos tornaremos mais humanos, mais originais e ate mesmo mais parecidos com deuses. Se usados corretamente, os nanobots podem fazer coisas incriveis, como o tratamento da epilepsia ou melhorar a nossa inteligencia e memoria, mas tambem existem perigos associados.
+Para comecar, nos nao entendemos claramente como o cerebro funciona, e ter nanobots implantados no seu interior e muito arriscado. Mas o mais importante de tudo e que, uma vez que estes nanobots nos conectariam a internet, uma IA poderosa poderia facilmente acessar nosso cerebro e nos transformar em zumbis sob seu controle, prontos para se rebelar ou destruir a humanidade.
+Eles estao comecando a ser usados como armas
+Em um esforco para garantir vantagem militar sobre a China e a Russia, o Pentagono propos um orcamento de 12 bilhoes a 15 bilhoes de dolares para o ano de 2017. Os militares dos EUA sabem que, a fim de permanecer a frente dos seus concorrentes, eles precisam explorar a inteligencia artificial. O Pentagono planeja utilizar os bilhoes que irao garantir do governo para desenvolver maquinas de aprendizagem profunda e robos autonomos ao lado de outras formas de novas tecnologias. Com isto em mente, nao seria surpreendente se, em poucos anos, os militares estejam usando robos assassinos com inteligencia artificial no campo de batalha.
+Usar IAs durante guerras poderia salvar milhares de vidas, mas armas de combate que podem pensar e operar por conta propria representam uma grande ameaca, tambem. Elas poderiam, potencialmente, matar nao so inimigos, mas tambem o pessoal militar e ate mesmo pessoas inocentes.
+Este e o perigo que 1.000 especialistas em inteligencia artificial e cientistas de renome querem evitar. Durante a Conferencia Conjunta Internacional sobre Inteligencia Artificial, realizada na Argentina em 2015, eles assinaram uma carta aberta que proibe o desenvolvimento de armas autonomas e com inteligencia artificial para fins militares. Infelizmente, nao ha muito que esta carta possa fazer. Estamos agora no inicio da terceira revolucao armamentistica, e quem vencer vai se tornar a nacao mais poderosa do mundo e talvez o grande catalisador da extincao humana.
+Eles estao comecando a aprender o que e certo e o que e errado
+Em uma tentativa de impedir a rebeliao das maquinas, os cientistas estao desenvolvendo novos metodos que permitam as maquinas discernir o certo do errado. Ao fazer isso, os especialistas esperam que elas vao se tornar mais compreensivas e humanas. Murray Shanahan, professor de robotica cognitiva do Imperial College de Londres, acredita que esta e a chave para prevenir maquinas de exterminar a humanidade.
+Liderados por Mark Riedl e Brent Harrison, da Faculdade de Computacao Interativa no Instituto de Tecnologia da Georgia, nos EUA, os investigadores estao tentando incutir a etica humana nas IAs atraves do uso de historias. Isto pode parecer simplista, mas faz muito sentido. Na vida real, nos ensinamos valores humanos para as criancas pela leitura de historias para elas. IAs sao como criancas. Elas realmente nao sabem diferenciar o certo do errado ou o bem do mal ate que sejam ensinadas.
+No entanto, tambem ha grande perigo em ensinar valores humanos aos robos artificialmente inteligentes. Se voce olhar para os anais da historia humana, voce vai descobrir que, apesar de serem ensinadas sobre o que e certo ou errado, as pessoas ainda sao capazes de produzir um mal inimaginavel. Basta olhar para Hitler, Stalin e Pol Pot. Se os seres humanos sao capazes de tanta maldade, o que impede uma poderosa IA de fazer o mesmo? Outro cenario possivel e que alguma IA entenda que nos estejamos fazendo mal uns aos outros e, portanto, precisamos ser controlados. Outra IA superinteligente pode perceber que os seres humanos fazem mal para o ambiente e, portanto, nossa existencia esteja na verdade sendo prejudicial e que nos nao devemos mais existir. 
+Robos poderao ganhar cerebros funcionais
+Cientistas do Instituto Politecnico e Universidade Estadual da Virginia, nos Estados Unidos, usaram um modelo matematico para demonstrar que as bacterias podem controlar o comportamento de um dispositivo inanimado como um robo.
+Basicamente, os pesquisadores estavam tentando descobrir, a partir de um modelo matematico, se seria possivel construir um microbioma, implanta-lo em um robo e controla-lo. A ideia e ousada ate na teoria. Mas, pasme tem tudo para funcionar.
+De acordo com Warren Ruder, professor assistente de Engenharia de Sistemas Biologicos, os estudos mostraram que os robos podem certamente ser capazes de ter um cerebro que funciona.
+Futuro
+Para as proximas experiencias, Ruder esta construindo robos reais que terao a capacidade de decodificar informacoes a niveis bacterianos, utilizando microscopios fluorescentes em miniatura. A expectativa e que os robos respondam as bacterias.
+Em uma escala mais ampla, compreender a deteccao de bioquimica entre organismos poderiam ter profundas implicacoes em areas como agricultura, biologia e obviamente na robotica.
+Implicacoes da nova inteligencia artificial
+Na agricultura, por exemplo, sistemas bacterias-robo poderiam permitir estudos que exploram as interacoes entre as bacterias do solo e da pecuaria.
+Na area da saude, uma maior compreensao do papel das bacterias no controle da fisiologia do intestino pode levar a prescricoes a base de bacterias para tratar doencas mentais e fisicas. Ruder tambem preve que os robos, se assim controlados, poderiam executar tarefas tais como a implantacao de bacterias para remediar derrames de petroleo.
+Os resultados tambem contribuem com a pesquisa sobre bacterias no corpo humano, que acreditamos que existem para regular a saude e o humor, e especialmente a teoria de que esses microrganismos tambem afetam o nosso comportamento.
+Inspiracao
+O estudo apesar de ser inicialmente baseado em um modelo matematico teorico foi inspirado em experiencias do mundo real, onde o comportamento de acasalamento das moscas de frutas foi manipulado por meio de bacterias, bem como o comportamento de ratos, que exibiam sinais de menor estresse quando tomavam probioticos.
+A abordagem de Ruder foi realmente surpreendente ao revelar um comportamento de tomada de decisao simulado por um modelo matematico computacional com equacoes que descrevem tres elementos distintos circuitos de genes modificados em bacterias E. coli, biorreatores e o movimento de robos. 
+Como a Inteligencia Artificial pode destruir a humanidade, de acordo com uns caras muito inteligentes
+Nas ultimas 24 horas, os cientistas vem fazendo fila para assinar esta carta aberta. Simplificando, a proposta pede que a humanidade dedique uma parte de sua incrivel pesquisa sobre Inteligencia Artificial para que ela seja devidamente alinhada com os interesses humanos. Em outras palavras, a ideia e tentar evitar a criacao de nosso proprio apocalipse mecanizado.
+Enquanto alguns cientistas podem nao dar a minima para esse assunto, a abundancia de especialistas e tecnicos como, por exemplo, caras como Stephen Hawking e Elon Musk, advertiram sobre os perigos que a Inteligencia Artificial poderia representar para o nosso futuro.
+Apesar de deixarem bem claro que, quando o assunto e inteligencia artificial, precisamos ter cautela, eles nao costumam ser precisos sobre o que exatamente temos que temer. Felizmente, outros caras tambem muito inteligentes estao preenchendo essas lacunas e nos deram cinco profecias sobre como a inteligencia artificial pode destruir a humanidade.
+As maquinas tomarao os nossos empregos
+De acordo com Stuart Armstrong, um filosofo e pesquisador do Future of Humanity Institute Instituto do Futuro da Humanidade, em traducao livre em Oxford, o primeiro impacto da tecnologia de Inteligencia Artificial esta perto de ser o desemprego total. E nao e muito dificil de imaginar por que. Voce poderia ter uma IA com inteligencia nivel humano, copia-la cem vezes e treina-la para exercer uma centena de profissoes diferentes, multiplicando-a em centenas de funcionarios exemplares. Pronto nasce um exercito de mao de obra muito mais barata e rentavel do que a humana.
+Os seres humanos vao ser a pedra no caminho
+Daniel Dewey, um pesquisador tambem do Future of Humanity Institute, defende que, quando e se os seres humanos se tornam obsoletos, vamos nos tornar um pouco mais do que as pedras nos sapatos metaforicos de um robo.
+A diferenca de inteligencia entre humanos e chimpanzes e pequena, disse Armstrong. Mas e nessa diferenca que reside o contraste entre 7 bilhoes de habitantes e um lugar permanente na lista de especies ameacadas de extincao. Isso nos diz que e possivel que uma relativamente pequena vantagem em materia de inteligencia pode aumentar a diferenca entre seres humanos e maquinas rapidamente.
+O problema basico e que a forte realizacao da maior parte das motivacoes e incompativel com a existencia humana, Dewey completa. Uma inteligencia artificial pode querer fazer certas coisas, a fim de alcancar um objetivo. Coisas como a construcao de computadores gigantes, ou outros projetos de engenharia em grande escala. Essas coisas podem envolver etapas intermediarias, como recuperar a terra para fazer enormes paineis solares. Uma superinteligencia poderia nao ter os nossos interesses em considerar essas situacoes, assim como nos nao temos a menor consideracao com sistemas de raizes ou colonias de formigas quando vamos iniciar a construcao de um edificio.
+E tem outra coisa muito significativa a felicidade. Uma inteligencia artificial pode pensar que a felicidade humana e um fenomeno bioquimico e concluir que inundar a sua corrente sanguinea com doses nao letais de heroina seja a melhor maneira de maximizar a sua felicidade.
+sistemas estes que podem tomar a decisao de se envolver em embates militares sem intervencao humana precisamente porque a atual IA que temos nao e muito boa e pode facilmente forcar situacoes com consequencias potencialmente aterrorizantes, defende o Professor Bishop.
+Por isso, e facil concordar que inteligencia artificial pode representar uma ameaca existencial muito real para a humanidade, mesmo que nunca alcance um nivel de inteligencia sobre-humana.
+Se voce ainda nao esta convencido dessa ameaca aterrorizante, siga para o proximo item.
+Sindrome de Wall-E
+Outra possibilidade que os caras muito inteligentes tem levantado e que a IA pode significar o fim do mundo antes da hora. Ate la, nos vamos ser muito incompetentes para sobreviver ate mesmo para tentar desligar toda essa tecnologia.
+Bill Joy, cofundador e cientista-chefe da Sun Microsystems, escreveu na revista Wired que o que a comunidade cientifica sugere e que a raca humana pode facilmente ficar tao dependente das maquinas que nao teria escolha pratica, a nao ser aceitar todas as decisoes das maquinas. Como a sociedade e os problemas que enfrentamos tem a tendencia de se tornarem cada vez mais complexos e as maquinas se tornam mais e mais inteligentes, as pessoas vao deixar as maquinas tomarem mais de suas decisoes por elas mesmas, simplesmente porque as decisoes tomadas pelas maquinas vao trazer melhores resultados do que aquelas tomadas pelos seres humanos.
+Eventualmente, ele tambem defende, um estagio pode ser alcancado em que as decisoes necessarias para manter o sistema em funcionamento serao tao complexas que os seres humanos serao incapazes de toma-las de forma inteligente. Nessa fase, as maquinas estarao no controle de vez. As pessoas nao vao ser capazes de simplesmente desligar as maquinas, porque vamos ser tao dependentes que desliga-las equivaleria ao suicidio.
+Os robos vao nos comer
+Ha algo chamado de cenario grey goo que postula que, se os robos comecarem a se reproduzir perpetuamente, vamos essencialmente ser esmagados por uma expansao da populacao de IA. Se eles precisarem de seres humanos para alimentar sua massa fora de controle, estaremos basicamente ferrados.
+Se as maquinas de nanotecnologia, por exemplo, que podem ser cem mil vezes menores que o diametro de um cabelo humano, descobrirem como se replicar de forma espontanea, isso naturalmente teria consequencias terriveis para a humanidade. Especialmente se a pesquisa financiada pelo Departamento de Defesa dos Estados Unidos ficasse fora de controle, cujos pesquisadores estao tentando criar um nano robo para consumir os detritos de campos de batalha, isso poderia incluir cadaveres humanos.
+Se o produto da nanotecnologia desenvolver um apetite por carne humana, ou algumas das outras coisas das quais dependemos para sobreviver, como florestas ou maquinas, poderia dizimar tudo no planeta em questao de dias.
+Assustador, nao? Nao sei voce, mas eu assinaria essa carta tambem. Tranquilamente.
+O sonho da casa smart que se controla sozinha esta virando realidade
+magine que o despertador toca em uma tipica manha de segunda-feira, so que desta vez as cortinas se abrem sozinhas, as luzes do banheiro ligam automaticamente e voce sente o cheiro de cafe fresco vindo da cozinha.
+Ou um forno que se liga e comeca a aquecer uma lasanha quando voce esta 15 minutos longe de casa, bem a tempo de ser servida conforme voce entra pela porta. Inclua a diarista robotica multiuso dos Jetsons, e voce tera a casa perfeita.
+O futuro smart chegou
+Durante anos, as empresas de tecnologia divulgaram o potencial de uma casa inteligente, mas nos ultimos dois anos, as principais companhias comecaram a investir pesadamente no desenvolvimento desta maravilha.
+A gigante sul-coreana Samsung acredita que o momento finalmente chegou para uma casa esperta o suficiente para que eletrodomesticos simplesmente se autoexecutem e se comuniquem uns com os outros na chamada Internet das Coisas IoT, na sigla em ingles.
+Na IFA Consumer Electronics Show, realizada em Berlim recentemente, o executivo-chefe da Samsung Electronics, WP Hong, afirmou Isto nao e uma tendencia. e todo o coracao da revolucao industrial de hoje. Em 2020, todos os dispositivos fabricados pela Samsung terao IoT habilitada, prometeu.
+A gigante dos eletronicos, que faz aparelhos de grandes dimensoes como maquinas de lavar roupa e aparelhos de ar condicionado ate eletronicos portateis, como smartphones, lancou no dia 3 de setembro uma linha de novos dispositivos chamados Smart Things Coisas Inteligentes, incluindo um pequeno hub que coordena outros aparelhos.
+A empresa tambem apresentou um aplicativo de smartphone que funciona como um controle para os aparelhos, enquanto sensores de movimento e tomadas sao dispositivos complementares para adicionar ao sistema.
+Rotinas diarias, como o que determinados aparelhos devem fazer na parte da manha ou a noite, podem ser programadas no aplicativo, com o hub atuando como um coordenador da casa. Alternativamente, o dono da casa pode controlar equipamentos especificos atraves de um toque no app.
+Coisas Inteligentes
+O sistema Smart Things e basicamente a utilizacao de uma aquisicao de um start-up homonimo que a Samsung comprou por 200 milhoes de dolares no ano passado. Ele vai competir com o HomeKit da Apple, que foi anunciado em junho do ano passado pela gigante norte-americana e que controla os aparelhos compativeis com seus produtos, enquanto o Google pagou 3,2 bilhoes de dolares para comprar a Nest Labs, especializada em alarmes de incendio inteligentes e termostatos.
+A Samsung disse que sua plataforma sera aberta e, portanto, compativel com outras marcas. Eles tambem tiveram o cuidado de citar varias empresas com as quais fizeram parcerias, incluindo a Bose, fabricante de alto-falantes, e a fabricante de lampadas Osram, permitindo que esses itens tambem possam trabalhar com o seu hub.
+Ao mesmo tempo, eles tambem lancaram outros dispositivos complementares, incluindo um monitor chamado de SmartHome, que fica de olho na casa, alertando os proprietarios sobre quaisquer problemas, desde um vazamento no banheiro ate intrusos no jardim.
+Outro dispositivo, o Sleepsense, um disco branco liso que e colocado sob o colchao, monitora sua taxa de respiracao e as batidas do coracao na hora de dormir, e define a temperatura para o aquecedor ou o ar-condicionado, criando o melhor ambiente para o sono.
+A geladeira que tira selfies
+Outros fabricantes de eletrodomesticos tambem estao divulgando seus conceitos de SmartHome na mostra deste ano.
+A gigante eletronica alema Siemens, por exemplo, apresentou o que descrevem como sua gama completa de eletrodomesticos conectados, controlados atraves de um aplicativo.
+Entre estes aparelhos esta uma geladeira que e capaz de tirar uma selfie do seu conteudo, permitindo que o proprietario veja o que precisa de reposicao.
+Estes bizarros moveis roboticos se rearranjam de acordo com a sua necessidade
+Criada no inicio dos anos 1960, a serie de desenhos animados Os Jetsons retratava uma familia do futuro, que convivia naturalmente com uma empregada robo e hologramas por todos os lados. Mesmo ja tendo mais de 50 anos de idade, o desenho continua assustadoramente atual, ja que a maioria dos dispositivos retratados ainda fazem parte de um futuro distante.
+Porem, um grupo de cientistas suicos pode ter encontrado uma forma de nos aproximar um pouco mais desta realidade. Eles criaram blocos roboticos que poderiam unir-se para formar moveis com a habilidade de se movimentar pela casa. Chamados de roombots, estes mecanismos se encaixam como pecas de Lego em formatos diversos.
+A ideia de moveis ambulantes pode ser um pouco esquisita a principio, mas os pesquisadores preveem que eles sejam utilizados para prestar assistencia a pessoas idosas ou com deficiencia.
+Massimo Vespignani, engenheiro da ecole Polytechnique Federale de Lausanne, na Suica, e coautor do estudo que sera publicado na edicao de julho da revista Robotics and Autonomous Systems e seus colegas acreditam que a invencao poderia, por exemplo, servir como um banco que acompanharia o idoso pela casa caso ele precise sentar-se de repente.
+Blocos em movimento
+Cada roombot e uma unidade completamente independente um bloco de 22 centimetros de comprimento, que se assemelha a dois dados unidos. Com uma bateria e tres pequenos motores, pode se mover em tres dimensoes diferentes. Alem disso, o roombot tambem tem um conjunto de garras retrateis para que ele possa se ligar a outros bots para criar estruturas maiores, ou anexar-se a conectores que existam no ambiente.
+Os blocos podem operar em um destes dois modos mover-se ao longo de uma rede de faixas no chao ou na parede e conectar-se a outros blocos; ou desconectar-se da rede, movendo-se livremente pelo comodo. Eles foram concebidos para serem capazes de interagir nao so entre si, mas tambem com o mobiliario existente.
+Os pesquisadores agora estao experimentando diferentes formas de controlar os dispositivos, usando tablets ou reconhecimento de fala e gestos.
+Moveis do futuro?
+Os robos sao ainda apenas um prototipo e a estimativa e que estejam disponiveis dentro de 20 anos. Da forma como estao, os prototipos sao limitados porque nao tem torque suficiente para suportar o peso de uma pessoa, e as baterias de cada modulo so duram uma hora ainda que este ultimo seja um problema que deve ser superado em breve.
+O Robo Barista
+Essa e especial para os bebedores de cafe. Ja ha algum tempo, cafes de todo o mundo comecaram com uma onda de dar um toque especial aos seus produtos, fazendo uma serie de imagens na espuma. Mas a gente tem que concordar que tanto a materia prima que nesse caso e espuma de cafe quanto a mao de obra tem limitacoes obvias.
+Os baristas mais caprichosos do planeta podem fazer um trabalho incrivel com imagens como coracoes, folhas, sorrisos e etc mas nao podem ir muito alem disso. E e ai que o Robo Barista entra. Ele nao apenas pode criar imagens diferentes, como pode imprimir o rosto do cliente na espuma do cafe, levando o conceito de personalizacao a todo um novo, e muito mais alto, nivel. 
+Robos com Inteligencia Artificial
+Uma nova modalidade de comunicacao esta se tornando realidade dentro da Internet. A conversa entre seres humanos e robos virtuais ja e possivel atraves dos recursos da Inteligencia Artificial. Programados para conversar sobre os mais diversos assuntos, esses robos, tambem conhecidos como chatterbots chat=conversa, bot=robo feito de software, sao na verdade sofisticados programas de computador que conseguem entender e responder coerentemente as frases e perguntas dos usuarios como se fossem pessoas em uma sala de bate-papo.
+Durante milhoes de anos de evolucao do cerebro humano, a capacidade de comunicacao social atraves da linguagem foi bastante aprimorada e esta e uma caracteristica geralmente nao encontrada em maquinas ou computadores. A interface ideal de comunicacao entre homem e maquina deveria ser similar a forma de comunicacao entre seres humanos, ou seja, atraves da linguagem natural. A tecnologia ja esta evoluindo para que logo possamos dizer Computador, copie para o disquete o texto que acabei de salvar.
+Mas podem as maquinas pensar? Esta e a famosa pergunta feita em 1950 por Alan Turing, um dos pais da computacao moderna. Turing acreditava que a propria pergunta pode levar a novas definicoes das palavras maquina e pensar, propondo tambem novas definicoes de inteligencia. Ele propos um experimento chamado Teste de Turing onde uma pessoa conversaria escrevendo atraves de dois terminais com um computador e com um outro humano. Caso esta pessoa nao conseguisse, depois de alguns minutos, descobrir qual dos dois interlocutores era a maquina e qual era o humano, entao a maquina do outro lado poderia ser considerada como sendo inteligente.
+O primeiro experimento feito para tentar realizar o Teste de Turing foi chamado de Eliza, um programa criado em 1966 pelo pesquisador Joseph Weizenbaum, do MIT, que simulava uma psicologa virtual usando trechos das frases dos usuarios para compor as respostas e estimulava o paciente a se aprofundar cada vez mais nos detalhes dos seus problemas.
+Hoje em dia os robos evoluiram e conseguem ter recursos como memoria, manter contexto durante a conversa, buscar respostas em diversas bases de dados, compreender girias e abreviacoes, responder em diversos idiomas e ate ficar horas conversando sem repetir as respostas, com dezenas ou centenas de usuarios ao mesmo tempo.
+Ainda existem muitas limitacoes nas questoes relacionadas a Inteligencia Artificial. Uma das limitacoes e o proprio desconhecimento que temos sobre os mecanismos da inteligencia natural humana, seja dos processos cerebrais ou dos processos mentais e da consciencia. a medida que descobrimos mais sobre os mecanismos humanos de inteligencia, mais conseguimos simular e reproduzir seu funcionamento nos computadores. Ainda nao se sabe quais sao os limites dessa capacidade de simulacao, pois o cerebro possui estruturas completamente diferentes e de complexidade muito maior do que os computadores atuais. A maior limitacao atual da Inteligencia Artificial e nao conseguir realizar tarefas que nao podem ser expressas por modelos matematicos ou logicos, como tarefas que requerem intuicao ou capacidade de relacionar informacoes aparentemente sem conexao.
+Um dos desafios e fazer com que o computador, que e uma maquina que geralmente entende somente a comandos especificos, possa realmente entender e responder a frases no nosso idioma. E existe o problema que a linguagem humana nao e exata como a linguagem da maquina. Por exemplo as perguntas Qual e o seu nome? ou Como voce se chama? sao sintaticamente distintas mas possuem o significado identico. Este e um dos problemas da linguistica computacional e para resolve-lo foi preciso criar um processador sintatico que trata da sintaxe das palavras e um analisador semantico que trata do significado da frase.
+Atraves de uma tecnica conhecida como Processamento de Linguagem Natural, aliada a uma gigantesca base de conhecimento sobre assuntos do mundo real, os chatterbots atuais podem ser utilizados para entretenimento, suporte online, portais corporativos, jogos, projetos educacionais, culturais, treinamentos, call centers e auxilio no ensino a distancia. A aplicacao depende apenas do conteudo criado por redatores e programadores que ensinam o personagem formando a base de conhecimento.
+Baixo custo com atendentes reais, permitindo que estes possam se concentrar em tarefas mais produtivas;
+Facilidade para os visitantes de um site encontrarem informacoes basta perguntar, ao inves de precisar navegar por todo o site e ler grandes quantidades de texto;
+A navegacao torna-se mais excitante, estimulando os visitantes a conhecerem melhor outras areas do site. Ao tornar a informacao mais amigavel e acessivel, proporciona mais conforto ao internauta.
+Resultado de 10 anos de desenvolvimento, a empresa brasileira Insite desenvolveu o programa InBot, que e um dos mais sofisticados para construir atendentes virtuais e ja foi utilizado por empresas como Petrobras, TIM e Unilever para criar personagens que conversam atraves da Internet. Um dos casos de maior sucesso atualmente e o robo chamado Ed, do Conpet, o programa nacional da racionalizacao do uso dos derivados do petroleo e do gas natural, ligado a Petrobras e ao Ministerio de Minas e Energia. Ele foi desenvolvido para conversar sobre assuntos ligados ao meio ambiente, uso racional de energia, derivados de petroleo, gas natural, dicas de economia, qualidade do ar, biocombustiveis, programas educacionais e fontes alternativas de energia.
+Ed Ola, eu sou Ed, o robo. Minha missao e ajudar na preservacao de energia e de outros recursos naturais. Sobre o que voce quer conversar?
+Usuario O que voce faz? 
+Ed O que faco? Leio muito, estudo bastante e converso mais ainda. Trabalho aqui no Conpet e estou sempre pronto para conversar sobre o que voce quiser.
+Usuario Como posso economizar energia em casa? 
+Ed Voce pode economizar energia de varias maneiras, tomando banhos menos demorados, desligando a TV quando ninguem estiver assistindo, apagando as luzes quando as pessoas sairem dos ambientes, fechando a porta da geladeira apos pegar alguma coisa nela, as lampadas incandescentes devem ser substituidas por lampadas fluorescentes ou compactas.
+Usuario Quais sao as principais fontes alternativas de energia?
+Ed Energias alternativas, que tem baixo custo ambiental, como a energia solar, a energia eolica dos ventos e a produzida por oleos vegetais biodiesel e biomassa, por exemplo.
+Usuario Mas, o que e a biomassa?
+Ed Biomassas sao materias de origem vegetal ou animal que podem ser aproveitadas como fonte de producao de calor ou eletricidade, tal como cana-de-acucar, oleos vegetais, madeira, dejetos organicos ou residuos das industrias agricola e alimenticia.
+Usuario Obrigado. Ate logo, vou indo
+Ed De nada, as ordens Mas volte logo, pois adorei conversar com voce
+O Ed e um personagem que foi concebido para compreender e responder a mais de 20.000 tipos de frases e assuntos diferentes, tendo o seu conteudo alimentado por professores de robos, uma equipe formada por programadores, jornalistas, redatores e uma psicologa. A equipe tambem analisa as conversas dos usuarios para inserir novas informacoes e aperfeicoar constantemente as respostas, tentando sempre manter as conversas agradaveis, bem humoradas e informativas. O robo Ed conversa atualmente com mais de 8000 pessoas por mes, e chega a responder mais de frases em um unico dia.
+No futuro proximo, esses robos poderao conversar nao somente atraves de texto mas tambem com reconhecimento de voz serao capazes de ouvir e sintese de voz serao capazes de falar e as pessoas poderao ter assistentes pessoais virtuais inteligentes para ajudar nas atividades diarias.
+Cientistas do Japao criaram uma mistura a base de agua que muda de cor rapidamente quando exposta a estimulos variados, como mudanca no campo magnetico, temperatura ou pH. Ela foi batizada de agua fotonica, e pode apresentar cores no espectro visivel e tambem cores nas regioes ultravioleta e infravermelho. Este alcance de cores e o mais amplo ja registrado em qualquer material, seja ele solido ou liquido.
+Um trabalho sobre a substancia foi publicado na regista Nature Communications. Nossa agua fotonica tem duas qualidades contraditorias: fluidez e organizacao, explicou o pesquisador principal, Koki Sano, ao site Phys.org. Ele conta que os pesquisadores normalmente imaginam materiais duros quando pensam em substancias fotonicas.
+A substancia foi descoberta por acidente quanto a equipe tentava separar algumas particulas baseada em seus tamanhos. Os experimentos originais nao deram certo, mas os pesquisadores ficaram surpresos ao descobrir que quando colocavam uma das substancias na agua, a agua ficava roxo escuro.
+pessoas por mes, e chega a responder mais de frases em um unico dia.
+No futuro proximo, esses robos poderao conversar nao somente atraves de texto mas tambem com reconhecimento de voz serao capazes de ouvir e sintese de voz serao capazes de falar e as pessoas poderao ter assistentes pessoais virtuais inteligentes para ajudar nas atividades diarias.
+Cientistas do Japao criaram uma mistura a base de agua que muda de cor rapidamente quando exposta a estimulos variados, como mudanca no campo magnetico, temperatura ou pH. Ela foi batizada de agua fotonica, e pode apresentar cores no espectro visivel e tambem cores nas regioes ultravioleta e infravermelho. Este alcance de cores e o mais amplo ja registrado em qualquer material, seja ele solido ou liquido.
+Um trabalho sobre a substancia foi publicado na regista Nature Communications. Nossa agua fotonica tem duas qualidades contraditorias: fluidez e organizacao, explicou o pesquisador principal, Koki Sano, ao site. Ele conta que os pesquisadores normalmente imaginam materiais duros quando pensam em Ao investigar mais a substancia, eles descobriram que a mistura colorida tinha fluidez e ordem, o que parece muito contraditorio, ja que fluidos normalmente sao muito desorganizados. O nivel de organizacao dessa substancia era equivalente a estrutura de cristais.
+Composicao
+Como o nome sugere, a agua fotonica e em sua maioria agua. Alem disso, contem nanofolhas de titanato e amonio quaternario. Quando misturados com agua, esses ingredientes nao dissolvem como sal ou acucar, mas ficam intactos como areia em um copo d’agua. As particulas nao soluveis sao chamadas de coloides, e quando misturados com a agua formam o que e chamado de dispersao coloide.
+Cores diferentes
+Os pesquisadores descobriram que a cor da agua pode mudar de forma reversivel quando exposta a um campo magnetico forte. Ele faz com que as nanofolhas se alinhem perpendicularmente. De forma similar, o aquecimento e resfriamento da agua muda a distancia entre elas, e tambem a cor. Mesmo pequenas mudancas de pH fazem a cor mudar de vermelho para verde para azul pela alteracao da repulsao eletrostatica e por consequencia a estrutura e cor da agua.
+Para que serve?
+Em geral, materiais fotonicos que refletem luz no alcance infravermelho tem importante aplicacoes no campo da telecomunicacao. O problema e que esses materias tradicionais sao caros. A agua fotonica tem uso potencial nesta area e em outras.
+Levando em consideracao a resposta a estimulos e grande variedade de cores, nossa agua fotonica pode ter varias funcoes como dispositivo otico inteligente, como sensores oticos e displays e filtros para a telecomunicacao, diz Ishida.
+Os pesquisadores esperam que os resultados possam ser vistos tambem em objetos solidos. Esse material pode trazer novas perspectivas para o campo tradicional de ciencia coloidal.
+Microsoft quer resolver o cancer em 10 anos usando inteligencia artificial para reprogramar celulas doentes
+Uma equipe de cientistas da computacao, programadores, engenheiros e outros especialistas estao trabalhando nos laboratorios da Microsoft para investigar um virus que infecta uma rede complexa: o cancer.
+Especificamente, a equipe quer encontrar maneiras melhores de diagnosticar e tratar a doenca.
+Eu acho que e muito natural para a Microsoft pesquisar isso, porque temos uma enorme experiencia em ciencia da computacao e o que esta acontecendo no cancer e um problema computacional, afirma Chris Bishop, diretor do laboratorio da Microsoft Research.
+Computador vivo
+A principal meta do projeto e desenvolver uma tecnologia que permitiria que os cientistas reprogramassem celulas para combater condicoes como o cancer.
+Os pesquisadores estao trabalhando na criacao de um computador feito de DNA que poderia viver dentro de celulas humanas e detectar doencas.
+Se celulas potencialmente cancerigenas sao encontradas por este computador, ele entao reinicia o sistema, por assim dizer, para limpa-lo das celulas doentes.
+Meta ambiciosa
+A Microsoft qualifica este projeto como um moonshot, ou seja, um projeto ambicioso, exploratorio e inovador que nao se sabe se vai dar certo. Mas os pesquisadores estao confiantes.
+e a longo prazo, mas acho que sera tecnicamente possivel, dentro de cinco a dez anos, criar um sistema molecular inteligente que pode detectar a doenca, disse Andrew Philips, chefe do grupo de computacao biologica da Microsoft.
+O pessoal da Microsoft Research ja desenvolveu um software capaz de imitar o comportamento de uma celula saudavel. Isto pode ser usado em conjunto com o comportamento de uma celula doente para entender melhor como ela adoeceu e como pode ser reparada.
+Outros objetivos
+Alem do projeto de reprogramacao celular, os laboratorios da Microsoft estao trabalhando em tres outros projetos relacionados com o cancer:
+Uma tecnologia que melhora a digitalizacao utilizando aprendizado de maquina e visao por computador, para um melhor acompanhamento do tumor;
+Um sistema que permite uma melhor organizacao dos registros de dados dos pacientes para um melhor tratamento personalizado do cancer, semelhante ao projeto Watson Oncologia da IBM, utilizando aprendizado de maquina e processamento de linguagem natural;
+E poderosos algoritmos para compreender melhor o desenvolvimento do cancer e que tratamentos podem melhor lutar contra ele. 
+Nanorobos de DNA cacam e destroem celulas cancerosas
+Novos nanorobos, feitos de DNA, podem transportas uma carga mortal precisa a celulas cancerosas.
+Os pequenos robos trazem mais esperanca para o tao esperado sonho da nanotecnologia, da robotica em miniatura que possa matar as celulas de doencas, uma por uma.
+As pessoas ja sabem do uso de anticorpos para matar celulas, afirma Shawn Douglas, do Instituto Medico de Harvard, que desenvolve materiais e equipamentos medicos inspirados na biologia. A selecao dos alvos, isso e a novidade.
+Douglas e o colega Ido Bachelet, pesquisador genetico, fizeram os novos nanorobos de DNA em Harvard, com o professor de genetica, George M. Church, conhecido por ajudar a lancar o projeto Genoma.
+No comeco, Bachelet e Douglas imaginaram se poderiam combinar seus respectivos conhecimentos em imunologia e construcao de nanoestruturas para construir um robo que imitaria o sistema imunologico do corpo. Ele reconheceria as celulas infectadas e apertaria seus botoes de autodestruicao.
+Entre as invencoes antigas estao um cubo em nanoescala com uma tampa, lancado em 2009, que se montava em um processo chamado de origami de DNA. Quando voce adicionava fitas de DNA, o cubo se abria. Mas Douglas percebeu que fazer com que a invencao chegasse ate as celulas certas seria muito complicado, assim como criar os mecanismos necessarios para entrar e reprogramar as celulas ruins.
+Entao Bachelet sugeriu que eles nao precisavam reprogramar nada. So precisavam fazer com que a estrutura conseguisse levar os anticorpos certos para a superficie celular com uma mensagem: pare de se dividir.
+O nanorobo e construido com DNA, em um formato de concha pequena. Ele e desenvolvida para reconhecer certos tipos de celulas cancerosas. Quando encontra uma, o robo se abre e expoe a carga de anticorpos.
+Apesar dos robos funcionarem em experimentos, eles precisam ser desenvolvidos para viajar atraves da corrente sanguinea. Modificacoes sao necessarias para prevenir que a particula seja destruida pelos rins ou figado antes de ter a chance de atuar.
+Meu sonho e que um desses dispositivos consiga passar pelos testes clinicos e se torne uma terapia real para algum tipo de cancer, afirma Douglas.
+Kurt Gothelf foi um dos que desenvolveu o cubo de DNA, em 2009. Isso e uma das coisas que precisamos nesse campo cientifico, algo realmente util, comenta. Apesar do nanocubo nao estar curando canceres, ele e um importante marco nesse caminho.
+As pessoas tem falado muito sobre robos que entram no corpo, vao ate um local com algo errado e o curam, comenta Gothelf. Isso e o primeiro exemplo de que isso pode se tornar real, um dia.
+No laboratorio, o nanorobo conseguiu, com sucesso, quebrar celulas de linfoma e leucemia, deixando as celulas boas vivas. Fazer apenas uma dessas acoes exige 100 bilhoes de copias do robo. Para comecar a testar com animais, os pesquisadores de Harvard vao ter que criar um metodo para chegar aos trilhoes.
+Fisicos de todo o mundo tem competido para construir uma maquina de fusao nuclear que possa replicar o processo de fusao do atomo que tem alimentado o nosso Sol durante os ultimos 4,5 bilhoes de anos, em uma tentativa de fornecer para a humanidade uma energia limpa, segura e praticamente ilimitada.
+Agora, o governo dos Estados Unidos acaba de apoiar planos para fisicos construirem um novo tipo de dispositivo de fusao nuclear que poderia ser o projeto mais viavel e eficiente para isso.
+Energia infinita
+A fissao nuclear que e o que nossas instalacoes nucleares atuais fazem gera energia atraves da divisao do nucleo de um atomo em neutrons e em nucleos menores.
+Energia da FUSaO NUCLEAR finalmente e alcancada
+Enquanto este processo e bastante eficiente a quantidade de energia que ele libera e milhoes de vezes mais eficiente por massa do que os processos baseados no carvao ele exige uma gestao extremamente cara de residuos radioativos perigosos.
+A fusao nuclear, por outro lado, nao produz residuos radioativos ou outros subprodutos indesejados. Ela gera enormes quantidades de energia quando os nucleos de dois ou mais atomos leves sao fundidos em um nucleo mais pesado em incrivelmente altas temperaturas, e e tao eficiente que vem alimentando o nosso Sol durante os ultimos bilhoes de anos.
+Se pudermos essencialmente miniaturizar este processo, e construir maquinas que possam sustentar a fusao nuclear em uma escala menor, a humanidade garantiria as suas necessidades de energia durante o tempo que existirmos. Mas os fisicos tem tentado construir dispositivos de fusao nuclear comercialmente viaveis ha mais de anos, e, como era de se esperar, a tentativa de colocar uma estrela em um frasco e tao dificil quanto parece.
+Estrela no frasco
+O maior desafio e que as maquinas de fusao nuclear requerem temperaturas muito mais elevadas do que as instalacoes de fissao. Enquanto a fissao nuclear requer que as coisas sejam aquecidas a apenas algumas centenas de graus Celsius, maquinas de fusao nuclear tem que recriar as condicoes no Sol, entao estamos falando de varios milhoes de graus.
+E uma vez que as maquinas de fusao nuclear comecam basicamente as suas reacoes a partir do zero, primeiro precisamos conseguir temperaturas muito mais quentes do que as estimadas no centro do Sol pelo menos 100 milhoes de graus Celsius.
+Ate agora, o mais proximo que alguem chegou do sonho da energia ilimitada foi uma equipe de fisicos do Wendelstein 7-X stellarator, em Greifswald, na Alemanha, e pesquisadores da Experimental Advanced Superconducting Tokamak EAST, na China ambos os quais tentando conter o plasma superaquecido que resulta da reacao de fusao.
+Alemanha liga uma maquina revolucionaria de fusao nuclear
+Durante o processo de fusao nuclear, os eletrons dos atomos sao separados de seus nucleos, criando assim uma nuvem super quente de eletrons e ions nucleos menos seus eletrons, conhecida como plasma, explica Daniel Oberhaus, do site Motherboard.
+O problema com este plasma rico em energia e descobrir como conte-lo, uma vez que ele existe a temperaturas extremamente altas ate 150 milhoes de graus Celsius, ou 10 vezes a temperatura no nucleo do Sol. Qualquer material que voce possa encontrar na Terra nao vai ser um recipiente bom o suficiente.
+Avancos
+Para dar uma ideia de como isso e dificil, no inicio deste ano, a maquina de fusao nuclear alema conseguiu aquecer o gas de hidrogenio ate 80 milhoes de graus Celsius e sustentar uma nuvem de plasma de hidrogenio por um quarto de segundo. Pode parecer muito pouco, mas isso foi saudado como um marco enorme.
+Os responsaveis pelo experimento chines anunciaram em fevereiro que haviam batido esta marca e produzido plasma de hidrogenio a 49.999 milhoes de graus Celsius, e o mantiveram por 102 segundos.
+Ate agora, nenhuma maquina foi capaz de provar que poderia produzir uma quantidade sustentada de energia atraves da fusao nuclear apenas que poderia deixar os materiais quentes o suficiente para iniciar o processo.
+Mas agora fisicos do Departamento de Energia dos EUA no Princeton Plasma Physics Laboratory PPPL acreditam que encontraram uma maneira melhor.
+Se a maquina de fusao nuclear e basicamente como tentar colocar uma estrela em um frasco, a equipe do PPPL quer redesenhar o frasco, utilizando materiais melhores e de uma forma mais intuitiva.
+Novo formato
+Enquanto maquinas de fusao nuclear tradicionais chamadas tokamaks usam campos magneticos para conter plasma superaquecido em um dispositivo em forma de anel, os fisicos norte-americanos querem construir mais tokamaks esfericos compactos, em uma forma mais parecida com uma maca sem sementes.
+Segundo a equipe, o desenho esferico pode reduzir pela metade o tamanho do furo do formato de anel, permitindo que o plasma seja controlado com campos magneticos de energia muito menor.
+O orificio menor tambem poderia permitir a producao de tritio um isotopo raro de hidrogenio que pode fundir-se com outro isotopo de hidrogenio, chamado de deuterio, para produzir reacoes de fusao.
+A equipe tambem quer substituir os enormes imas de cobre em projetos tokamak tradicionais por magnetos supercondutores de alta temperatura que sao muito mais eficientes, porque a eletricidade pode fluir atraves deles com resistencia zero.
+Reator de fusao da Alemanha cria plasma de hidrogenio pela primeira vez na historia
+Felizmente, eles nao vao comecar seus projetos a partir do zero. Eles estarao aplicando seus projetos para dois tokamaks esfericos existentes o Mega Ampere Spherical Tokamak MAST, do Reino Unido, que esta em fase final de construcao, e o National Spherical Torus Experiment Upgrade NSTX-U, do proprio PPPL, que foi colocado no ar no ano passado.
+Estamos abrindo novas opcoes para as plantas futuras, diz Jonathan Menard, um dos pesquisadores por tras do estudo e diretor do programa NSTX-U. Estas instalacoes vao empurrar a fronteira fisica, expandir o nosso conhecimento de plasmas de alta temperatura, e, se bem sucedidas, estabelecer a base cientifica para os caminhos de desenvolvimento da fusao com base em designs mais compactos, acrescenta o diretor do PPPL, Stewart Prager.
+No inicio do ano, o diretor do FBI James Comey foi alvo de polemica quando admitiu que ele proprio usa adesivos para tampar a webcam de seu laptop pessoal.
+Enquanto alguns acharam ironico que o lider da agencia de inteligencia mais desenvolvida do mundo nao consiga se proteger de outras formas, outras pessoas reclamaram porque anteriormente ele havia dito que as empresas de tecnologia nao deveriam tentar tornar seus equipamentos nao-hackeaveis para nao dificultar o trabalho do governo nas investigacoes de criminosos, por exemplo.
+Webcams podem ser hackedas: cubra a sua
+Em nova entrevista concedida nesta semana, ele voltou a defender o uso de adesivos, e estendeu a orientacao para todos. Ha algumas coisas sensatas que voce deveria fazer, e esta e uma dessas. Ele tambem afirmou que outros funcionarios do FBI tambem cobrem suas webcams. Se voce for a qualquer escritorio do governo, vera que todos temos uma coisinha em cima da tela que tem uma pequena tampa para fechar a webcam, descreveu.
+Voce faz isso para que pessoas que nao tenham autorizacao nao observem voce, complementou.
+Webcam entrega ladrao de laptop
+Ele tambem pediu que os americanos trabalhem na higiene de seguranca e confiem menos em seus aparelhos, sem confiar na protecao oferecida pelas empresas fabricantes dos eletronicos.

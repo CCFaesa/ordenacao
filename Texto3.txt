@@ -1,0 +1,230 @@
+Chip conecta processador quantico a rede de fibra optica
+Conversor fotonico
+Engenheiros da Universidade de Yale, nos EUA, criaram um pequeno chip capaz de converter a luz visivel em luz infravermelha e viceversa, sem perder o estado quantico dos fotons originais.
+Desta forma, o componente funciona como um acoplamento entre os delicados chips quanticos e a rede de dados de fibras opticas.
+Este e um elemento essencial para as tao sonhadas redes quanticas, ja usadas em sistemas avancados de criptografia e que, mais no futuro, serao a base da internet quantica.
+Embora o progresso no campo dos processadores quanticos tenhase acelerado muito nos ultimos anos, a construcao de redes quanticas praticas, que consigam transmitir informacoes a grandes distancias, ainda depende do desenvolvimento de componentes de interface entre o processamento e a transmissao de dados.
+Este dispositivo, criado agora por Xiang Guo e seus colegas, e uma peca chave nesse processo.
+Conexao quantica
+O novo chip permite que dispositivos quanticos  sejam baseados em uma nuvem ultrafria de atomos de rubidio ou em centro de nitrogenio no meio de um diamante troquem informacoes atraves de longas distancias, utilizando a infraestrutura de fibra optica ja existente.
+Para isso, o microcircuito converte os fotons para uma frequencia na faixa do infravermelho, que podem entao ser transmitidos pela rede de fibras opticas que compoe a internet. Ao chegar ao destino, outro chip identico reverte o processo, convertendo o sinal infravermelho em um foton que pode ser lido pelo processador quantico.
+O prototipo apresentou uma eficiencia de 14%, mas a equipe ja adiantou que isso se deve a problemas na conectividade dos elementos que compoem o chip  segundo eles, nao sera dificil chegar a uma eficiencia de 100% porque eles ja identificaram os materiais semicondutores necessarios para isso.
+Tecnologia armazena energia solar para noite inteira
+Armazenamento de energia limpa
+Um novo sistema de armazenamento termico de energia consegue converter a energia solar coletada durante o dia e armazenala com uma eficiencia que garante o abastecimento continuo por um periodo de 8 a 12 horas.
+Ainda que muito progresso venha sendo feito recentemente no armazenamento das fontes limpas de energia  para lidar com os problemas de intermitencia das fontes eolica e solar, principalmente  esta nova tecnologia e nada menos do que 20 vezes melhor do que os sistemas termais apresentados ate agora.
+O sistema e baseado em uma bateria de fluxo, que usa a energia solar para fundir um material de mudanca de fase, armazenando a energia, que e liberada quando necessario mediante a resolidificacao do material.
+Sal com grafite
+A chave para a melhoria foi mesclar um material de mudanca de fase de baixo custo  o cloreto de sodio, ou sal de cozinha  com espumas de grafite de alta porosidade e elevada conducao eletrica.
+A espuma de grafite aprisiona o sal em seus poros, facilitando e tornando mais rapida a fusao e a solidificacao. A equipe demonstrou que esta alteracao de fase se da de forma sustentavel ao longo do tempo.
+Esta combinacao reduziu a quantidade total de material necessario para construir o sistema e, por decorrencia, seu custo. Ao mesmo tempo, a transferencia de energia termica tornouse significativamente mais eficiente, proporcionando de 8 a 12 horas de armazenamento de energia  uma noite tipica de armazenamento para uma usina de energia termossolar, por exemplo.
+Usina modular
+O proximo passo do projeto sera construir uma plantapiloto 50 vezes maior do que o prototipo em escala de laboratorio testado agora.
+Nos estamos planejando desenvolver uma usina em escala industrial na forma de um sistema modular, de forma que o sistema em escala piloto que estamos construindo podera de fato ser usado como um modulo para um sistema em escala total, que sera formado por muitos modulos empilhados ou dispostos em conjunto, disse o professor Wenhua Yu, do Laboratorio Nacional Argonne, nos EUA.
+Aprendizagem de Turing cria maquinas que aprendem
+Os Kilobots usados nos experimentos ja haviam demonstrado inteligencia artificial coletiva em experimentos anteriores. Imagem U. Sheffield
+Aprendizado de maquina
+Pesquisadores que trabalham com enxames de robos  grupos de pequenos robos que trabalham de forma cooperativa  afirmam que ja e possivel fazer maquinas que aprendem como sistemas naturais ou artificiais funcionam apenas observando esses sistemas  sem precisar que os humanos lhes descrevam o que esta ocorrendo ou lhes digam onde procurar padroes.
+Se esse conceito de fato puder ser levado adiante, ele podera viabilizar avancos na forma como as maquinas  robos e computadores incluidos  inferem conhecimento e utilizam esse conhecimento para detectar comportamentos e anormalidades, seja no funcionamento de maquinas em um ambiente industrial, seja de seres vivos.
+Quem garante todas essas possibilidades e um trio formado por Wei Li, Melvin Gauci e Roderich Gross, da Universidade de Sheffield, no Reino Unido, que batizaram a nova forma de aprendizado de maquina de Aprendizagem de Turing.
+De acordo com o trio, com o aprendizado de Turing os computadores tornamse capazes de prever, entre outras coisas, como as pessoas e outros seres vivos se comportam, o que pode melhorar as aplicacoes de seguranca e tornar os jogos de computador mais realisticos.
+A inovacao apresentada pelo trio e inspirada na obra do pioneiro da computacao Alan Turing, que propos um teste para estabelecer quando uma maquina poderia se fazer passar por um ser humano sem que os seres humanos percebessem  o famoso teste de Turing.
+Nesse teste, um interrogador troca mensagens com dois jogadores em uma sala diferente um humano e uma maquina. O interrogador tem que descobrir qual dos dois jogadores e humano.
+Ao contrario do teste de Turing original, no entanto, os nossos interrogadores nao sao humanos, mas sim programas de computador que aprendem por si mesmos, explica Gross.
+A equipe colocou um enxame de robos sob vigilancia e queria saber quais regras causavam seus movimentos. Um segundo enxame  formado por robos que aprendem  tambem foi posto sob vigilancia. Os movimentos das duas equipes de robos foram registrados e os dados de movimentacao foram mostrados ao programa interrogador.
+Sua tarefa e distinguir entre os robos dos dois enxames. Ele e recompensado pela categorizacao correta dos dados de movimento do enxame original como genuinos e aqueles do outro enxame como falsos. Os robos de aprendizagem que conseguem enganar o interrogador  fazendoo acreditar que seus dados de movimento eram genuinos  recebem uma recompensa, continua Gross.
+O resultado e que, depois de varias rodadas, o programa interrogador se torna capaz de monitorar movimentos de grupos e acertar quais sao os movimentos genuinos, mesmo tendo de lidar com enxames de robos que aprendem e se tornam cada vez mais craques em enganalo.
+A equipe afirma que a Aprendizagem de Turing tem a grande vantagem de eliminar a necessidade de que seres humanos informem aos programas o que e onde procurar em busca de padroes, como nas tecnicas convencionais de inteligencia artificial.
+Imagine, por exemplo, que voce queira um robo que pinte no melhor estilo Picasso. Um algoritmo de aprendizagem de maquina convencional avaliaria as pinturas do robo para o quao elas se assemelham a uma pintura de Picasso. Mas, para comecar, alguem teria de suprir os algoritmos com dados que descrevam o que e considerado ser semelhante a um Picasso.
+Ja a aprendizagem de Turing nao exige esse conhecimento previo. Basta recompensar o robo se ele pintar algo que seja considerado genuino pelos interrogadores. Assim, a Aprendizagem de Turing ira simultaneamente aprender como interrogar e como pintar.
+Ensino de Maquina inteligencia artificial a servico da educacao
+Ensino de maquina
+O aprendizado de maquina e um campo da inteligencia artificial ja bem estabelecido, com inumeras utilidades, sobretudo na interpretacao de grandes massas de dados.
+Agora o interesse esta se voltando para o ensino de maquina, um campo que mistura ciencia da computacao e psicologia para tentar desenvolver licoes que sejam mais facilmente aprendidas pelos humanos.
+Minha esperanca e que o ensino de maquina tenha um impacto no mundo educacional. Ele e muito diferente da forma como as pessoas normalmente pensam sobre educacao. Ele nos dara licoes mais eficazes e personalizadas para estudantes humanos reais, preve Jerry Zhu, da Universidade WisconsinMadison, nos EUA.
+No ano passado, a Fundacao XPrize lancou um premio milionario para o primeiro programa que consiga dar uma palestra para uma plateia humana. Mas Zhu e seus colegas querem desenvolver palestras otimizadas, ou seja, palestras que permitam um aprendizado melhor do que as aulas tradicionais.
+Modelo de estudante
+Em vez de lidar com montanhas de dados sem saber que padroes podem ser revelados por sua analise, como ocorre no aprendizado de maquina, o pesquisador envolvido com o ensino de maquina ja sabe de antemao o conhecimento que quer repassar aos alunos.
+Ensino de Maquina inteligencia artificial a servico da educacao
+Assim, o foco estara nos estudantes, e na forma como eles aprendem.
+Para que a abordagem do ensino de maquina funcione, ele precisara de um bom modelo de como o aluno se comporta  ou seja, como o comportamento do aluno muda com diferentes tipos de aprendizagem ou experiencias praticas, disse o professor Timothy Rogers, membro da equipe. Alem disso, o modelo precisa ser computacional; ele tem que ser capaz de fazer previsoes quantitativas concretas sobre o comportamento do aluno.
+Os programas usarao algoritmos sofisticados para ajudar a modelar os estudantes humanos reais e descobrir as melhores licoes possiveis para que eles aprendam o maximo e o mais rapidamente possivel.
+Embora a definicao de melhor caiba a cada professor em cada situacao, um exemplo seria identificar o menor numero de exercicios necessarios para um aluno em particular apreender um conceito. Poderiam cinco questoes realmente boas ensinar o material, em vez de 20? exemplifica Zhu.
+Modelagem do aprendizado
+Em ultima instancia, nos esperamos que o trabalho possa ser usado para ajudar os professores a desenvolver ementas de cursos e planos de aula que promovam a aprendizagem em uma ampla variedade de campos, disse Rogers, citando matematica, ciencias e leitura como exemplos.
+E, igualmente importante, o esforco para fazer os modelos cognitivos da aprendizagem lidarem com problemas do mundo real e algo que podera levar a novos e importantes avancos em nossa compreensao de como as pessoas aprendem de forma geral, finalizou.
+O trabalho esta nos primeiros estagios, mas a equipe espera apresentar resultados praticos do ensino de maquina nos proximos dois anos.
+Inteligencia artificial vai nos levar a uma Singularidade Tecnologica?
+Singularidade tecnologica
+A derrota do vicecampeao de Go por um programa de computador criado pelo Google causou um frisson na Coreia do Sul, onde o jogo e muito mais popular do que o xadrez.
+Quase ao mesmo tempo, uma conferencia realizada em Berlim, na Alemanha, reuniu os maiores especialistas do mundo em inteligencia artificial para debater a questao que cientistas, futurologos e preocupados em geral se fazem ha decadas ate onde a inteligencia artificial pode ir?
+Sera que os programas de computador realmente se tornarao tao inteligentes quanto o homem? Sera que estamos realmente caminhando para a chamada singularidade tecnologica?
+A singularidade tecnologica e definida como uma data no futuro quando a inteligencia das maquinas supera a nossa propria inteligencia e passa a melhorarse a um ritmo exponencial, nao dependendo mais do ser humano.
+Hardware humano
+Danko Nikolic, um neurocientista do Instituto Max Planck de Pesquisas do Cerebro Alemanha, nao se amedrontou de estar diante de uma plateia formada pelos principais pesquisadores da inteligencia artificial e fez uma afirmacao ousada Nunca faremos uma maquina que seja mais inteligente do que nos.
+Voce nao pode exceder a inteligencia humana, nunca. Voce pode assintoticamente que tangencia, mas nao coincide aproximarse dela, mas voce nao pode excedela, sentenciou o neurocientista.
+Nikolic esta convencido de que muitos pesquisadores de inteligencia artificial que acreditam o contrario estao negligenciando um aspecto importante da inteligencia humana o cerebro nao e o unico hardware que os seres humanos precisam para serem bons em aprender as coisas.
+Para ele, as ferramentas mais basicas para o aprendizado sao as instrucoes contidas em nossos genes, aprimoradas ao longo de bilhoes de anos de evolucao. Tecnicas de aprendizado de maquina podem imitar o cerebro, mas nao contam com os elementos mais profundos que nos ajudam a aprender. A unica maneira de chegarmos perto de uma mente artificial que aprende tao bem quanto nos e repetir a evolucao humana, defende Nikolic.
+Imprevisivel
+Mas talvez a singularidade chegue em outras configuracoes.
+Para varios dos especialistas que participaram do debate, a singularidade tecnologica pode ser melhor imaginada como uma aceleracao do progresso humano, apesar de ser alimentada por um avanco tecnologico no futuro proximo. Para eles, tratase de colocar as mentes humanas e a mentes artificiais juntas para resolver problemas do mundo real.
+Isto parece ja estar acontecendo, conforme demonstrado ha poucos dias quando um fisico quantico robotico fez descobertas ineditas.
+Outro ponto levantado pelos especialistas e que, se a singularidade sera atingida por inteligencias artificiais formadas a partir de grandes quantidades de dados humanos, e se deveremos trabalhar ao lado dessas inteligencias sinteticas, entao queremos que elas sejam tao diversas quanto nos somos.
+Mas, no frigir dos ovos, e dificil prever nao apenas qual seria o grande avanco que faria a inteligencia artificial dar um salto tecnologico que a levaria a singularidade, como tambem o que poderia acontecer depois disso, ja que, tornandose as maquinas mais inteligentes do que nos, nossas mentes tornamse incapazes, ou inadequadas, para imaginar o que elas seriam capazes de fazer.
+A razao pela qual eles chamam de singularidade e que e um ponto alem do qual voce nao consegue enxergar. Uma vez que as maquinas atinjam niveis humanos de inteligencia, voce nao pode comecar a imaginar o que vai acontecer, alertou Mehmet Akten, um cientista da computacao e artista que estuda inteligencia artificial na Universidade de Londres.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Diferentemente da programacao convencional, em que um programa executa sempre a mesma funcao com dados diferentes, a adaptabilidade propoe um comportamento diverso diante de cada nova circunstancia.
+Um programa adaptativo tem uma critica sobre aquilo que ele fez e o resultado que obteve. Quando isso acontece, ele modifica o seu proprio comportamento e comeca a operar com aquele aprendizado que conseguiu a partir da experiencia anterior, explica o professor Joao Jose Neto, da Escola Politecnica da USP.
+Decisoes economicas
+Os programas adaptativos, uma tecnica de inteligencia artificial, ja sao usados na busca de solucoes de problemas ligados a tomada de decisao, uma atividade diaria na administracao, na economia e na gestao de empresas.
+Lidando com um grande volume de variaveis muito volateis e efemeras, tomar uma decisao sobre como agir e um desafio frequentemente alem da capacidade de raciocinio e memoria dos seres humanos.
+Mais do que isso, o proprio conjunto de variaveis e inconstante, o que obriga as decisoes a serem reavaliadas continuamente.
+e ai que a adaptabilidade entra, ponderando as variaveis e agregando o historico de experiencias anteriores malsucedidas.
+Mas os programas adaptativos nao sao voltados apenas para o passado. Alem das atividades com problemas ja conhecidos, o grupo de pesquisadores da USP trabalha tambem com problemas ainda desconhecidos  o proprio problema deve ser descoberto, equacionado e, so entao, e possivel buscar a melhor solucao dentro do espectro de solucoes possiveis.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Paraiso
+O professor Joao Jose ressalta, contudo, que o paraiso para quem domina as tecnicas adaptativas sao os jogos de computador.
+Uma caracteristica dos jogos e o potencial infinito de mudanca de comportamento e de exposicao a condicoes diversas.
+Alem disso, jogos sao simulacoes, o que pode ser perfeitamente utilizado como metodo de ensino e treinamento caso o programa possua uma logica que procure simular exatamente o fenomeno real correlato.
+A funcionalidade do simulador, porem, depende justamente da sua adaptabilidade, variando de acordo com a atividade e com o comportamento dos agentes que interagem com ele.
+Inteligencia artificial gera softwares que melhoram a si mesmos
+Os programas adaptativos estao na agenda da IBM, que coloca a tecnologia como uma das cinco prioridades da empresa. Imagem IBM
+Linguagem natural
+Um dos trabalhos em desenvolvimento  a menina dos olhos da equipe, nas palavras do pesquisador  esta ligado a linguagem natural, usando as tecnicas da adaptabilidade em programas de traducao e de transcricao automatica de textos ou da fala.
+Ao contrario dos programas ja existentes, que se apegam preferencialmente a fonetica, o projeto se atem a formacao das palavras, a filtragem dos erros e a analise, procurando descobrir a sentenca correta.
+Apesar do enorme campo de aplicacao, contudo, o professor Joao Jose afirma que o medo da teoria ainda e o grande empecilho a formacao de novos profissionais na area.
+As pessoas acham que para fazer esse tipo de coisa tem que saber muita teoria. e preciso saber um pouco de teoria, sim, que e a base em cima da qual nos construimos as coisas, mas e preciso tambem baixar um pouco a guarda e conhecer um pouquinho dessa teoria dita complicada. Ela nao e complicada, a pessoa precisa de um ano de experiencia trabalhando um pouco com essas coisas para se inteirar, afirma ele.
+Inteligencia artificial proxima de replicar adaptacao biologica
+Apesar dos avancos no campo dos supercomputadores, o cerebro humano continua a ser o dispositivo de processamento de informacoes mais flexivel e mais eficiente que se conhece.
+Por isso, nao e de hoje que pesquisadores tentam compreendelo com vistas a imitar seu poder de computacao.
+Embora ainda nao se saiba exatamente como serao os computadores neuromorficos, tem havido um verdadeiro renascimento no campo da inteligencia artificial  o que inclui a recente demonstracao de que cerebros artificiais deverao ser construidos com processadores imprecisos.
+Redes neurais artificiais
+Os modelos de computadores e processadores neuromorficos  projetados para replicar a forma como os processos cerebrais memorizam ou recuperam informacoes  sao chamados de redes neurais artificiais.
+Ha decadas, a informatica tem usado redes neurais artificiais para resolver muitos problemas do mundo real que envolvem tarefas como classificacao, estimativa e controle.
+No entanto, as redes neurais artificiais nao levam em consideracao algumas das caracteristicas basicas do cerebro humano, tais como retardos de transmissao dos sinais entre os neuronios, potenciais de membrana e correntes sinapticas.
+Uma nova geracao de redes neurais  chamadas redes neurais pulsadas  foram entao desenvolvidas para modelar a dinamica do cerebro de forma um pouco mais fiel, levando em conta o comportamento dos disparos dos neuronios.
+Silvia Ferrari e seus colegas da Universidade Duke, nos Estados Unidos, desenvolveram agora uma nova variacao de rede neural pulsada para replicar com precisao ainda melhor os processos de aprendizagem do comportamento cerebral.
+Embora os sistemas de engenharia atuais sejam muito eficazes em controles dinamicos, eles ainda nao sao capazes de lidar com danos e falhas imprevisiveis com que os cerebros biologicos lidam facilmente, disse Silvia.
+Foi nisso que ela e seus alunos trabalharam.
+Inteligencia artificial proxima de replicar adaptacao biologica
+Os chips neurais mais avancados usam componentes chamados memristores  outra equipe ja trabalha com eles para a reproducao em hardware do cerebro de um gato. Imagem NanoLetters
+Como ensinar um cerebro artificial
+A equipe elaborou um algoritmo que ensina as redes neurais pulsadas qual informacao e relevante e quao importante cada fator e para resolver o problema em questao como um todo.
+Embora o objetivo seja, no futuro, imitar o cerebro humano  ou, pelo menos, o cerebro de mamiferos  a equipe comecou com o cerebro muito mais simples de um inseto.
+Nosso metodo foi testado treinando um inseto virtual para navegar em um terreno desconhecido e encontrar alimentos, disse Xu Zhang, que foi quem botou a mao na massa para que tudo funcionasse. O sistema nervoso foi modelado por uma grande rede neural pulsada com conexoes sinapticas desconhecidas e aleatorias entre esses neuronios.
+Alem do inseto virtual, eles usaram simulacoes de computador para mostrar que o algoritmo funciona no controle de voo de avioes e na navegacao de robos.
+Teste biologico
+Agora Zhang esta se preparando para testar biologicamente seu modelo neural artificial.
+Para isso, ele vai usar celulas cerebrais cultivadas em laboratorio alteradas geneticamente para responder a certos tipos de luz.
+Esta tecnica, chamada optogenetica, permite controlar a forma como as celulas nervosas se comunicam  quando o padrao de luz muda, a atividade neural alterase em resposta ao sinal optico.
+Os pesquisadores esperam que a rede neural viva adaptese ao longo do tempo aos padroes de luz, adquirindo a capacidade de armazenar e recuperar informacoes sensoriais.
+Se o modelo funcionar, entao os pesquisadores poderao usar o modelo para voltar ao hardware e construir circuitos que facam o mesmo.
+Primeiro cerebro eletronico neuromorfico esta online
+Neurocomputador
+Pesquisadores da Universidade de Heidelberg, na Alemanha, vao disponibilizar o acesso via internet ao seu neurocomputador BrainScales.
+Construido pela equipe do professor Karlheinz Meier para auxiliar na execucao do Projeto Cerebro Humano, o BrainScales foi o primeiro a comprovar que os processadores neuromorficos podem superar os processadores digitais.
+Neuroprocessadores, ou processadores neuromorficos, sao aqueles que tentam imitar o funcionamento do cerebro humano.
+O sistema BrainScales vai alem dos paradigmas de uma maquina de Turing e da arquitetura von Neumann, ambos projetados durante meados do seculo 20 pelos pioneiros da computacao Alan Turing e John von Neumann. Ele nem executa uma sequencia de instrucoes, nem e construido como um sistema de unidades fisicamente separadas de processamento e memoria.
+Ele e mais uma imagem direta, feita sobre silicio, das redes neuronais encontradas na natureza, imitando celulas, conexoes e comunicacoes intercelulares por meio da mais moderna microeletronica analogica e digital, explicou o professor Meier.
+O prototipo mais recente do neurocomputador e composto por 20 chips chamados Spikey, com um total de 4 milhoes de neuronios e 1 bilhao de sinapses.
+Darwin, um processador neuromorfico com plasticidade cerebral
+Compressao do tempo
+Primeiro cerebro eletronico neuromorfico esta online
+Segundo a equipe, processos de aprendizado e tecnicas evolucionarias podem ser emuladas no neurocomputador com uma aceleracao de 1.000 vezes em relacao aos mecanismos naturais, de forma que um dia biologico pode ser comprimido para 100 segundos na maquina.
+O equipamento esta sendo disponibilizado para uso pela rede de pesquisas do Projeto Cerebro Humano, mas outras instituicoes e ate mesmo empresas foram convidadas a se juntar ao esforco e descobrir novos usos para os neuroprocessadores.
+Alem das pesquisas basicas em inteligencia artificial e autoorganizacao de redes neurais, o professor Meier afirma que o equipamento sera util para equipes trabalhando com aprendizado profundo, uma tecnica que empresas como Google e Facebook vem utilizando para analisar grandes volumes de dados e qualquer grande simulacao de eventos naturais.
+Durante o evento no qual foi anunciada a conexao do BrainScales a internet, a equipe da Universidade de Manchester, no Reino Unido, responsavel pelo desenvolvimento do cerebro eletronico SpiNNaker anunciou que seu neuroprocessador tambem esta entrando em operacao, mas local, com uma capacidade de processamento comparavel a do BrainScales.
+Como os computadores pretendem imitar o cerebro
+Pesquisadores neuromorficos
+Apesar de toda a sua sofisticacao, os computadores empalidecem quando sao comparados com o mais simples dos cerebros.
+O cortex de um camundongo, por exemplo, opera 9.000 vezes mais rapido e consome 40.000 vezes menos energia do que uma simulacao de suas funcoes feita em computador  valores que podem aumentar conforme as tecnicas de medicao da atividade cerebral melhoram.
+Isso, contudo, e um incentivo para os pesquisadores que trabalham na tentativa de construir os primeiros processadores neuromorficos  que operam imitando o funcionamento dos neuronios.
+A ultima grande novidade na area surgiu ha exatamente um ano, quando a equipe do Dr. Kwabena Boahen, da Universidade de Stanford, nos Estados Unidos, apresentou seu Neurogrid.
+Do alto do seu lugar no podio, o Dr. Boahen foi agora convidado pelo renomado IEEE Instituto de Engenheiros Eletricos e Eletronicos para fazer um apanhado dos principais avancos na area, destacando os projetos mais promissores.
+O artigo analisa como os pesquisadores neuromorficos estao usando silicio e software para construir sistemas eletronicos que imitam neuronios e sinapses, com vistas a construir uma geracao de computadores mais eficientes e mais rapidos.
+Efervescencia cerebral
+Em seu artigo, Boahen observa o contexto mais amplo da investigacao neuromorfica, comecando pelo Projeto Cerebro Humano da Uniao Europeia, que tem como objetivo simular um cerebro humano em um supercomputador.
+Ja o projeto norteamericano Brain sigla para pesquisa do cerebro atraves de neurotecnologias inovadoras avancadas adotou uma abordagem de construcao de ferramentas, desafiando os cientistas a desenvolver novos tipos de mecanismos que possam ler a atividade de milhares ou mesmo milhoes de neuronios no cerebro, assim como registrar padroes complexos de atividade.
+Outras equipes estao se voltando para o hardware, como o projeto Synapse da IBM sigla de sistemas de eletronica plastica neuromorfica adaptativa e escalavel.
+Como o nome indica, o projeto Synapse envolve uma tentativa de redesenhar os chips  que receberam o codinome de Golden Gate  para emular a capacidade dos neuronios para fazer um grande numero de conexoes sinapticas, uma caracteristica que ajuda o cerebro a resolver problemas em paralelo.
+Ate o momento, um chip Golden Gate e composto por 256 neuronios digitais, cada um equipado com 1.024 circuitos sinapticos, mas a IBM ja esta trabalhando para aumentar consideravelmente o numero de neuronios em cada processador.
+O projeto BrainScales, da Universidade de Heidelberg, na Alemanha, mereceu destaque na analise, com seu objetivo ambicioso de imitar o comportamento de neuronios e sinapses usando chips analogicos.
+Seu chip Hicann sigla para rede neural analogica com grande numero de entradas devera ser o nucleo de um sistema projetado para acelerar as simulacoes do cerebro, permitindo aos pesquisadores modelar interacoes medicamentosas que podem levar meses para serem feitas no metodo tradicional de laboratorio.
+No momento, o chip Hicann consegue emular 512 neuronios, cada um equipado com 224 circuitos sinapticos, mas a equipe tambem ja esta trabalhando para aumentar esse poder neuronal.
+Metrica para processadores neurais
+O Dr. Boahen avalia que cada uma dessas equipes tem feito escolhas tecnicas diferentes, como a possibilidade de dedicar cada circuito de hardware para modelar um unico elemento neural por exemplo, uma unica sinapse ou varias por exemplo, ativando o circuito de hardware duas vezes para modelar o efeito de duas sinapses ativas.
+Estas escolhas, obviamente, resultam em diferentes ganhos e perdas em termos de capacidade e desempenho.
+Para tentar avaliar qual delas tem mais vantagens, Boahen propoe uma metrica que tente dar conta do custo total do sistema, incluindo o tamanho do chip, quantos neuronios ele simula e a energia que consome.
+Talvez seja melhor ouvir as outras equipes antes, mas a metrica proposta por Boahen conclui que seu proprio chip, o Neurogrid, e o mais eficiente em termos de simular neuronios.
+A seu favor esta o fato de que o grande objetivo e construir um sistema que seja acessivel o suficiente para ser amplamente utilizado em pesquisa por qualquer grupo que queira se dedicar a area.
+Boahen destaca que seu prototipo custou US40,000, mas foi construido na universidade com uma tecnologia de microeletronica de 15 anos atras.
+Fabricado hoje em grandes quantidades, cada computador Neurogrid completo  a placa inteira  poderia custar 100 vezes menos, o que faz o pesquisador sonhar com um milhao de computadores neuromorficos vendidos a US 400 cada um.
+Neurocompilador
+Antes disso, porem, sera necessario projetar o software que permita programar um computador neuromorfico.
+E este e um desafio ainda a ser vencido por todas as equipes, qualquer que seja a abordagem utilizada para a implementacao do cerebro de silicio.
+Neste momento, voce tem que saber como o cerebro funciona para programar um desses, disse Boahen. Queremos criar um neurocompilador de modo que voce nao precise saber nada sobre sinapses e neuronios para poder usar um desses.
+Computador neuromorfico simula cerebro em tempo real
+Cerebro versus supercomputador
+No final do ano passado, o supercomputador Sequoia, da IBM, o segundo mais rapido do mundo atualmente, rodou uma simulacao do cerebro humano formada por mais de 530 bilhoes de neuronios.
+Isso foi possivel porque o Sequoia e muito rapido, fazendo 16 quatrilhoes de calculos de ponto flutuante por segundo.
+Embora impressionantes, os numeros estao longe de se aproximar das marcas alcancadas pelo cerebro humano, que tem um poder computacional muito maior.
+O mais interessante e que o cerebro nao e mais rapido do que um supercomputador  na verdade, ele e bem mais lento.
+Sua grande vantagem e que ele e massivamente paralelo, com redes de neuronios trabalhando simultaneamente para resolver um grande numero de problemas ao mesmo tempo.
+Mas sera possivel que um dia os supercomputadores sejam tao super a ponto de rivalizar com o cerebro humano? Se nao, como os cientistas poderao simular o cerebro para aprender como ele funciona e verificar se suas teorias estao corretas ou nao?
+Computacao neuromorfica
+A saida esta na computacao neuromorfica, que aposta nao no aumento de calculos por segundo, mas em imitar a forma como o cerebro humano funciona.
+e o que estao fazendo Sam Fok, Alex Neckar e Kwabena Boahen, da Universidade de Stanford, nos Estados Unidos.
+Eles estao desenvolvendo o Neurogrid rede neural, em traducao livre, uma mistura inovadora de hardware e software que ja e capaz de simular a atividade de 1 milhao de neuronios.
+Ora, isso e muito menos do que o Sequoia faz  entao, qual e a vantagem?
+A vantagem e que o Neurogrid simula o cerebro humano em tempo real, ou seja, uma simulacao de 1 segundo de processamento no cerebro leva 1 segundo no Neurogrid, enquanto o poderoso supercomputador leva 1.500 segundos.
+Simular o cerebro em tempo real e essencial porque as simulacoes precisam ser rodadas centenas ou milhares de vezes, cada vez ajustando um parametro para avaliar os resultados.
+Quando ampliada para mais neuronios, a nova plataforma neuromorfica podera nao apenas ajudar a compreender melhor o cerebro, mas tambem modelar condicoes medicas como autismo, esquizofrenia e demencias.
+Processamento hibrido analogicodigital
+O Neurogrid nao e um computador no sentido comum do termo  ele nao serve, por exemplo, para simular o Big Bang, o clima ou prever epidemias.
+Mas o que ele pode fazer o diferencia de qualquer plataforma computacional que ja exista.
+Cada um dos processadores do Neurogrid contem cerca de 65.000 neuronios de silicio, ou sinapses artificiais, cuja atividade pode ser programada por meio de 80 parametros diferentes, permitindo que os cientistas repliquem as caracteristicas unicas de cada tipo de neuronio.
+A diferenca fundamental entre a forma como a computacao tradicional simula o cerebro e a maneira que o Neurogrid funciona esta em como os calculos sao realizados e comunicados atraves do sistema.
+Os computadores tradicionais sao digitais, ou seja, o processador executa as instrucoes essencialmente respondendo verdadeiro ou falso para uma serie de perguntas.
+Os neuronios tambem fazem isso quando se comunicam, disparando ou nao um potencial de acao.
+Contudo, as computacoes que o cerebro faz para determinar se o neuronio vai disparar ou nao e um processo naolinear, mais parecido com um sinal analogico.
+Para replicar esse comportamento hibrido, o Neurogrid usa um sinal analogico para os calculos e um sinal digital para a comunicacao, aproximandose mais da forma como o cerebro trabalha.
+E ele faz isso gastando muito menos energia o Sequoia consome 8 megawatts de eletricidade, contra 5 watts do Neurogrid.
+Processador neuromorfico supera processadores digitais
+Processadores analogicos
+Processadores de computador que imitam o cerebro estao se mostrando capazes de superar os chips convencionais em aspectos cruciais.
+Eles tambem poderao revolucionar a nossa compreensao de como o cerebro funciona.
+Tentativas de simular o cerebro geralmente envolvem construir programas de computador para que se comportem como grupos de neuronios  sao as redes neurais artificiais.
+As tentativas mais avancadas, contudo, envolvem um projeto realmente neuromorfico, que tenta recriar o hardware do cerebro usando componentes analogicos.
+Os circuitos analogicos morreram depois que os computadores digitais se tornaram mais poderosos, diz Karlheinz Meier, da Universidade de Heidelberg, na Alemanha.
+Meier, contudo, esta ajudando a ressuscitalos.
+Processador neuromorfico
+O processador Spikey, criado por Meier e uma equipe envolvendo pesquisadores de 15 universidades europeias, ja possui 400 neuronios.
+O processador e a finalizacao de um projeto que deu os primeiros resultados em 2009, quando o grupo apresentou o primeiro prototipo do seu cerebro em um chip.
+Os neuronios reais possuem uma tensao eletrica em sua membrana externa, o que o processador Spikey imita usando capacitores, componentes eletronicos que armazenam cargas eletricas.
+Tal como em um neuronio real, quando a tensao aplicada atinge um certo nivel, o condensador tornase condutor, disparando um sinal nervoso  esse sinal e chamado spike em ingles, de onde deriva o nome do processador neuromorfico.
+O Spikey tambem imita as sinapses, as conexoes entre os neuronios, por meio das chamadas sinapses artificiais.
+Sinapses artificiais
+Em um processador digital normal, cada elemento de informacao so pode ter um valor 0 ou 1.
+Mas os componentes analogicos podem ter niveis variaveis de resistencia para simular as conexoes entre os neuronios.
+Essa resistencia pode se tornar mais forte ou mais fraca dependendo de quantas vezes os componentes sao usados  e o principio dos chamados memristores, componentes eletronicos que estao viabilizando a construcao de computadores que aprendem.
+Ja existem outros processadores neuromorficos com numero similar de neuronios, como um apresentado recentemente por uma equipe do MIT
+Contudo, ate agora cada processador analogico so conseguia imitar um circuito particular do cerebro  o Spikey, por sua vez, pode recriar qualquer padrao.
+A equipe conectou os neuronios de maneiras diferentes para imitar circuitos cerebrais diferentes. Eles ja modelaram seis redes neurais, incluindo uma encontrada no sistema olfativo dos insetos.
+Vantagens dos processadores neuromorficos
+Processadores neuromorficos tem vantagens sobre os chips convencionais, o que os torna uteis em determinadas situacoes.
+Por exemplo, eles nao separam a memoria da computacao propriamente dita, ou do calculo  a informacao e armazenada na forca sinaptica. Assim, processadores neuromorficos rodam mais rapido usando menos energia.
+Eles tambem lidam melhor com defeitos. Interromper uma via em um processador digital convencional pode inutilizalo completamente, mas um processador neuromorfico vai continuar funcionando, ainda que mais lentamente.
+A NASA esta financiando uma outra pesquisa nos EUA que pretende criar um processador neuromorfico para controlar robos exploradores, que ficarao menos imunes a danos induzidos pela radiacao do espaco.
+A IBM tambem ja se convenceu dos ganhos, tendo apresentado seu primeiro processador cognitivo no ano passado.
+Esses chips inovadores tambem permitirao que as teorias de como o cerebro funciona sejam testadas, em experimentos que sistematicamente mudam a forma como cada neuronio e cada rede neural se comportam.
+Neuromorfico multicore
+A equipe esta agora ampliando o Spikey como parte de um projeto chamado BrainScales. Em vez de 400 neuronios, teremos 200 mil, disse Thomas Pfeil, membro da equipe.
+Os pesquisadores ja imprimiram todos os componentes em uma unica pastilha de silicio, com 20 centimetros de diametro, o que lhes permitiu incorporar muito mais conexoes.
+No proximo ano, ele sera utilizado para simular parte do cortex do cerebro de um rato.
+A seguir, a equipe planeja conectar seis wafers em paralelo, criando um processador neuromorfico de seis nucleos, capaz de simular mais de um milhao de neuronios.
+O objetivo a medio prazo e modelar todo o cortex visual de um rato.
+Processador analogico imita o cerebro
+A corrente eletrica flui ao longo dos transistores de forma semelhante ao movimento dos ions ao longo dos canais ionicos em uma celula  ou seja, este e um processador analogico. Imagem Guy Rachmuth
+Processador neuromorfico analogico
+Pesquisadores criaram um processador inteiramente eletronico que imita o funcionamento das sinapses cerebrais.
+Como o cerebro nao e digital, como os processadores eletronicos, os cientistas decidiram criar um processador analogico.

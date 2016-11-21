@@ -1,0 +1,23 @@
+Chip conecta processador quantico a rede de fibra optica
+Conversor fotonico
+Engenheiros da Universidade de Yale, nos EUA, criaram um pequeno chip capaz de converter a luz visivel em luz infravermelha e viceversa, sem perder o estado quantico dos fotons originais.
+Desta forma, o componente funciona como um acoplamento entre os delicados chips quanticos e a rede de dados de fibras opticas.
+Este e um elemento essencial para as tao sonhadas redes quanticas, ja usadas em sistemas avancados de criptografia e que, mais no futuro, serao a base da internet quantica.
+Embora o progresso no campo dos processadores quanticos tenhase acelerado muito nos ultimos anos, a construcao de redes quanticas praticas, que consigam transmitir informacoes a grandes distancias, ainda depende do desenvolvimento de componentes de interface entre o processamento e a transmissao de dados.
+Este dispositivo, criado agora por Xiang Guo e seus colegas, e uma peca chave nesse processo.
+Conexao quantica
+O novo chip permite que dispositivos quanticos  sejam baseados em uma nuvem ultrafria de atomos de rubidio ou em centro de nitrogenio no meio de um diamante troquem informacoes atraves de longas distancias, utilizando a infraestrutura de fibra optica ja existente.
+Para isso, o microcircuito converte os fotons para uma frequencia na faixa do infravermelho, que podem entao ser transmitidos pela rede de fibras opticas que compoe a internet. Ao chegar ao destino, outro chip identico reverte o processo, convertendo o sinal infravermelho em um foton que pode ser lido pelo processador quantico.
+O prototipo apresentou uma eficiencia de 14%, mas a equipe ja adiantou que isso se deve a problemas na conectividade dos elementos que compoem o chip  segundo eles, nao sera dificil chegar a uma eficiencia de 100% porque eles ja identificaram os materiais semicondutores necessarios para isso.
+Tecnologia armazena energia solar para noite inteira
+Armazenamento de energia limpa
+Um novo sistema de armazenamento termico de energia consegue converter a energia solar coletada durante o dia e armazenala com uma eficiencia que garante o abastecimento continuo por um periodo de 8 a 12 horas.
+Ainda que muito progresso venha sendo feito recentemente no armazenamento das fontes limpas de energia  para lidar com os problemas de intermitencia das fontes eolica e solar, principalmente  esta nova tecnologia e nada menos do que 20 vezes melhor do que os sistemas termais apresentados ate agora.
+O sistema e baseado em uma bateria de fluxo, que usa a energia solar para fundir um material de mudanca de fase, armazenando a energia, que e liberada quando necessario mediante a resolidificacao do material.
+Sal com grafite
+A chave para a melhoria foi mesclar um material de mudanca de fase de baixo custo  o cloreto de sodio, ou sal de cozinha  com espumas de grafite de alta porosidade e elevada conducao eletrica.
+A espuma de grafite aprisiona o sal em seus poros, facilitando e tornando mais rapida a fusao e a solidificacao. A equipe demonstrou que esta alteracao de fase se da de forma sustentavel ao longo do tempo.
+Esta combinacao reduziu a quantidade total de material necessario para construir o sistema e, por decorrencia, seu custo. Ao mesmo tempo, a transferencia de energia termica tornouse significativamente mais eficiente, proporcionando de 8 a 12 horas de armazenamento de energia  uma noite tipica de armazenamento para uma usina de energia termossolar, por exemplo.
+Usina modular
+O proximo passo do projeto sera construir uma plantapiloto 50 vezes maior do que o prototipo em escala de laboratorio testado agora.
+Nos estamos planejando desenvolver uma usina em escala industrial na forma de um sistema modular, de forma que o sistema em escala piloto que estamos construindo podera de fato ser usado como um modulo para um sistema em escala total, que sera formado por muitos modulos empilhados ou dispostos em conjunto, disse o professor Wenhua Yu, do Laboratorio Nacional Argonne, nos EUA.

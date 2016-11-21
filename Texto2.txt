@@ -1,0 +1,48 @@
+Chip conecta processador quantico a rede de fibra optica
+Conversor fotonico
+Engenheiros da Universidade de Yale, nos EUA, criaram um pequeno chip capaz de converter a luz visivel em luz infravermelha e viceversa, sem perder o estado quantico dos fotons originais.
+Desta forma, o componente funciona como um acoplamento entre os delicados chips quanticos e a rede de dados de fibras opticas.
+Este e um elemento essencial para as tao sonhadas redes quanticas, ja usadas em sistemas avancados de criptografia e que, mais no futuro, serao a base da internet quantica.
+Embora o progresso no campo dos processadores quanticos tenhase acelerado muito nos ultimos anos, a construcao de redes quanticas praticas, que consigam transmitir informacoes a grandes distancias, ainda depende do desenvolvimento de componentes de interface entre o processamento e a transmissao de dados.
+Este dispositivo, criado agora por Xiang Guo e seus colegas, e uma peca chave nesse processo.
+Conexao quantica
+O novo chip permite que dispositivos quanticos  sejam baseados em uma nuvem ultrafria de atomos de rubidio ou em centro de nitrogenio no meio de um diamante troquem informacoes atraves de longas distancias, utilizando a infraestrutura de fibra optica ja existente.
+Para isso, o microcircuito converte os fotons para uma frequencia na faixa do infravermelho, que podem entao ser transmitidos pela rede de fibras opticas que compoe a internet. Ao chegar ao destino, outro chip identico reverte o processo, convertendo o sinal infravermelho em um foton que pode ser lido pelo processador quantico.
+O prototipo apresentou uma eficiencia de 14%, mas a equipe ja adiantou que isso se deve a problemas na conectividade dos elementos que compoem o chip  segundo eles, nao sera dificil chegar a uma eficiencia de 100% porque eles ja identificaram os materiais semicondutores necessarios para isso.
+Tecnologia armazena energia solar para noite inteira
+Armazenamento de energia limpa
+Um novo sistema de armazenamento termico de energia consegue converter a energia solar coletada durante o dia e armazenala com uma eficiencia que garante o abastecimento continuo por um periodo de 8 a 12 horas.
+Ainda que muito progresso venha sendo feito recentemente no armazenamento das fontes limpas de energia  para lidar com os problemas de intermitencia das fontes eolica e solar, principalmente  esta nova tecnologia e nada menos do que 20 vezes melhor do que os sistemas termais apresentados ate agora.
+O sistema e baseado em uma bateria de fluxo, que usa a energia solar para fundir um material de mudanca de fase, armazenando a energia, que e liberada quando necessario mediante a resolidificacao do material.
+Sal com grafite
+A chave para a melhoria foi mesclar um material de mudanca de fase de baixo custo  o cloreto de sodio, ou sal de cozinha  com espumas de grafite de alta porosidade e elevada conducao eletrica.
+A espuma de grafite aprisiona o sal em seus poros, facilitando e tornando mais rapida a fusao e a solidificacao. A equipe demonstrou que esta alteracao de fase se da de forma sustentavel ao longo do tempo.
+Esta combinacao reduziu a quantidade total de material necessario para construir o sistema e, por decorrencia, seu custo. Ao mesmo tempo, a transferencia de energia termica tornouse significativamente mais eficiente, proporcionando de 8 a 12 horas de armazenamento de energia  uma noite tipica de armazenamento para uma usina de energia termossolar, por exemplo.
+Usina modular
+O proximo passo do projeto sera construir uma plantapiloto 50 vezes maior do que o prototipo em escala de laboratorio testado agora.
+Nos estamos planejando desenvolver uma usina em escala industrial na forma de um sistema modular, de forma que o sistema em escala piloto que estamos construindo podera de fato ser usado como um modulo para um sistema em escala total, que sera formado por muitos modulos empilhados ou dispostos em conjunto, disse o professor Wenhua Yu, do Laboratorio Nacional Argonne, nos EUA.
+Aprendizagem de Turing cria maquinas que aprendem
+Os Kilobots usados nos experimentos ja haviam demonstrado inteligencia artificial coletiva em experimentos anteriores. Imagem U. Sheffield
+Aprendizado de maquina
+Pesquisadores que trabalham com enxames de robos  grupos de pequenos robos que trabalham de forma cooperativa  afirmam que ja e possivel fazer maquinas que aprendem como sistemas naturais ou artificiais funcionam apenas observando esses sistemas  sem precisar que os humanos lhes descrevam o que esta ocorrendo ou lhes digam onde procurar padroes.
+Se esse conceito de fato puder ser levado adiante, ele podera viabilizar avancos na forma como as maquinas  robos e computadores incluidos  inferem conhecimento e utilizam esse conhecimento para detectar comportamentos e anormalidades, seja no funcionamento de maquinas em um ambiente industrial, seja de seres vivos.
+Quem garante todas essas possibilidades e um trio formado por Wei Li, Melvin Gauci e Roderich Gross, da Universidade de Sheffield, no Reino Unido, que batizaram a nova forma de aprendizado de maquina de Aprendizagem de Turing.
+De acordo com o trio, com o aprendizado de Turing os computadores tornamse capazes de prever, entre outras coisas, como as pessoas e outros seres vivos se comportam, o que pode melhorar as aplicacoes de seguranca e tornar os jogos de computador mais realisticos.
+A inovacao apresentada pelo trio e inspirada na obra do pioneiro da computacao Alan Turing, que propos um teste para estabelecer quando uma maquina poderia se fazer passar por um ser humano sem que os seres humanos percebessem  o famoso teste de Turing.
+Nesse teste, um interrogador troca mensagens com dois jogadores em uma sala diferente um humano e uma maquina. O interrogador tem que descobrir qual dos dois jogadores e humano.
+Ao contrario do teste de Turing original, no entanto, os nossos interrogadores nao sao humanos, mas sim programas de computador que aprendem por si mesmos, explica Gross.
+A equipe colocou um enxame de robos sob vigilancia e queria saber quais regras causavam seus movimentos. Um segundo enxame  formado por robos que aprendem  tambem foi posto sob vigilancia. Os movimentos das duas equipes de robos foram registrados e os dados de movimentacao foram mostrados ao programa interrogador.
+Sua tarefa e distinguir entre os robos dos dois enxames. Ele e recompensado pela categorizacao correta dos dados de movimento do enxame original como genuinos e aqueles do outro enxame como falsos. Os robos de aprendizagem que conseguem enganar o interrogador  fazendoo acreditar que seus dados de movimento eram genuinos  recebem uma recompensa, continua Gross.
+O resultado e que, depois de varias rodadas, o programa interrogador se torna capaz de monitorar movimentos de grupos e acertar quais sao os movimentos genuinos, mesmo tendo de lidar com enxames de robos que aprendem e se tornam cada vez mais craques em enganalo.
+A equipe afirma que a Aprendizagem de Turing tem a grande vantagem de eliminar a necessidade de que seres humanos informem aos programas o que e onde procurar em busca de padroes, como nas tecnicas convencionais de inteligencia artificial.
+Imagine, por exemplo, que voce queira um robo que pinte no melhor estilo Picasso. Um algoritmo de aprendizagem de maquina convencional avaliaria as pinturas do robo para o quao elas se assemelham a uma pintura de Picasso. Mas, para comecar, alguem teria de suprir os algoritmos com dados que descrevam o que e considerado ser semelhante a um Picasso.
+Ja a aprendizagem de Turing nao exige esse conhecimento previo. Basta recompensar o robo se ele pintar algo que seja considerado genuino pelos interrogadores. Assim, a Aprendizagem de Turing ira simultaneamente aprender como interrogar e como pintar.
+Ensino de Maquina inteligencia artificial a servico da educacao
+Ensino de maquina
+O aprendizado de maquina e um campo da inteligencia artificial ja bem estabelecido, com inumeras utilidades, sobretudo na interpretacao de grandes massas de dados.
+Agora o interesse esta se voltando para o ensino de maquina, um campo que mistura ciencia da computacao e psicologia para tentar desenvolver licoes que sejam mais facilmente aprendidas pelos humanos.
+Minha esperanca e que o ensino de maquina tenha um impacto no mundo educacional. Ele e muito diferente da forma como as pessoas normalmente pensam sobre educacao. Ele nos dara licoes mais eficazes e personalizadas para estudantes humanos reais, preve Jerry Zhu, da Universidade WisconsinMadison, nos EUA.
+No ano passado, a Fundacao XPrize lancou um premio milionario para o primeiro programa que consiga dar uma palestra para uma plateia humana. Mas Zhu e seus colegas querem desenvolver palestras otimizadas, ou seja, palestras que permitam um aprendizado melhor do que as aulas tradicionais.
+Modelo de estudante
+Em vez de lidar com montanhas de dados sem saber que padroes podem ser revelados por sua analise, como ocorre no aprendizado de maquina, o pesquisador envolvido com o ensino de maquina ja sabe de antemao o conhecimento que quer repassar aos alunos.
+Ensino de Maquina inteligencia artificial a servico da educacao
