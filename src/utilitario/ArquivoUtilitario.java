@@ -43,7 +43,7 @@ public abstract class ArquivoUtilitario {
 			e.printStackTrace();
 		}
 		
-		Item atual = listaEncadeada.getPrimeiro().getInfo();
+		Item atual = listaEncadeada.getPrimeiro().getItem();
 		Item[] itens = new Item[listaEncadeada.getQuantidadeNos()];
 		
 		int ini = 0;
@@ -87,7 +87,7 @@ public abstract class ArquivoUtilitario {
 			
 		}
 		
-		Item atual = listaEncadeada.getPrimeiro().getInfo();
+		Item atual = listaEncadeada.getPrimeiro().getItem();
 		palavraTemp = new StringBuilder();
 		
 		while(atual != null){

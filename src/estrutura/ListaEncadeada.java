@@ -13,7 +13,7 @@ public class ListaEncadeada {
 			ultimo = no;
 			quantidadeNos++;
 		}else{
-			ultimo.setProx(no);
+			ultimo.setProximo(no);
 			quantidadeNos++;
 		}
 	}
@@ -22,26 +22,8 @@ public class ListaEncadeada {
 		return primeiro;
 	}
 
-	public void setPrimeiro(No primeiro) {
-		this.primeiro = primeiro;
-	}
-
-	public No getUltimo() {
-		return ultimo;
-	}
-
-	public void setUltimo(No ultimo) {
-		this.ultimo = ultimo;
-	}
-
 	public int getQuantidadeNos() {
 		return quantidadeNos;
 	}
-
-	public void setQuantidadeNos(int quantidadeNos) {
-		this.quantidadeNos = quantidadeNos;
-	}
-	
-	
 	
 }
