@@ -19,11 +19,13 @@ public class ListaEncadeada {
 		}else{
 			No no = new No(item);
 
-			if(inicioParagrafo.getItem().getParagrafo() != no.getItem().getParagrafo())
+			if(inicioParagrafo.getItem().getParagrafo() != no.getItem().getParagrafo()){
 				inicioParagrafo = no;
-			if(verificaRepetido(inicioParagrafo, no)){
-				System.out.println("Palavra repetida: " + no.getItem().getPalavra());
-			}else{
+				ultimo.setProximo(no);
+				ultimo = no;
+				quantidadeNos++;
+			
+			}else if(!verificaRepetido(inicioParagrafo, no)){
 				ultimo.setProximo(no);
 				ultimo = no;
 				quantidadeNos++;
@@ -34,7 +36,7 @@ public class ListaEncadeada {
 	private boolean verificaRepetido(No noInicioParagrafo, No no) {
 
 		if (noInicioParagrafo.getItem().getParagrafo() == no.getItem().getParagrafo()) {
-			while (noInicioParagrafo.getItem() != null) {
+			while (noInicioParagrafo != null) {
 				if(! noInicioParagrafo.getItem().getPalavra().equals(no.getItem().getPalavra())){
 					noInicioParagrafo = noInicioParagrafo.getProximo();
 				}else{
