@@ -1,8 +1,10 @@
 package principal;
 
+import estrutura.ListaEncadeada;
 import modelo.Item;
 import ordenador.ABB;
 import ordenador.AVL;
+import ordenador.BubbleSort;
 import utilitario.ArquivoUtilitario;
 
 public class Principal {
@@ -11,6 +13,26 @@ public class Principal {
 		
 	
 	
+	}
+	
+	private void testeBubbleSort(){
+		ListaEncadeada listaEncadeada = new ListaEncadeada();
+		listaEncadeada.add(new Item(1, "Maca"));
+		listaEncadeada.add(new Item(1, "Banana"));
+		listaEncadeada.add(new Item(1, "Amora"));
+		listaEncadeada.add(new Item(1, "Banana"));
+		listaEncadeada.add(new Item(1, "Pera"));
+		listaEncadeada.add(new Item(2, "Maca"));
+		listaEncadeada.add(new Item(2, "Banana"));
+		listaEncadeada.add(new Item(2, "Jaca"));
+		listaEncadeada.add(new Item(2, "Uva"));
+		listaEncadeada.add(new Item(2, "Caja"));
+		listaEncadeada.add(new Item(2, "Uva"));
+		
+		Item[] array = BubbleSort.ordena(listaEncadeada.toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra());
+		}
 	}
 
 	private void testeListaEncadeada(){
