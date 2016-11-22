@@ -5,17 +5,29 @@ import modelo.Item;
 import ordenador.ABB;
 import ordenador.AVL;
 import ordenador.BubbleSort;
+import ordenador.HeapSort;
 import utilitario.ArquivoUtilitario;
 
 public class Principal {
 	public static void main(String[] args) {
 		
-		
-	
-	
 	}
 	
-	private void testeBubbleSort(){
+	private static void testeBubbleSort(){
+		Item[] array = BubbleSort.ordena(geraLista().toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
+		}
+	}
+	
+	private static void testeHeapSort(){
+		Item[] array = HeapSort.ordena(geraLista().toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
+		}
+	}
+	
+	private static ListaEncadeada geraLista(){
 		ListaEncadeada listaEncadeada = new ListaEncadeada();
 		listaEncadeada.add(new Item(1, "Maca"));
 		listaEncadeada.add(new Item(1, "Banana"));
@@ -29,10 +41,7 @@ public class Principal {
 		listaEncadeada.add(new Item(2, "Caja"));
 		listaEncadeada.add(new Item(2, "Uva"));
 		
-		Item[] array = BubbleSort.ordena(listaEncadeada.toArray());
-		for (Item item : array) {
-			System.out.println(item.getPalavra());
-		}
+		return listaEncadeada;
 	}
 
 	private void testeListaEncadeada(){
