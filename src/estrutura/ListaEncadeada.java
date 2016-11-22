@@ -1,5 +1,6 @@
 package estrutura;
 
+import modelo.Item;
 import modelo.No;
 
 public class ListaEncadeada {
@@ -7,12 +8,14 @@ public class ListaEncadeada {
 	private No ultimo;
 	private int quantidadeNos = 0;
 	
-	public void add(No no){
+	public void add(Item item){
 		if(quantidadeNos == 0){
+			No no = new No(item);
 			primeiro = no;
 			ultimo = no;
 			quantidadeNos++;
 		}else{
+			No no = new No(item);
 			ultimo.setProximo(no);
 			ultimo = no;
 			quantidadeNos++;

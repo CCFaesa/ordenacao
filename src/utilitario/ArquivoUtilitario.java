@@ -31,7 +31,7 @@ public abstract class ArquivoUtilitario {
 				String[] dado = verificaTexto(linha, separador).split(separador);
 				
 				for (int i = 0; i < dado.length; i++) {
-					listaEncadeada.add(new No(new Item(numLinha, dado[i] + (i==dado.length-1?"\n\n":""))));
+					listaEncadeada.add(new Item(numLinha, dado[i] + (i==dado.length-1?"\n\n":"")));
 				}
 				
 				numLinha++;
@@ -79,7 +79,7 @@ public abstract class ArquivoUtilitario {
 			}
 
 			if(!palavraTemp.toString().equals("") && (eEspaco || (temp.length-1 == p))){
-				listaEncadeada.add(new No(new Item(cont, palavraTemp.toString())));
+				listaEncadeada.add(new Item(cont, palavraTemp.toString()));
 				cont++;
 				palavraTemp = new StringBuilder();
 				eEspaco = false;
