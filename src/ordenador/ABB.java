@@ -29,5 +29,9 @@ public class ABB {
 		}	
 	}
 	
+	public NoABB getRaiz(){
+		return raiz;
+	}
+	
 	
 }

@@ -11,7 +11,7 @@ public class AVL {
 		h = true;
 	}
 
-	public void insereRaiz (Item item){
+	public void insere (Item item){
 		this.raiz = this.insere(item, this.raiz);
 	}
 
@@ -38,7 +38,7 @@ public class AVL {
 		}
 	}
 
-	private NoAVL balancearEsq(NoAVL no) {
+	private NoAVL balancearDir(NoAVL no) {
 		if(this.h){
 			switch (no.getFatorBalanceamento()) {
 			case 1: 
@@ -56,8 +56,8 @@ public class AVL {
 
 		return no;
 	}
-
-	private NoAVL balancearDir(NoAVL no) {
+	
+	private NoAVL balancearEsq(NoAVL no) {
 		if(this.h){
 			switch (no.getFatorBalanceamento()) {
 			case -1: 
@@ -65,7 +65,7 @@ public class AVL {
 				this.h = false;
 				break;
 			case 0 : 
-				no.setFatorBalanceamento(-1);
+				no.setFatorBalanceamento(1);
 				break;
 			case 1: 
 				no = this.rotacaoEsquerda(no);

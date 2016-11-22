@@ -2,6 +2,7 @@ package principal;
 
 import modelo.Item;
 import ordenador.ABB;
+import ordenador.AVL;
 
 public class Principal {
 	public static void main(String[] args) {
@@ -12,14 +13,15 @@ public class Principal {
 //		}
 //		System.out.println("Ola ordenacao");
 		
-		ABB abb = new ABB();
-		abb.insere(new Item(1, "Capoeira"));
-		abb.insere(new Item(1, "Adedonha"));
-		abb.insere(new Item(1, "Adedo"));
-		abb.insere(new Item(2, "Boneca"));
-		abb.insere(new Item(2, "Sapo"));
-		abb.insere(new Item(2, "Adedonha"));
-		abb.insere(new Item(2, "Moleca"));
+		AVL arvore = new AVL();
+		arvore.insere(new Item(1, "Adedonha"));
+		arvore.insere(new Item(1, "Adedo"));
+		arvore.insere(new Item(2, "Boneca"));
+		arvore.insere(new Item(1, "Capoeira"));
+		arvore.insere(new Item(2, "Adedonha"));
+		arvore.insere(new Item(2, "Moleca"));
+		arvore.insere(new Item(2, "Sapo"));
+		arvore.insere(new Item(2, "Rato"));
 		System.out.println();
 	}
 }

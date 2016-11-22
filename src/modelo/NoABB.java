@@ -35,4 +35,8 @@ public class NoABB {
 	public void add(Item item){
 		lista.add(item);
 	}
+	
+	public ListaEncadeada getLista(){
+		return lista;
+	}
 }
