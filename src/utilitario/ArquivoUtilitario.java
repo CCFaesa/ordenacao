@@ -3,6 +3,8 @@ package utilitario;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 import estrutura.ListaEncadeada;
 import modelo.Item;
@@ -43,16 +45,16 @@ public abstract class ArquivoUtilitario {
 			e.printStackTrace();
 		}
 		
-		No atual = listaEncadeada.getPrimeiro();
-		Item[] itens = new Item[listaEncadeada.getQuantidadeNos()];
-		
-		int ini = 0;
-		while(atual != null){
-		  itens[ini] = atual.getItem();
-		  atual = atual.getProximo();
-		  ini++;
-		}
-		return itens;
+//		No atual = listaEncadeada.getPrimeiro();
+//		Item[] itens = new Item[listaEncadeada.getQuantidadeNos()];
+//		
+//		int ini = 0;
+//		while(atual != null){
+//		  itens[ini] = atual.getItem();
+//		  atual = atual.getProximo();
+//		  ini++;
+//		}
+		return listaEncadeada.toArray();
 	}
 	
 	
@@ -96,6 +98,19 @@ public abstract class ArquivoUtilitario {
 			atual = atual.getProximo();
 		}
 		return palavraTemp.toString();
+	}
+	
+	public static void vetorItemToArquivo(String caminho, Item[] vetorItem){
+		try {
+			FileWriter fw = new FileWriter(new File(caminho));
+			for(int i = 0; i < vetorItem.length; i++){
+				fw.write(vetorItem[i].getPalavra() + " ");
+			}
+			fw.flush();
+		    fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

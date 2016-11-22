@@ -11,11 +11,14 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		
-	
-	
 	}
 	
-	private void testeBubbleSort(){
+	private static void testeEscreveArquivo(){
+		Item[] a = ArquivoUtilitario.arquivoToVetorItem("Texto1.txt");
+		ArquivoUtilitario.vetorItemToArquivo("C:\\Users\\keoma\\Documents\\Pasta de Testes\\teste.txt",a);
+	}
+	
+	private static void testeBubbleSort(){
 		ListaEncadeada listaEncadeada = new ListaEncadeada();
 		listaEncadeada.add(new Item(1, "Maca"));
 		listaEncadeada.add(new Item(1, "Banana"));
@@ -35,14 +38,25 @@ public class Principal {
 		}
 	}
 
-	private void testeListaEncadeada(){
-		Item[] a = ArquivoUtilitario.arquivoToVetorItem("Texto1.txt");
-	
-		for (Item item : a) {
-			System.out.println(item.getPalavra());
-		}
-		System.out.println("Ola ordenacao");
+	private static void testeListaEncadeada(){
+//		Item[] a = ArquivoUtilitario.arquivoToVetorItem("Texto1.txt");
+//		for (Item item : a) {
+//			System.out.println(item.getPalavra());
+//		}
+//		System.out.println("Ola ordenacao");
 
+		ListaEncadeada lista = new ListaEncadeada();
+		lista.add(new Item(1, "Tomate"));
+		lista.add(new Item(1, "Amora"));
+		lista.add(new Item(1, "Banana"));
+		lista.add(new Item(1, "Amora"));
+		lista.add(new Item(1, "Maca"));
+		lista.add(new Item(2, "Maca"));
+		lista.add(new Item(2, "Pera"));
+		lista.add(new Item(2, "Maca"));
+		lista.add(new Item(2, "Jaca"));
+		lista.add(new Item(2, "Maracuja"));
+		lista.printLista();
 	}
 	
 	private void testeAbb(){
@@ -58,4 +72,5 @@ public class Principal {
 		System.out.println();
 	
 	}
+	
 }
