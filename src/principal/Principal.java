@@ -21,5 +21,7 @@ public class Principal {
 		abb.insere(new Item(2, "Adedonha"));
 		abb.insere(new Item(2, "Moleca"));
 		System.out.println();
+		
+	
 	}
 }

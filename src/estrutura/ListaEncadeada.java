@@ -7,18 +7,58 @@ public class ListaEncadeada {
 	private No primeiro;
 	private No ultimo;
 	private int quantidadeNos = 0;
+	private No inicioParagrafo = null;
 	
 	public void add(Item item){
 		if(quantidadeNos == 0){
 			No no = new No(item);
 			primeiro = no;
 			ultimo = no;
+			inicioParagrafo = no;
 			quantidadeNos++;
 		}else{
 			No no = new No(item);
-			ultimo.setProximo(no);
-			ultimo = no;
-			quantidadeNos++;
+
+			if(inicioParagrafo.getItem().getParagrafo() != no.getItem().getParagrafo())
+				inicioParagrafo = no;
+			if(verificaRepetido(inicioParagrafo, no)){
+				System.out.println("Palavra repetida: " + no.getItem().getPalavra());
+			}else{
+				ultimo.setProximo(no);
+				ultimo = no;
+				quantidadeNos++;
+			}
+		}
+	}
+
+	private boolean verificaRepetido(No noInicioParagrafo, No no) {
+
+		if (noInicioParagrafo.getItem().getParagrafo() == no.getItem().getParagrafo()) {
+			while (noInicioParagrafo.getItem() != null) {
+				if(! noInicioParagrafo.getItem().getPalavra().equals(no.getItem().getPalavra())){
+					noInicioParagrafo = noInicioParagrafo.getProximo();
+				}else{
+					return true;
+				}
+			}
+			return false;
+		}
+		return false;
+	}
+	
+	public void printLista() {
+		printLista(this);
+	}
+	
+	public void printLista(ListaEncadeada lista) {
+		No noInicioLista = lista.primeiro;
+		printLista(noInicioLista);	
+	}
+	
+	public void printLista(No noInicioLista){
+		while (noInicioLista.getItem() != null) {
+			System.out.println(noInicioLista.getItem().getParagrafo() +" - " + noInicioLista.getItem().getPalavra());
+			noInicioLista = noInicioLista.getProximo();
 		}
 	}
 
