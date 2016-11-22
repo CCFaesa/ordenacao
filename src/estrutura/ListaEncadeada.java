@@ -70,4 +70,18 @@ public class ListaEncadeada {
 		return quantidadeNos;
 	}
 	
+	public Item[] toArray(){
+		Item[] array = new Item[quantidadeNos];
+		
+		No no = getPrimeiro();
+		
+		
+		for (int i = 0; i < quantidadeNos; i++) {
+			array[i] = no.getItem();
+			no = no.getProximo();
+		}
+		
+		return array;
+	}
+	
 }
