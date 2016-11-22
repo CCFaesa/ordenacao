@@ -2,29 +2,29 @@ package modelo;
 
 import estrutura.ListaEncadeada;
 
-public class NoArvore {
-	private NoArvore noEsquerda;
-	private NoArvore noDireita;
+public class NoABB {
+	private NoABB noEsquerda;
+	private NoABB noDireita;
 	private ListaEncadeada lista;
 	
-	public NoArvore(Item item){
+	public NoABB(Item item){
 		lista = new ListaEncadeada();
 		lista.add(item);
 	}
 	
-	public NoArvore getNoEsquerda() {
+	public NoABB getNoEsquerda() {
 		return noEsquerda;
 	}
 
-	public void setNoEsquerda(NoArvore no) {
+	public void setNoEsquerda(NoABB no) {
 		this.noEsquerda = no;
 	}
 
-	public NoArvore getNoDireita() {
+	public NoABB getNoDireita() {
 		return noDireita;
 	}
 
-	public void setNoDireita(NoArvore no) {
+	public void setNoDireita(NoABB no) {
 		this.noDireita = no;
 	}
 	

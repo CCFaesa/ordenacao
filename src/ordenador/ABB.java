@@ -1,18 +1,18 @@
 package ordenador;
 
 import modelo.Item;
-import modelo.NoArvore;
+import modelo.NoABB;
 
 public class ABB {
-	private NoArvore raiz;
+	private NoABB raiz;
 	
 	public void insere(Item item){
 		this.raiz = insere(item, this.raiz);
 	}
 	
-	public NoArvore insere(Item item, NoArvore no){
+	public NoABB insere(Item item, NoABB no){
 		if(no == null){
-			NoArvore novo = new NoArvore(item);
+			NoABB novo = new NoABB(item);
 			return novo;
 		}else{
 			int comparacao = item.getPalavra().compareToIgnoreCase(no.getPrimeiroNo().getItem().getPalavra());
