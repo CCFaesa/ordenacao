@@ -23,5 +23,7 @@ public class Principal {
 		arvore.insere(new Item(2, "Sapo"));
 		arvore.insere(new Item(2, "Rato"));
 		System.out.println();
+		
+	
 	}
 }
