@@ -56,7 +56,7 @@ public class ListaEncadeada {
 	}
 	
 	public void printLista(No noInicioLista){
-		while (noInicioLista.getItem() != null) {
+		while ((noInicioLista != null) && (noInicioLista.getItem() != null)) {
 			System.out.println(noInicioLista.getItem().getParagrafo() +" - " + noInicioLista.getItem().getPalavra());
 			noInicioLista = noInicioLista.getProximo();
 		}
