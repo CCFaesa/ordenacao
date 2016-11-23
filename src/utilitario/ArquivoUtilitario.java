@@ -141,4 +141,28 @@ public abstract class ArquivoUtilitario {
 		}
 	}
 
+	/**
+	 * Faz uma busca binaria no vetor
+	 * */
+	public static Item[] buscaBinariaNoVetor(Item[] vetor, Item chave) {
+		int inicioVetor = 0;
+		int finalVetor = vetor.length - 1;
+		ListaEncadeada lista = new ListaEncadeada();
+
+		while (inicioVetor <= finalVetor) {
+			int meio = (inicioVetor + finalVetor) >>> 1;
+			Item midVal = vetor[meio];
+
+			if (midVal.comparator(chave) < 0)
+				inicioVetor = meio + 1;
+			else if (midVal.comparator(chave) > 0)
+				finalVetor = meio - 1;
+			else{				
+				lista.add(new Item(midVal.getParagrafo(), chave.getPalavra()));
+				return lista.toArray();
+				}
+				
+		}
+		return lista.toArray();
+	}
 }
