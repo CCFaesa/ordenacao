@@ -2,16 +2,18 @@ package utilitario;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
 
 public abstract class ArquivoUtilitario {
-	
+	public static final String ARQUIVO_RESULTADOS = "resultados.txt";
 	
 	/**
 	 * Recebe o caminho do arqivo como parametro e 
@@ -25,7 +27,7 @@ public abstract class ArquivoUtilitario {
 			FileReader fr = new FileReader(new File(caminho));
 			BufferedReader bf = new BufferedReader(fr);
 			String linha = bf.readLine();
-			int numLinha = 0;
+			int numLinha = 1;
 			String separador = "#";
 			
 			while(linha != null){
@@ -102,12 +104,38 @@ public abstract class ArquivoUtilitario {
 	
 	public static void vetorItemToArquivo(String caminho, Item[] vetorItem){
 		try {
-			FileWriter fw = new FileWriter(new File(caminho));
+			File f = new File(caminho);
+			f.createNewFile();
+			FileWriter fw = new FileWriter(f);
 			for(int i = 0; i < vetorItem.length; i++){
-				fw.write(vetorItem[i].getPalavra() + " ");
+				fw.write(vetorItem[i].toString() + " ");
 			}
 			fw.flush();
 		    fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void limpaResultados(){
+		PrintWriter writer;
+		try {
+			writer = new PrintWriter(ARQUIVO_RESULTADOS);
+			writer.print("");
+			writer.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void salvaResultado(String resultado){
+		try {
+			FileWriter fw = new FileWriter(ARQUIVO_RESULTADOS, true);
+			PrintWriter pw = new PrintWriter(fw);
+			pw.append(resultado + "\n");
+			
+			pw.close();
+	        fw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -2,8 +2,10 @@ package ordenador;
 
 import modelo.Item;
 
-public class BubbleSort{
-	public static Item[] ordena(Item[] array) {
+public class BubbleSort extends Sort{
+	
+	@Override
+	public Item[] ordena() {
 		int LSup, i, j;
 		Item temp;
 		LSup = array.length - 1;

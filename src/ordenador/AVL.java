@@ -3,7 +3,7 @@ package ordenador;
 import modelo.Item;
 import modelo.NoAVL;
 
-public class AVL {
+public class AVL extends Arvore{
 	private NoAVL raiz;
 	private boolean h;
 
@@ -11,6 +11,7 @@ public class AVL {
 		h = true;
 	}
 
+	@Override
 	public void insere (Item item){
 		this.raiz = this.insere(item, this.raiz);
 	}

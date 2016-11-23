@@ -3,9 +3,10 @@ package ordenador;
 import modelo.Item;
 import modelo.NoABB;
 
-public class ABB {
+public class ABB extends Arvore{
 	private NoABB raiz;
 	
+	@Override
 	public void insere(Item item){
 		this.raiz = insere(item, this.raiz);
 	}

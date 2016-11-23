@@ -2,7 +2,7 @@ package ordenador;
 
 import modelo.Item;
 
-public class QuickSort extends Sort{
+public class QuickSortInsercaoDireta extends Sort{
 	
 	@Override
 	public Item[] ordena() {
@@ -10,6 +10,9 @@ public class QuickSort extends Sort{
 	}
 
 	public Item[] ordena(Item[] array, int esq, int dir){
+		
+		if(dir - esq < 25) return insercaoDireta(array);
+		
 		Item pivo; 
 		int i = esq, j = dir;
 		Item temp;
@@ -27,7 +30,7 @@ public class QuickSort extends Sort{
 				array[j] = temp;i++;
 				j--;
 			}
-		}while (i <= j);
+		}while(i <= j);
 
 		if (esq < j) ordena (array, esq, j);
 		if (dir > i) ordena (array, i, dir);
@@ -35,4 +38,22 @@ public class QuickSort extends Sort{
 		return array;
 	}
 
+	public Item[] insercaoDireta(Item[] array){
+		int i, j;
+		Item temp;
+
+		for (i=1; i < array.length; i++){
+			temp = array[i];
+			j = i-1;
+			
+			while ((j >= 0) && (array[j].comparator(temp) > 0)){
+				array[j+1] = array[j];
+				j--;
+			}
+
+			array[j+1] = temp;
+		}
+		
+		return array;
+	}
 }
