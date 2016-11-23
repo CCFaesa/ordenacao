@@ -102,7 +102,9 @@ public abstract class ArquivoUtilitario {
 	
 	public static void vetorItemToArquivo(String caminho, Item[] vetorItem){
 		try {
-			FileWriter fw = new FileWriter(new File(caminho));
+			File f = new File(caminho);
+			f.mkdir();
+			FileWriter fw = new FileWriter(f);
 			for(int i = 0; i < vetorItem.length; i++){
 				fw.write(vetorItem[i].getPalavra() + " ");
 			}

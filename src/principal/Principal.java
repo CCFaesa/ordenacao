@@ -46,7 +46,7 @@ public class Principal {
 	
 	private static void testeEscreveArquivo(){
 		Item[] a = ArquivoUtilitario.arquivoToVetorItem("Texto1.txt");
-		ArquivoUtilitario.vetorItemToArquivo("C:\\Users\\keoma\\Documents\\Pasta de Testes\\teste.txt",a);
+		ArquivoUtilitario.vetorItemToArquivo("teste.txt",a);
 	}
 
 	private static void testeListaEncadeada(){
