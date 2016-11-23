@@ -11,7 +11,7 @@ public class QuickSortInsercaoDireta extends Sort{
 
 	public Item[] ordena(Item[] array, int esq, int dir){
 		
-		if(dir - esq < 25) return insercaoDireta(array);
+		if(dir - esq < 25) return insercaoDireta(array, esq, dir);
 		
 		Item pivo; 
 		int i = esq, j = dir;
@@ -38,11 +38,11 @@ public class QuickSortInsercaoDireta extends Sort{
 		return array;
 	}
 
-	public Item[] insercaoDireta(Item[] array){
+	public Item[] insercaoDireta(Item[] array, int esq, int dir){
 		int i, j;
 		Item temp;
 
-		for (i=1; i < array.length; i++){
+		for (i=esq+1; i < dir; i++){
 			temp = array[i];
 			j = i-1;
 			
