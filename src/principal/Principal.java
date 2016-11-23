@@ -6,6 +6,8 @@ import ordenador.ABB;
 import ordenador.AVL;
 import ordenador.BubbleSort;
 import ordenador.HeapSort;
+import ordenador.QuickSort;
+import ordenador.QuickSortInsercaoDireta;
 import utilitario.ArquivoUtilitario;
 
 public class Principal {
@@ -22,6 +24,20 @@ public class Principal {
 	
 	private static void testeHeapSort(){
 		Item[] array = HeapSort.ordena(geraLista().toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
+		}
+	}
+	
+	private static void testaQuickSort(){
+		Item[] array = QuickSort.ordena(geraLista().toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
+		}
+	}
+	
+	private static void testaQuickComInsercao(){
+		Item[] array = QuickSortInsercaoDireta.ordena(geraLista().toArray());
 		for (Item item : array) {
 			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
 		}
