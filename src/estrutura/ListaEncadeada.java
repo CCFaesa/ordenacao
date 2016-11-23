@@ -1,9 +1,14 @@
 package estrutura;
 
+import java.io.Serializable;
+
 import modelo.Item;
 import modelo.No;
 
-public class ListaEncadeada {
+public class ListaEncadeada implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
 	private No primeiro;
 	private No ultimo;
 	private int quantidadeNos = 0;

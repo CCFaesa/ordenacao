@@ -1,9 +1,11 @@
 package ordenador;
 
+import java.io.Serializable;
+
 import modelo.Item;
 import modelo.NoArvore;
 
-public class AVL extends Arvore{
+public class AVL extends Arvore implements Serializable{
 	private boolean h;
 
 	public AVL(){

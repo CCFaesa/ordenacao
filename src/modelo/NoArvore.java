@@ -1,8 +1,13 @@
 package modelo;
 
+import java.io.Serializable;
+
 import estrutura.ListaEncadeada;
 
-public class NoArvore {
+public class NoArvore implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
 	private NoArvore noEsquerda;
 	private NoArvore noDireita;
 	private ListaEncadeada lista;

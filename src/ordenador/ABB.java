@@ -1,9 +1,11 @@
 package ordenador;
 
+import java.io.Serializable;
+
 import modelo.Item;
 import modelo.NoArvore;
 
-public class ABB extends Arvore{
+public class ABB extends Arvore implements Serializable{
 	
 	@Override
 	public void insere(Item item){

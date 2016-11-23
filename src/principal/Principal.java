@@ -25,105 +25,105 @@ public class Principal {
 		
 		ordenador = new ShellSort();
 		// ShellSort com Texto1.txt
-		tempo = ordena(ordenador, "Texto1.txt", "ShellSort_Texto1.txt");
+		tempo = ordena(ordenador, "Texto1.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto1.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
 		
 		// ShellSort com Texto2.txt
-		tempo = ordena(ordenador, "Texto2.txt", "ShellSort_Texto2.txt");
+		tempo = ordena(ordenador, "Texto2.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto2.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
 		
 		// ShellSort com Texto3.txt
-		tempo = ordena(ordenador, "Texto3.txt", "ShellSort_Texto3.txt");
+		tempo = ordena(ordenador, "Texto3.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto3.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
 		
 		// ShellSort com Texto4.txt
-		tempo = ordena(ordenador, "Texto4.txt", "ShellSort_Texto4.txt");
+		tempo = ordena(ordenador, "Texto4.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
 		
 		// ShellSort com Texto5.txt
-		tempo = ordena(ordenador, "Texto5.txt", "ShellSort_Texto5.txt");
+		tempo = ordena(ordenador, "Texto5.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
 		
 		ordenador = new QuickSort();
 		// QuickSort com Texto1.txt
-		tempo = ordena(ordenador, "Texto1.txt", "QuickSort_Texto1.txt");
+		tempo = ordena(ordenador, "Texto1.txt", "QuickSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto1.txt com QuickSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSort com Texto2.txt
-		tempo = ordena(ordenador, "Texto2.txt", "QuickSort_Texto2.txt");
+		tempo = ordena(ordenador, "Texto2.txt", "QuickSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto2.txt com QuickSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSort com Texto3.txt
-		tempo = ordena(ordenador, "Texto3.txt", "QuickSort_Texto3.txt");
+		tempo = ordena(ordenador, "Texto3.txt", "QuickSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto3.txt com QuickSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSort com Texto4.txt
-		tempo = ordena(ordenador, "Texto4.txt", "QuickSort_Texto4.txt");
+		tempo = ordena(ordenador, "Texto4.txt", "QuickSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com QuickSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSort com Texto5.txt
-		tempo = ordena(ordenador, "Texto5.txt", "QuickSort_Texto5.txt");
+		tempo = ordena(ordenador, "Texto5.txt", "QuickSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com QuickSort: " + (tempo/5) + " milisegundos");
 		
 		
 		ordenador = new HeapSort();
 		// HeapSort com Texto1.txt
-		tempo = ordena(ordenador, "Texto1.txt", "HeapSort_Texto1.txt");
+		tempo = ordena(ordenador, "Texto1.txt", "HeapSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto1.txt com HeapSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// HeapSort com Texto2.txt
-		tempo = ordena(ordenador, "Texto2.txt", "HeapSort_Texto2.txt");
+		tempo = ordena(ordenador, "Texto2.txt", "HeapSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto2.txt com HeapSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// HeapSort com Texto3.txt
-		tempo = ordena(ordenador, "Texto3.txt", "HeapSort_Texto3.txt");
+		tempo = ordena(ordenador, "Texto3.txt", "HeapSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto3.txt com HeapSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// HeapSort com Texto4.txt
-		tempo = ordena(ordenador, "Texto4.txt", "HeapSort_Texto4.txt");
+		tempo = ordena(ordenador, "Texto4.txt", "HeapSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com HeapSort: " + (tempo/5) + " milisegundos");
 		
 		
 		// HeapSort com Texto5.txt
-		tempo = ordena(ordenador, "Texto5.txt", "HeapSort_Texto5.txt");
+		tempo = ordena(ordenador, "Texto5.txt", "HeapSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com HeapSort: " + (tempo/5) + " milisegundos");
 		
 		
 		ordenador = new QuickSortInsercaoDireta();
 		// QuickSortInsercaoDireta com Texto1.txt
-		tempo = ordena(ordenador, "Texto1.txt", "QuickSortInsercaoDireta_Texto1.txt");
+		tempo = ordena(ordenador, "Texto1.txt", "QuickSortInsercaoDireta.txt");
 		ArquivoUtilitario.salvaResultado("Texto1.txt com QuickSortInsercaoDireta: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSortInsercaoDireta com Texto2.txt
-		tempo = ordena(ordenador, "Texto2.txt", "QuickSortInsercaoDireta_Texto2.txt");
+		tempo = ordena(ordenador, "Texto2.txt", "QuickSortInsercaoDireta.txt");
 		ArquivoUtilitario.salvaResultado("Texto2.txt com QuickSortInsercaoDireta: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSortInsercaoDireta com Texto3.txt
-		tempo = ordena(ordenador, "Texto3.txt", "QuickSortInsercaoDireta_Texto3.txt");
+		tempo = ordena(ordenador, "Texto3.txt", "QuickSortInsercaoDireta.txt");
 		ArquivoUtilitario.salvaResultado("Texto3.txt com QuickSortInsercaoDireta: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSortInsercaoDireta com Texto4.txt
-		tempo = ordena(ordenador, "Texto4.txt", "QuickSortInsercaoDireta_Texto4.txt");
+		tempo = ordena(ordenador, "Texto4.txt", "QuickSortInsercaoDireta.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com QuickSortInsercaoDireta: " + (tempo/5) + " milisegundos");
 		
 		
 		// QuickSortInsercaoDireta com Texto5.txt
-		tempo = ordena(ordenador, "Texto5.txt", "QuickSortInsercaoDireta_Texto5.txt");
+		tempo = ordena(ordenador, "Texto5.txt", "QuickSortInsercaoDireta.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com QuickSortInsercaoDireta: " + (tempo/5) + " milisegundos");
 		
 		
@@ -149,6 +149,8 @@ public class Principal {
 		arvore = new ABB();
 		tempo = insere(arvore, "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com ABB: " + (tempo/5) + " milisegundos");
+		
+		ArquivoUtilitario.serializaABB((ABB) arvore);
 		
 		
 		// ABB com Texto5.txt
@@ -180,6 +182,8 @@ public class Principal {
 		tempo = insere(arvore, "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com AVL: " + (tempo/5) + " milisegundos");
 		
+		ArquivoUtilitario.serializaAVL((AVL) arvore);
+		
 		
 		// AVL com Texto5.txt
 		arvore = new AVL();
@@ -187,7 +191,45 @@ public class Principal {
 		ArquivoUtilitario.salvaResultado("Texto5.txt com AVL: " + (tempo/5) + " milisegundos");
 		
 		
-		System.out.println("FIM");
+		System.out.println("FIM PARTE 1");
+		
+		
+		Item[] palavrasPesquisar = ArquivoUtilitario.arquivoToVetorItem("palavras.txt");
+		StringBuilder stb;
+		
+		
+		inicio = System.currentTimeMillis();
+		arvore = ArquivoUtilitario.deserializaABB();
+		
+		for(int i = 0; i < 5; i++){
+			stb = new StringBuilder();
+			for (Item item : palavrasPesquisar) {
+				stb.append(item.getPalavra())
+					.append(" ")
+					.append(arvore.pesquisa(item.getPalavra()))
+					.append("\n");
+			}
+			ArquivoUtilitario.salvaArquivo(stb.toString(), "buscaABB.txt");
+		}
+		ArquivoUtilitario.salvaResultado("Pesquisa ABB: " + ((System.currentTimeMillis() - inicio)/5) + " milisegundos");
+		
+		
+		inicio = System.currentTimeMillis();
+		arvore = ArquivoUtilitario.deserializaAVL();
+		for(int i = 0; i < 5; i++){
+			stb = new StringBuilder();
+			for (Item item : palavrasPesquisar) {
+				stb.append(item.getPalavra())
+					.append(" ")
+					.append(arvore.pesquisa(item.getPalavra()))
+					.append("\n");
+			}
+			ArquivoUtilitario.salvaArquivo(stb.toString(), "buscaAVL.txt");
+		}
+		ArquivoUtilitario.salvaResultado("Pesquisa AVL:" + ((System.currentTimeMillis() - inicio)/5) + " milisegundos");
+		
+		System.out.println("FIM PARTE 2");
+		
 		
 //		ArquivoUtilitario.salvaResultado(ArquivoUtilitario.pesquisaBinariaNoArquivo("palavras.txt","Texto5.txt"));
 	}

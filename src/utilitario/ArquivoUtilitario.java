@@ -2,15 +2,21 @@ package utilitario;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 
 import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
+import ordenador.ABB;
+import ordenador.AVL;
 import ordenador.QuickSort;
 import ordenador.ShellSort;
 import ordenador.Sort;
@@ -202,5 +208,68 @@ public abstract class ArquivoUtilitario {
 			sbResultado.append(vetChaves[i].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n");
 		}
 		return sbResultado.toString();
+	}
+	
+	public static void salvaArquivo(String texto, String momeArquivo){
+		try {
+			FileWriter fw = new FileWriter(momeArquivo, false);
+			PrintWriter pw = new PrintWriter(fw);
+			pw.write(texto);
+			
+			pw.close();
+	        fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void serializaAVL(AVL avl){
+		try {
+			FileOutputStream fos = new FileOutputStream("avl.ser");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			oos.writeObject(avl);
+			oos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static AVL deserializaAVL(){
+		AVL avl = null;
+		try {
+			FileInputStream fis = new FileInputStream("avl.ser");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			avl = (AVL) ois.readObject();
+			ois.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return avl;
+	}
+	
+	public static void serializaABB(ABB abb){
+		try {
+			FileOutputStream fos = new FileOutputStream("abb.ser");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			oos.writeObject(abb);
+			oos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static ABB deserializaABB(){
+		ABB abb = null;
+		try {
+			FileInputStream fis = new FileInputStream("abb.ser");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			abb = (ABB) ois.readObject();
+			ois.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return abb;
 	}
 }

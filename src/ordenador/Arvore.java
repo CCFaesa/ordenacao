@@ -1,10 +1,15 @@
 package ordenador;
 
+import java.io.Serializable;
+
 import modelo.Item;
 import modelo.No;
 import modelo.NoArvore;
 
-public abstract class Arvore {
+public abstract class Arvore implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
 	protected NoArvore raiz;
 
 	public abstract void insere(Item item);
@@ -19,13 +24,13 @@ public abstract class Arvore {
 			if(comparacao == 0){
 				No no = noArvore.getPrimeiroNo();
 
-				String retorno = "";
+				StringBuilder stb = new StringBuilder();
 				while(no != null){
-					retorno += no.getItem().getParagrafo() + " ";
+					stb.append(no.getItem().getParagrafo()).append(" ");
 					no = no.getProximo();
 				}
 
-				return retorno;
+				return stb.toString();
 			}else if(comparacao < 0){
 				noArvore = noArvore.getNoEsquerda();
 			}else{
