@@ -20,8 +20,8 @@ public class QuickSortInsercaoDireta extends Sort{
 		pivo = array[(i+j)/2];
 
 		do {
-			while (array[i].comparator(pivo) < 0) i++;
-			while (array[j].comparator(pivo) > 0) j--;
+			while (array[i].comparaTudo(pivo) < 0) i++;
+			while (array[j].comparaTudo(pivo) > 0) j--;
 
 			if (i <= j) {
 				temp = array[i];

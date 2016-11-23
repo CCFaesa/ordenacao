@@ -15,7 +15,7 @@ public class ABB extends Arvore{
 			NoArvore novo = new NoArvore(item);
 			return novo;
 		}else{
-			int comparacao = item.comparator(no.getPrimeiroNo().getItem());
+			int comparacao = item.comparaPalavra(no.getPrimeiroNo().getItem());
 			
 			if(comparacao < 0){
 				no.setNoEsquerda(insere(item, no.getNoEsquerda()));

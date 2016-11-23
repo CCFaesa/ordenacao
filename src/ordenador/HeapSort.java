@@ -34,10 +34,10 @@ public class HeapSort extends Sort{
 		
 		while((mF <= dir) && (!heap)){
 			if(mF < dir)
-				if(array[mF].comparator(array[mF+1]) < 0 )
+				if(array[mF].comparaTudo(array[mF+1]) < 0 )
 					mF++;
 			
-			if(raiz.comparator(array[mF]) < 0 ){
+			if(raiz.comparaTudo(array[mF]) < 0 ){
 				array[i] = array[mF];
 				i = mF;
 				mF = 2 * i + 1;

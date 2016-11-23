@@ -21,7 +21,7 @@ public class AVL extends Arvore{
 			this.h = true;
 			return novo;
 		}else{
-			int comparacao = item.comparator(no.getPrimeiroNo().getItem()); 
+			int comparacao = item.comparaPalavra(no.getPrimeiroNo().getItem()); 
 			
 			if (comparacao < 0){
 				no.setNoEsquerda(this.insere(item, no.getNoEsquerda()));

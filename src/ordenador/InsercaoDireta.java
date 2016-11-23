@@ -16,7 +16,7 @@ public class InsercaoDireta{
 			temp = array[i];
 			j = i-1;
 			
-			while ((j >= 0) && (array[j].comparator(temp) > 0)){
+			while ((j >= 0) && (array[j].comparaTudo(temp) > 0)){
 				array[j+1] = array[j];
 				j--;
 			}
