@@ -1,19 +1,18 @@
 package ordenador;
 
 import modelo.Item;
-import modelo.NoABB;
+import modelo.NoArvore;
 
 public class ABB extends Arvore{
-	private NoABB raiz;
 	
 	@Override
 	public void insere(Item item){
 		this.raiz = insere(item, this.raiz);
 	}
 	
-	public NoABB insere(Item item, NoABB no){
+	public NoArvore insere(Item item, NoArvore no){
 		if(no == null){
-			NoABB novo = new NoABB(item);
+			NoArvore novo = new NoArvore(item);
 			return novo;
 		}else{
 			int comparacao = item.comparator(no.getPrimeiroNo().getItem());
@@ -30,7 +29,7 @@ public class ABB extends Arvore{
 		}	
 	}
 	
-	public NoABB getRaiz(){
+	public NoArvore getRaiz(){
 		return raiz;
 	}
 	
