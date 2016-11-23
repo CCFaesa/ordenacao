@@ -36,9 +36,9 @@ public class Item {
 	
 	public int comparator(Item item){
 		int diferenca = this.palavra.compareToIgnoreCase(item.getPalavra());
-//		if(diferenca == 0){
-//			return paragrafo - item.getParagrafo();
-//		}
+		if(diferenca == 0){
+			return paragrafo - item.getParagrafo();
+		}
 		
 		return diferenca;
 	}
