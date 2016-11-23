@@ -11,6 +11,9 @@ import java.io.PrintWriter;
 import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
+import ordenador.QuickSort;
+import ordenador.ShellSort;
+import ordenador.Sort;
 
 public abstract class ArquivoUtilitario {
 	public static final String ARQUIVO_RESULTADOS = "resultados.txt";
@@ -148,21 +151,56 @@ public abstract class ArquivoUtilitario {
 		int inicioVetor = 0;
 		int finalVetor = vetor.length - 1;
 		ListaEncadeada lista = new ListaEncadeada();
-
+		Sort sort = new QuickSort();
+		
 		while (inicioVetor <= finalVetor) {
 			int meio = (inicioVetor + finalVetor) >>> 1;
 			Item midVal = vetor[meio];
 
-			if (midVal.comparator(chave) < 0)
+			if (midVal.getPalavra().compareToIgnoreCase(chave.getPalavra()) < 0)
 				inicioVetor = meio + 1;
-			else if (midVal.comparator(chave) > 0)
+			else if (midVal.getPalavra().compareToIgnoreCase(chave.getPalavra()) > 0)
 				finalVetor = meio - 1;
 			else{				
+				int auxIndice = meio;
 				lista.add(new Item(midVal.getParagrafo(), chave.getPalavra()));
-				return lista.toArray();
+				
+				while(vetor[auxIndice-1].getPalavra().compareToIgnoreCase(vetor[auxIndice].getPalavra()) == 0){
+					lista.add(new Item(vetor[auxIndice-1].getParagrafo(), vetor[auxIndice-1].getPalavra()));
+					
+					auxIndice--;	
+				}
+				auxIndice = meio;
+				while(vetor[auxIndice+1].getPalavra().compareToIgnoreCase(vetor[auxIndice].getPalavra()) == 0){
+					lista.add(new Item(vetor[auxIndice+1].getParagrafo(), vetor[auxIndice+1].getPalavra()));
+					auxIndice++;	
+				}
+				sort.setVetor(lista.toArray());
+					return sort.ordena();
 				}
 				
 		}
 		return lista.toArray();
+	}
+	
+	public static String pesquisaBinariaNoArquivo(String arquivoIndice, String arquivoPesquisar){
+		Item[] vetChaves = ArquivoUtilitario.arquivoToVetorItem(arquivoIndice);
+		Sort ordenador = new ShellSort();
+		ordenador.setVetor(ArquivoUtilitario.arquivoToVetorItem(arquivoPesquisar));
+		Item[] vet = ordenador.ordena();
+		Item[] aux= null;
+		StringBuilder sb;
+		StringBuilder sbResultado = new StringBuilder();
+		ArquivoUtilitario.salvaResultado("Pesquisa: ");
+		
+		for(int i = 0; i < vetChaves.length; i++){
+			aux = ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]);
+			sb = new StringBuilder();
+			for(int j = 0; j<aux.length;j++)
+				sb.append((j>0?",":"")+aux[j].getParagrafo());
+			
+			sbResultado.append(vetChaves[i].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n");
+		}
+		return sbResultado.toString();
 	}
 }

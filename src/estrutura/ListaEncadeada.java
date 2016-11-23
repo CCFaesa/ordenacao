@@ -35,15 +35,12 @@ public class ListaEncadeada {
 
 	private boolean verificaRepetido(No noInicioParagrafo, No no) {
 
-		if (noInicioParagrafo.getItem().getParagrafo() == no.getItem().getParagrafo()) {
-			while (noInicioParagrafo != null) {
-				if(! noInicioParagrafo.getItem().equals(no.getItem())){
-					noInicioParagrafo = noInicioParagrafo.getProximo();
-				}else{
-					return true;
-				}
+		while (noInicioParagrafo != null) {
+			if (!noInicioParagrafo.getItem().equals(no.getItem())) {
+				noInicioParagrafo = noInicioParagrafo.getProximo();
+			} else {
+				return true;
 			}
-			return false;
 		}
 		return false;
 	}
