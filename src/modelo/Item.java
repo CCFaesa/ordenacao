@@ -42,4 +42,11 @@ public class Item {
 		
 		return diferenca;
 	}
+
+	@Override
+	public String toString() {
+		return  palavra + "[" + paragrafo + "]";
+	}
+	
+	
 }

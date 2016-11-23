@@ -2,13 +2,14 @@ package ordenador;
 
 import modelo.Item;
 
-public class QuickSortInsercaoDireta {
+public class QuickSortInsercaoDireta extends Sort{
 	
-	public static Item[] ordena(Item[] array){
+	@Override
+	public Item[] ordena() {
 		return ordena(array, 0, array.length - 1);
 	}
 
-	public static Item[] ordena(Item[] array, int esq, int dir){
+	public Item[] ordena(Item[] array, int esq, int dir){
 		
 		if(dir - esq < 25) return insercaoDireta(array);
 		
@@ -37,7 +38,7 @@ public class QuickSortInsercaoDireta {
 		return array;
 	}
 
-	public static Item[] insercaoDireta(Item[] array){
+	public Item[] insercaoDireta(Item[] array){
 		int i, j;
 		Item temp;
 

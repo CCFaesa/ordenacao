@@ -2,9 +2,10 @@ package ordenador;
 
 import modelo.Item;
 
-public class ShellSort{
+public class ShellSort extends Sort{
 	
-	public static Item[] ordena(Item[] array) {
+	@Override
+	public Item[] ordena() {
 		int i, j, h;
 		Item temp;
 		h = 1;

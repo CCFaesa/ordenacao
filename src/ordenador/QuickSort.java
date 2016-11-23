@@ -2,13 +2,14 @@ package ordenador;
 
 import modelo.Item;
 
-public class QuickSort {
-
-	public static Item[] ordena(Item[] array){
+public class QuickSort extends Sort{
+	
+	@Override
+	public Item[] ordena() {
 		return ordena(array, 0, array.length - 1);
 	}
 
-	public static Item[] ordena(Item[] array, int esq, int dir){
+	public Item[] ordena(Item[] array, int esq, int dir){
 		Item pivo; 
 		int i = esq, j = dir;
 		Item temp;

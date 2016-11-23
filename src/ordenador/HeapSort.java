@@ -2,9 +2,10 @@ package ordenador;
 
 import modelo.Item;
 
-public class HeapSort{
+public class HeapSort extends Sort{
 	
-	public static Item[] ordena(Item[] array) {
+	@Override
+	public Item[] ordena() {
 		int dir = array.length -1;
 		int esq = (dir-1)/2;
 		Item temp;
@@ -25,7 +26,7 @@ public class HeapSort{
 		return array;
 	}
 
-	private static void refazHeap(int esq, int dir, Item[] array) {
+	private void refazHeap(int esq, int dir, Item[] array) {
 		int i = esq;
 		int mF = 2*i+1;
 		Item raiz = array[i];
