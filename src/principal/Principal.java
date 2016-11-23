@@ -8,11 +8,19 @@ import ordenador.BubbleSort;
 import ordenador.HeapSort;
 import ordenador.QuickSort;
 import ordenador.QuickSortInsercaoDireta;
+import ordenador.ShellSort;
 import utilitario.ArquivoUtilitario;
 
 public class Principal {
 	public static void main(String[] args) {
 		
+	}
+	
+	private static void testeShellSort(){
+		Item[] array = ShellSort.ordena(geraLista().toArray());
+		for (Item item : array) {
+			System.out.println(item.getPalavra() + "[" + item.getParagrafo() + "]");
+		}
 	}
 	
 	private static void testeBubbleSort(){
