@@ -33,9 +33,10 @@ public class HeapSort{
 		
 		while((mF <= dir) && (!heap)){
 			if(mF < dir)
-				if(array[mF].getPalavra().compareToIgnoreCase(array[mF+1].getPalavra()) < 0 )
+				if(array[mF].comparator(array[mF+1]) < 0 )
 					mF++;
-			if(raiz.getPalavra().compareToIgnoreCase(array[mF].getPalavra()) < 0 ){
+			
+			if(raiz.comparator(array[mF]) < 0 ){
 				array[i] = array[mF];
 				i = mF;
 				mF = 2 * i + 1;

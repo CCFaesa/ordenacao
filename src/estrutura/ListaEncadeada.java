@@ -37,7 +37,7 @@ public class ListaEncadeada {
 
 		if (noInicioParagrafo.getItem().getParagrafo() == no.getItem().getParagrafo()) {
 			while (noInicioParagrafo != null) {
-				if(! noInicioParagrafo.getItem().getPalavra().equals(no.getItem().getPalavra())){
+				if(! noInicioParagrafo.getItem().equals(no.getItem())){
 					noInicioParagrafo = noInicioParagrafo.getProximo();
 				}else{
 					return true;

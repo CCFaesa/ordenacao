@@ -15,7 +15,7 @@ public class ABB {
 			NoABB novo = new NoABB(item);
 			return novo;
 		}else{
-			int comparacao = item.getPalavra().compareToIgnoreCase(no.getPrimeiroNo().getItem().getPalavra());
+			int comparacao = item.comparator(no.getPrimeiroNo().getItem());
 			
 			if(comparacao < 0){
 				no.setNoEsquerda(insere(item, no.getNoEsquerda()));

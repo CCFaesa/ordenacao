@@ -24,5 +24,22 @@ public class Item {
 
 	public void setPalavra(String palavra) {
 		this.palavra = palavra;
-	}	
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Item)) return false;
+		
+		Item outro = (Item)obj;
+		return this.palavra.equalsIgnoreCase(outro.getPalavra()) && this.paragrafo == outro.getParagrafo();
+	}
+	
+	public int comparator(Item item){
+		int diferenca = this.palavra.compareToIgnoreCase(item.getPalavra());
+		if(diferenca == 0){
+			return paragrafo - item.getParagrafo();
+		}
+		
+		return diferenca;
+	}
 }

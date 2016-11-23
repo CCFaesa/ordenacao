@@ -16,14 +16,13 @@ public class AVL {
 	}
 
 	private NoAVL insere (Item item, NoAVL no){
-
 		if (no == null){
 			NoAVL novo = new NoAVL(item);
 			this.h = true;
 			return novo;
 		}else{
-			int comparacao = item.getPalavra().compareToIgnoreCase(no.getPrimeiroNo().getItem().getPalavra());
-
+			int comparacao = item.comparator(no.getPrimeiroNo().getItem()); 
+			
 			if (comparacao < 0){
 				no.setNoEsquerda(this.insere(item, no.getNoEsquerda()));
 				no = this.balancearDir(no);

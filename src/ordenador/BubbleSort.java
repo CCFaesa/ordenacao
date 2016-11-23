@@ -11,7 +11,7 @@ public class BubbleSort{
 		do {
 			j = 0;
 			for (i = 0; i < LSup; i++)
-				if(array[i].getPalavra().compareToIgnoreCase(array[i + 1].getPalavra()) > 0){
+				if(array[i].comparator(array[i + 1]) > 0){
 					temp = array[i];
 					array[i] = array[i + 1];
 					array[i + 1] = temp;
