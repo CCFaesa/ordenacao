@@ -45,6 +45,7 @@ public class Principal {
 		tempo = ordena(ordenador, "Texto4.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
+		ArquivoUtilitario.salvaVetor(ordenador.getVetor());
 		
 		// ShellSort com Texto5.txt
 		tempo = ordena(ordenador, "Texto5.txt", "ShellSort.txt");
