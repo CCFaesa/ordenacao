@@ -59,6 +59,30 @@ public class HashListaEncadeada {
 		}
 
 	}
+	
+	public Item[] buscar(Item item) {
+		int i = calculaPosicao(item.getPalavra().hashCode());
+		i = (i < 0) ? (i * (-1)) : i;
+		if (vetorPrincipal[i] == null) {
+			return null;
+		} else {
+			ListaEncadeada listaAux = vetorPrincipal[i].getPrimeiraLista();
+			No noAux = null;
+			boolean noNaoEncontrado = true;
+
+			while (listaAux != null && noNaoEncontrado) {
+				noAux = listaAux.getPrimeiro();
+					if (noAux.getItem().getPalavra().equalsIgnoreCase(item.getPalavra()))
+						return listaAux.toArray();
+					
+					if (listaAux != null)
+						listaAux = listaAux.getProximaLista();
+			}
+			if (noNaoEncontrado)
+				return null;
+		}
+		return null;
+	}
 
 	public int getNumeroMod() {
 		return numeroMod;
@@ -84,7 +108,12 @@ public class HashListaEncadeada {
 			h.add(item);
 		}
 		
-		System.out.println("");
+		Item vetItem[] = h.buscar(new Item(3,"Engenheiros"));
+		if(vetItem != null){
+			System.out.print(vetItem[0].getPalavra()+": ");
+			for(int k = 0; k < vetItem.length; k++)
+				System.out.print((k==0?"":", ")+vetItem[k].getParagrafo());
+		}
 	}
 	
 	
