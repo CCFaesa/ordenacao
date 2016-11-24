@@ -1,5 +1,6 @@
 package principal;
 
+import estrutura.HashListaEncadeada;
 import modelo.Item;
 import ordenador.ABB;
 import ordenador.AVL;
@@ -21,6 +22,7 @@ public class Principal {
 		
 		Sort ordenador;
 		Arvore arvore;
+		HashListaEncadeada hashListaEncadeada; 
 		long tempo;
 		
 		ordenador = new ShellSort();
@@ -182,14 +184,43 @@ public class Principal {
 		tempo = insere(arvore, "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com AVL: " + (tempo/5) + " milisegundos");
 		
-		ArquivoUtilitario.serializaAVL((AVL) arvore);
-		
-		
+	
 		// AVL com Texto5.txt
 		arvore = new AVL();
 		tempo = insere(arvore, "Texto5.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com AVL: " + (tempo/5) + " milisegundos");
 		
+		
+		// HASH com Texto1.txt
+		hashListaEncadeada = new HashListaEncadeada(697, 697);
+		tempo = insere(hashListaEncadeada, "Texto1.txt");
+		ArquivoUtilitario.salvaResultado("Texto1.txt com HASH: " + (tempo/5) + " milisegundos");
+		
+		
+//		// HASH com Texto2.txt
+//		hashListaEncadeada = new HashListaEncadeada(1597, 1597);
+//		tempo = insere(hashListaEncadeada, "Texto2.txt");
+//		ArquivoUtilitario.salvaResultado("Texto2.txt com HASH: " + (tempo/5) + " milisegundos");
+//		
+//		
+//		// HASH com Texto3.txt
+//		hashListaEncadeada = new HashListaEncadeada(6431,6431);
+//		tempo = insere(hashListaEncadeada, "Texto3.txt");
+//		ArquivoUtilitario.salvaResultado("Texto3.txt com HASH: " + (tempo/5) + " milisegundos");
+//		
+//		
+//		// HASH com Texto4.txt
+//		hashListaEncadeada = new HashListaEncadeada(12881,12881);
+//		tempo = insere(hashListaEncadeada, "Texto4.txt");
+//		ArquivoUtilitario.salvaResultado("Texto4.txt com HASH: " + (tempo/5) + " milisegundos");
+//		
+//		
+//		// HASH com Texto5.txt
+//		hashListaEncadeada = new HashListaEncadeada(168129,168129);
+//		tempo = insere(hashListaEncadeada, "Texto5.txt");
+//		ArquivoUtilitario.salvaResultado("Texto5.txt com HASH: " + (tempo/5) + " milisegundos");
+//		
+		ArquivoUtilitario.serializaAVL((AVL) arvore);
 		
 		System.out.println("FIM PARTE 1");
 		
@@ -252,6 +283,16 @@ public class Principal {
 		for(int i = 0; i < 5; i++){
 			for (Item item : ArquivoUtilitario.arquivoToVetorItem(arquivoLer)) {
 				arvore.insere(item);
+			}
+		}
+		return System.currentTimeMillis() - inicio;
+	}
+	
+	public static long insere(HashListaEncadeada hashListaEncadeada, String arquivoLer){
+		inicio = System.currentTimeMillis();
+		for(int i = 0; i < 5; i++){
+			for (Item item : ArquivoUtilitario.arquivoToVetorItem(arquivoLer)) {
+				hashListaEncadeada.add(item);
 			}
 		}
 		return System.currentTimeMillis() - inicio;
