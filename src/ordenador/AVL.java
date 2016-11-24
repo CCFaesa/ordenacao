@@ -1,10 +1,11 @@
 package ordenador;
 
-import modelo.Item;
-import modelo.NoAVL;
+import java.io.Serializable;
 
-public class AVL extends Arvore{
-	private NoAVL raiz;
+import modelo.Item;
+import modelo.NoArvore;
+
+public class AVL extends Arvore implements Serializable{
 	private boolean h;
 
 	public AVL(){
@@ -16,13 +17,13 @@ public class AVL extends Arvore{
 		this.raiz = this.insere(item, this.raiz);
 	}
 
-	private NoAVL insere (Item item, NoAVL no){
+	private NoArvore insere (Item item, NoArvore no){
 		if (no == null){
-			NoAVL novo = new NoAVL(item);
+			NoArvore novo = new NoArvore(item);
 			this.h = true;
 			return novo;
 		}else{
-			int comparacao = item.comparator(no.getPrimeiroNo().getItem()); 
+			int comparacao = item.comparaPalavra(no.getPrimeiroNo().getItem()); 
 			
 			if (comparacao < 0){
 				no.setNoEsquerda(this.insere(item, no.getNoEsquerda()));
@@ -38,7 +39,7 @@ public class AVL extends Arvore{
 		}
 	}
 
-	private NoAVL balancearDir(NoAVL no) {
+	private NoArvore balancearDir(NoArvore no) {
 		if(this.h){
 			switch (no.getFatorBalanceamento()) {
 			case 1: 
@@ -57,7 +58,7 @@ public class AVL extends Arvore{
 		return no;
 	}
 	
-	private NoAVL balancearEsq(NoAVL no) {
+	private NoArvore balancearEsq(NoArvore no) {
 		if(this.h){
 			switch (no.getFatorBalanceamento()) {
 			case -1: 
@@ -76,8 +77,8 @@ public class AVL extends Arvore{
 		return no;
 	}
 
-	private NoAVL rotacaoDireita(NoAVL no){
-		NoAVL temp1, temp2;
+	private NoArvore rotacaoDireita(NoArvore no){
+		NoArvore temp1, temp2;
 		temp1 = no.getNoEsquerda();
 
 		if (temp1.getFatorBalanceamento() == -1){
@@ -110,8 +111,8 @@ public class AVL extends Arvore{
 		return no;
 	}
 
-	private NoAVL rotacaoEsquerda(NoAVL no){
-		NoAVL temp1, temp2;
+	private NoArvore rotacaoEsquerda(NoArvore no){
+		NoArvore temp1, temp2;
 		temp1 = no.getNoDireita();
 
 		if (temp1.getFatorBalanceamento() == 1){

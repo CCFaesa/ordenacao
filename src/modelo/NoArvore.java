@@ -1,31 +1,36 @@
 package modelo;
 
+import java.io.Serializable;
+
 import estrutura.ListaEncadeada;
 
-public class NoAVL {
-	private NoAVL noEsquerda;
-	private NoAVL noDireita;
+public class NoArvore implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	private NoArvore noEsquerda;
+	private NoArvore noDireita;
 	private ListaEncadeada lista;
 	private int fatorBalanceamento;
 	
-	public NoAVL(Item item){
+	public NoArvore(Item item){
 		lista = new ListaEncadeada();
 		lista.add(item);
 	}
 	
-	public NoAVL getNoEsquerda() {
+	public NoArvore getNoEsquerda() {
 		return noEsquerda;
 	}
 
-	public void setNoEsquerda(NoAVL no) {
+	public void setNoEsquerda(NoArvore no) {
 		this.noEsquerda = no;
 	}
 
-	public NoAVL getNoDireita() {
+	public NoArvore getNoDireita() {
 		return noDireita;
 	}
 
-	public void setNoDireita(NoAVL no) {
+	public void setNoDireita(NoArvore no) {
 		this.noDireita = no;
 	}
 	

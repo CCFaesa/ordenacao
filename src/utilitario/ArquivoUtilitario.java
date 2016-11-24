@@ -2,15 +2,24 @@ package utilitario;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 
 import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
+import ordenador.ABB;
+import ordenador.AVL;
+import ordenador.QuickSort;
+import ordenador.ShellSort;
+import ordenador.Sort;
 
 public abstract class ArquivoUtilitario {
 	public static final String ARQUIVO_RESULTADOS = "resultados.txt";
@@ -148,21 +157,119 @@ public abstract class ArquivoUtilitario {
 		int inicioVetor = 0;
 		int finalVetor = vetor.length - 1;
 		ListaEncadeada lista = new ListaEncadeada();
-
+		Sort sort = new QuickSort();
+		
 		while (inicioVetor <= finalVetor) {
 			int meio = (inicioVetor + finalVetor) >>> 1;
 			Item midVal = vetor[meio];
 
-			if (midVal.comparator(chave) < 0)
+			if (midVal.getPalavra().compareToIgnoreCase(chave.getPalavra()) < 0)
 				inicioVetor = meio + 1;
-			else if (midVal.comparator(chave) > 0)
+			else if (midVal.getPalavra().compareToIgnoreCase(chave.getPalavra()) > 0)
 				finalVetor = meio - 1;
 			else{				
+				int auxIndice = meio;
 				lista.add(new Item(midVal.getParagrafo(), chave.getPalavra()));
-				return lista.toArray();
+				
+				while(vetor[auxIndice-1].getPalavra().compareToIgnoreCase(vetor[auxIndice].getPalavra()) == 0){
+					lista.add(new Item(vetor[auxIndice-1].getParagrafo(), vetor[auxIndice-1].getPalavra()));
+					
+					auxIndice--;	
+				}
+				auxIndice = meio;
+				while(vetor[auxIndice+1].getPalavra().compareToIgnoreCase(vetor[auxIndice].getPalavra()) == 0){
+					lista.add(new Item(vetor[auxIndice+1].getParagrafo(), vetor[auxIndice+1].getPalavra()));
+					auxIndice++;	
+				}
+				sort.setVetor(lista.toArray());
+					return sort.ordena();
 				}
 				
 		}
 		return lista.toArray();
+	}
+	
+	public static String pesquisaBinariaNoArquivo(String arquivoIndice, String arquivoPesquisar){
+		Item[] vetChaves = ArquivoUtilitario.arquivoToVetorItem(arquivoIndice);
+		Sort ordenador = new ShellSort();
+		ordenador.setVetor(ArquivoUtilitario.arquivoToVetorItem(arquivoPesquisar));
+		Item[] vet = ordenador.ordena();
+		Item[] aux= null;
+		StringBuilder sb;
+		StringBuilder sbResultado = new StringBuilder();
+		ArquivoUtilitario.salvaResultado("Pesquisa: ");
+		
+		for(int i = 0; i < vetChaves.length; i++){
+			aux = ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]);
+			sb = new StringBuilder();
+			for(int j = 0; j<aux.length;j++)
+				sb.append((j>0?",":"")+aux[j].getParagrafo());
+			
+			sbResultado.append(vetChaves[i].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n");
+		}
+		return sbResultado.toString();
+	}
+	
+	public static void salvaArquivo(String texto, String momeArquivo){
+		try {
+			FileWriter fw = new FileWriter(momeArquivo, false);
+			PrintWriter pw = new PrintWriter(fw);
+			pw.write(texto);
+			
+			pw.close();
+	        fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void serializaAVL(AVL avl){
+		try {
+			FileOutputStream fos = new FileOutputStream("avl.ser");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			oos.writeObject(avl);
+			oos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static AVL deserializaAVL(){
+		AVL avl = null;
+		try {
+			FileInputStream fis = new FileInputStream("avl.ser");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			avl = (AVL) ois.readObject();
+			ois.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return avl;
+	}
+	
+	public static void serializaABB(ABB abb){
+		try {
+			FileOutputStream fos = new FileOutputStream("abb.ser");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			oos.writeObject(abb);
+			oos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static ABB deserializaABB(){
+		ABB abb = null;
+		try {
+			FileInputStream fis = new FileInputStream("abb.ser");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			abb = (ABB) ois.readObject();
+			ois.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return abb;
 	}
 }

@@ -1,9 +1,14 @@
 package estrutura;
 
+import java.io.Serializable;
+
 import modelo.Item;
 import modelo.No;
 
-public class ListaEncadeada {
+public class ListaEncadeada implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
 	private No primeiro;
 	private No ultimo;
 	private int quantidadeNos = 0;
@@ -35,15 +40,12 @@ public class ListaEncadeada {
 
 	private boolean verificaRepetido(No noInicioParagrafo, No no) {
 
-		if (noInicioParagrafo.getItem().getParagrafo() == no.getItem().getParagrafo()) {
-			while (noInicioParagrafo != null) {
-				if(! noInicioParagrafo.getItem().equals(no.getItem())){
-					noInicioParagrafo = noInicioParagrafo.getProximo();
-				}else{
-					return true;
-				}
+		while (noInicioParagrafo != null) {
+			if (!noInicioParagrafo.getItem().equals(no.getItem())) {
+				noInicioParagrafo = noInicioParagrafo.getProximo();
+			} else {
+				return true;
 			}
-			return false;
 		}
 		return false;
 	}

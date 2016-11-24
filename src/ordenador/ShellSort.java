@@ -20,7 +20,7 @@ public class ShellSort extends Sort{
 				temp = array[i];
 				j = i;
 				
-				while (array[j - h].comparator(temp) > 0) {
+				while (array[j - h].comparaTudo(temp) > 0) {
 					array[j] = array[j - h];
 					j -= h;
 					if (j < h) break;

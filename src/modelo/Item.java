@@ -1,6 +1,11 @@
 package modelo;
 
-public class Item {
+import java.io.Serializable;
+
+public class Item implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
 	private int paragrafo;
 	private String palavra;
 	
@@ -34,13 +39,21 @@ public class Item {
 		return this.palavra.equalsIgnoreCase(outro.getPalavra()) && this.paragrafo == outro.getParagrafo();
 	}
 	
-	public int comparator(Item item){
+	public int comparaTudo(Item item){
 		int diferenca = this.palavra.compareToIgnoreCase(item.getPalavra());
-//		if(diferenca == 0){
-//			return paragrafo - item.getParagrafo();
-//		}
+		if(diferenca == 0){
+			return paragrafo - item.getParagrafo();
+		}
 		
 		return diferenca;
+	}
+	
+	public int comparaPalavra(Item item){
+		return this.palavra.compareToIgnoreCase(item.getPalavra());
+	}
+	
+	public int comparaPalavra(String palavra){
+		return this.palavra.compareToIgnoreCase(palavra);
 	}
 
 	@Override

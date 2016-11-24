@@ -11,7 +11,7 @@ public class QuickSortInsercaoDireta extends Sort{
 
 	public Item[] ordena(Item[] array, int esq, int dir){
 		
-		if(dir - esq < 25) return insercaoDireta(array);
+		if(dir - esq < 25) return InsercaoDireta.ordenaPedaco(array, esq, dir);
 		
 		Item pivo; 
 		int i = esq, j = dir;
@@ -20,8 +20,8 @@ public class QuickSortInsercaoDireta extends Sort{
 		pivo = array[(i+j)/2];
 
 		do {
-			while (array[i].comparator(pivo) < 0) i++;
-			while (array[j].comparator(pivo) > 0) j--;
+			while (array[i].comparaTudo(pivo) < 0) i++;
+			while (array[j].comparaTudo(pivo) > 0) j--;
 
 			if (i <= j) {
 				temp = array[i];
@@ -34,25 +34,6 @@ public class QuickSortInsercaoDireta extends Sort{
 
 		if (esq < j) ordena (array, esq, j);
 		if (dir > i) ordena (array, i, dir);
-		
-		return array;
-	}
-
-	public Item[] insercaoDireta(Item[] array){
-		int i, j;
-		Item temp;
-
-		for (i=1; i < array.length; i++){
-			temp = array[i];
-			j = i-1;
-			
-			while ((j >= 0) && (array[j].comparator(temp) > 0)){
-				array[j+1] = array[j];
-				j--;
-			}
-
-			array[j+1] = temp;
-		}
 		
 		return array;
 	}
