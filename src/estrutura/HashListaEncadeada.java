@@ -83,6 +83,35 @@ public class HashListaEncadeada {
 		}
 		return null;
 	}
+	
+	public String toString() {
+		if (vetorPrincipal == null) {
+			return "";
+		} else {
+			StringBuilder sb = new StringBuilder();
+			ListaEncadeada listaAux = null;
+			No noAux = null;
+			for(int i = 0; i < vetorPrincipal.length; i++){
+				listaAux = vetorPrincipal[i].getPrimeiraLista();
+				while (listaAux != null) {
+					noAux = listaAux.getPrimeiro();
+					if (noAux != null){
+						sb.append(noAux.getItem().getPalavra() + ": "+ noAux.getItem().getParagrafo());
+						noAux = noAux.getProximo();
+						while(noAux != null)
+							sb.append(", " + noAux.getItem().getParagrafo());
+					}
+					
+					if (listaAux != null){
+						sb.append("\n");
+						listaAux = listaAux.getProximaLista();
+					}
+				}
+			}
+			return sb.toString();
+		}			
+	}
+
 
 	public int getNumeroMod() {
 		return numeroMod;
@@ -108,12 +137,17 @@ public class HashListaEncadeada {
 			h.add(item);
 		}
 		
-		Item vetItem[] = h.buscar(new Item(3,"Engenheiros"));
-		if(vetItem != null){
-			System.out.print(vetItem[0].getPalavra()+": ");
-			for(int k = 0; k < vetItem.length; k++)
-				System.out.print((k==0?"":", ")+vetItem[k].getParagrafo());
-		}
+//		// Teste para fazer pesquisa no Hash
+//		Item vetItem[] = h.buscar(new Item(3,"Engenheiros"));
+//		if(vetItem != null){
+//			System.out.print(vetItem[0].getPalavra()+": ");
+//			for(int k = 0; k < vetItem.length; k++)
+//				System.out.print((k==0?"":", ")+vetItem[k].getParagrafo());
+//		}
+		
+		
+		//Teste para imprimir o Hash, criado um toString
+		System.out.println(h.toString());
 	}
 	
 	
