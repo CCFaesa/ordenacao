@@ -222,22 +222,27 @@ public class Principal {
 		
 		
 		// Busca Binária com Texto1.txt
+		inicio = System.currentTimeMillis();
 		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto1.txt");
 		ArquivoUtilitario.salvaResultado("Texto1.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 		
 		// Busca Binária com Texto2.txt
+		inicio = System.currentTimeMillis();
 		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto2.txt");
 		ArquivoUtilitario.salvaResultado("Texto2.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 	
 		// Busca Binária com Texto3.txt
+		inicio = System.currentTimeMillis();
 		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto3.txt");
 		ArquivoUtilitario.salvaResultado("Texto3.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 	
 		// Busca Binária com Texto4.txt
+		inicio = System.currentTimeMillis();
 		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 	
 		// Busca Binária com Texto5.txt
+		inicio = System.currentTimeMillis();
 		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto5.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 	

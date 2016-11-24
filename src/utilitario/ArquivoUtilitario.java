@@ -200,8 +200,10 @@ public abstract class ArquivoUtilitario {
 		StringBuilder sbResultado = new StringBuilder();
 		sbResultado.append("Pesquisa: ");
 		
-		for(int i = 0; i < vetChaves.length; i++)
-			sbResultado.append(vetItemToString(ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i])));
+		for(int i = 0; i < vetChaves.length; i++){
+		String aux = vetItemToString(ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]));
+			sbResultado.append(vetChaves[0].getPalavra() + " - " + (aux.length()>0?aux:"Palavra nao encontrada") + "\n");
+		}
 		return sbResultado.toString();
 	}
 	
@@ -209,7 +211,7 @@ public abstract class ArquivoUtilitario {
 		StringBuilder sb = new StringBuilder();
 		for(int j = 0; j<vetItem.length;j++)
 			sb.append((j>0?",":"")+vetItem[j].getParagrafo());
-		return vetItem[0].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n";
+		return sb.toString();
 	}
 	
 	public static void salvaArquivo(String texto, String momeArquivo){
