@@ -152,7 +152,7 @@ public class Principal {
 		tempo = insere(arvore, "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com ABB: " + (tempo/5) + " milisegundos");
 		
-		ArquivoUtilitario.serializaABB((ABB) arvore);
+		ArquivoUtilitario.salvaABB((ABB) arvore);
 		
 		
 		// ABB com Texto5.txt
@@ -249,7 +249,7 @@ public class Principal {
 		
 		
 		
-		ArquivoUtilitario.serializaAVL((AVL) arvore);
+		ArquivoUtilitario.salvaAVL((AVL) arvore);
 		
 		System.out.println("FIM PARTE 1");
 		
@@ -259,7 +259,7 @@ public class Principal {
 		
 		
 		inicio = System.currentTimeMillis();
-		arvore = ArquivoUtilitario.deserializaABB();
+		arvore = ArquivoUtilitario.pegaABB();
 		
 		for(int i = 0; i < 5; i++){
 			stb = new StringBuilder();
@@ -275,7 +275,7 @@ public class Principal {
 		
 		
 		inicio = System.currentTimeMillis();
-		arvore = ArquivoUtilitario.deserializaAVL();
+		arvore = ArquivoUtilitario.pegaAVL();
 		for(int i = 0; i < 5; i++){
 			stb = new StringBuilder();
 			for (Item item : palavrasPesquisar) {

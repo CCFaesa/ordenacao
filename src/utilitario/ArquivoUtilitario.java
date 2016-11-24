@@ -288,7 +288,7 @@ public abstract class ArquivoUtilitario {
 		}
 	}
 	
-	public static ABB pegaBB(){
+	public static ABB pegaABB(){
 		ABB abb = null;
 		try {
 			FileInputStream fis = new FileInputStream("abb.ser");
