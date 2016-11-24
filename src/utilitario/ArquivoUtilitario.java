@@ -225,7 +225,7 @@ public abstract class ArquivoUtilitario {
 		}
 	}
 	
-	public static void serializaAVL(AVL avl){
+	public static void salvaAVL(AVL avl){
 		try {
 			FileOutputStream fos = new FileOutputStream("avl.ser");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -236,7 +236,7 @@ public abstract class ArquivoUtilitario {
 		}
 	}
 	
-	public static AVL deserializaAVL(){
+	public static AVL pegaAVL(){
 		AVL avl = null;
 		try {
 			FileInputStream fis = new FileInputStream("avl.ser");
@@ -250,7 +250,32 @@ public abstract class ArquivoUtilitario {
 		return avl;
 	}
 	
-	public static void serializaABB(ABB abb){
+	public static void salvaVetor(Item[] vetor){
+		try {
+			FileOutputStream fos = new FileOutputStream("vetor.ser");
+			ObjectOutputStream oos = new ObjectOutputStream(fos);
+			oos.writeObject(vetor);
+			oos.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static Item[] pegaVetor(){
+		Item[] vetor = null;
+		try {
+			FileInputStream fis = new FileInputStream("vetor.ser");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			vetor = (Item[]) ois.readObject();
+			ois.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return vetor;
+	}
+	
+	public static void salvaABB(ABB abb){
 		try {
 			FileOutputStream fos = new FileOutputStream("abb.ser");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -261,7 +286,7 @@ public abstract class ArquivoUtilitario {
 		}
 	}
 	
-	public static ABB deserializaABB(){
+	public static ABB pegaBB(){
 		ABB abb = null;
 		try {
 			FileInputStream fis = new FileInputStream("abb.ser");
