@@ -13,6 +13,7 @@ public class ListaEncadeada implements Serializable {
 	private No ultimo;
 	private int quantidadeNos = 0;
 	private No inicioParagrafo = null;
+	private ListaEncadeada proximaLista;
 	
 	public void add(Item item){
 		if(quantidadeNos == 0){
@@ -74,6 +75,14 @@ public class ListaEncadeada implements Serializable {
 		return quantidadeNos;
 	}
 	
+	public ListaEncadeada getProximaLista() {
+		return proximaLista;
+	}
+
+	public void setProximaLista(ListaEncadeada proximaLista) {
+		this.proximaLista = proximaLista;
+	}
+
 	public Item[] toArray(){
 		Item[] array = new Item[quantidadeNos];
 		
