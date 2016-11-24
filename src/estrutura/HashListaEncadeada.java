@@ -91,21 +91,26 @@ public class HashListaEncadeada {
 			StringBuilder sb = new StringBuilder();
 			ListaEncadeada listaAux = null;
 			No noAux = null;
-			for(int i = 0; i < vetorPrincipal.length; i++){
-				listaAux = vetorPrincipal[i].getPrimeiraLista();
-				while (listaAux != null) {
-					noAux = listaAux.getPrimeiro();
-					if (noAux != null){
-						sb.append(noAux.getItem().getPalavra() + ": "+ noAux.getItem().getParagrafo());
-						noAux = noAux.getProximo();
-						while(noAux != null)
-							sb.append(", " + noAux.getItem().getParagrafo());
-					}
-					
-					if (listaAux != null){
-						sb.append("\n");
-						listaAux = listaAux.getProximaLista();
-					}
+			for (int i = 0; i < vetorPrincipal.length; i++) {
+				if (vetorPrincipal[i] != null) {
+					listaAux = vetorPrincipal[i].getPrimeiraLista();
+					if (listaAux != null)
+						while (listaAux != null) {
+							noAux = listaAux.getPrimeiro();
+							if (noAux != null) {
+								sb.append(noAux.getItem().getPalavra() + ": " + noAux.getItem().getParagrafo());
+								noAux = noAux.getProximo();
+								while (noAux != null) {
+									sb.append(", " + noAux.getItem().getParagrafo());
+									noAux = noAux.getProximo();
+								}
+							}
+
+							if (listaAux != null) {
+								sb.append("\n");
+								listaAux = listaAux.getProximaLista();
+							}
+						}
 				}
 			}
 			return sb.toString();
@@ -133,7 +138,7 @@ public class HashListaEncadeada {
 //		
 //		System.out.println(h.calculaPosicao(8));
 		
-		for (Item item : ArquivoUtilitario.arquivoToVetorItem("Texto1.txt")) {
+		for (Item item : ArquivoUtilitario.arquivoToVetorItem("TextoTestePequeno.txt")) {
 			h.add(item);
 		}
 		
