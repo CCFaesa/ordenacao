@@ -188,26 +188,28 @@ public abstract class ArquivoUtilitario {
 		}
 		return lista.toArray();
 	}
-	
+	public static long pesquisaBinariaNoArquivoGetTempo(String arquivoIndice, String arquivoPesquisar){
+		pesquisaBinariaNoArquivo(arquivoIndice, arquivoPesquisar); 
+	return System.currentTimeMillis();
+	}
 	public static String pesquisaBinariaNoArquivo(String arquivoIndice, String arquivoPesquisar){
 		Item[] vetChaves = ArquivoUtilitario.arquivoToVetorItem(arquivoIndice);
 		Sort ordenador = new ShellSort();
 		ordenador.setVetor(ArquivoUtilitario.arquivoToVetorItem(arquivoPesquisar));
 		Item[] vet = ordenador.ordena();
-		Item[] aux= null;
-		StringBuilder sb;
 		StringBuilder sbResultado = new StringBuilder();
-		ArquivoUtilitario.salvaResultado("Pesquisa: ");
+		sbResultado.append("Pesquisa: ");
 		
-		for(int i = 0; i < vetChaves.length; i++){
-			aux = ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]);
-			sb = new StringBuilder();
-			for(int j = 0; j<aux.length;j++)
-				sb.append((j>0?",":"")+aux[j].getParagrafo());
-			
-			sbResultado.append(vetChaves[i].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n");
-		}
+		for(int i = 0; i < vetChaves.length; i++)
+			sbResultado.append(vetItemToString(ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i])));
 		return sbResultado.toString();
+	}
+	
+	public static String vetItemToString(Item[] vetItem){
+		StringBuilder sb = new StringBuilder();
+		for(int j = 0; j<vetItem.length;j++)
+			sb.append((j>0?",":"")+vetItem[j].getParagrafo());
+		return vetItem[0].getPalavra() + " - " + (sb.length()>0?sb:"Palavra nao encontrada") + "\n";
 	}
 	
 	public static void salvaArquivo(String texto, String momeArquivo){

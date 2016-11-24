@@ -138,7 +138,7 @@ public class HashListaEncadeada {
 //		
 //		System.out.println(h.calculaPosicao(8));
 		
-		for (Item item : ArquivoUtilitario.arquivoToVetorItem("TextoTestePequeno.txt")) {
+		for (Item item : ArquivoUtilitario.arquivoToVetorItem("Texto1.txt")) {
 			h.add(item);
 		}
 		
