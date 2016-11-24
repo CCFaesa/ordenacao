@@ -190,7 +190,39 @@ public class Principal {
 		arvore = new AVL();
 		tempo = insere(arvore, "Texto5.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com AVL: " + (tempo/5) + " milisegundos");
+	
+		ArquivoUtilitario.salvaAVL((AVL) arvore);
 		
+		//-------------------------------//
+		System.out.println("FIM PARTE 1");
+		//-------------------------------//
+		
+		Item[] palavrasPesquisar = ArquivoUtilitario.arquivoToVetorItem("palavras.txt");
+		
+		// Busca Binária com Texto1.txt
+		inicio = System.currentTimeMillis();
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
+		ArquivoUtilitario.salvaResultado("Texto1.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
+		
+		// Busca Binária com Texto2.txt
+		inicio = System.currentTimeMillis();
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
+		ArquivoUtilitario.salvaResultado("Texto2.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
+	
+		// Busca Binária com Texto3.txt
+		inicio = System.currentTimeMillis();
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
+		ArquivoUtilitario.salvaResultado("Texto3.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
+	
+		// Busca Binária com Texto4.txt
+		inicio = System.currentTimeMillis();
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
+		ArquivoUtilitario.salvaResultado("Texto4.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
+	
+		// Busca Binária com Texto5.txt
+		inicio = System.currentTimeMillis();
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
+		ArquivoUtilitario.salvaResultado("Texto5.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
 		
 		// HASH com Texto1.txt
 		hashListaEncadeada = new HashListaEncadeada(697, 697);
@@ -221,43 +253,7 @@ public class Principal {
 		tempo = insere(hashListaEncadeada, "Texto5.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com HASH: " + (tempo/5) + " milisegundos");
 		
-		
-		// Busca Binária com Texto1.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto1.txt");
-		ArquivoUtilitario.salvaResultado("Texto1.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-		
-		// Busca Binária com Texto2.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto2.txt");
-		ArquivoUtilitario.salvaResultado("Texto2.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto3.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto3.txt");
-		ArquivoUtilitario.salvaResultado("Texto3.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto4.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto4.txt");
-		ArquivoUtilitario.salvaResultado("Texto4.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto5.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo("palavras.txt", "Texto5.txt");
-		ArquivoUtilitario.salvaResultado("Texto5.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		
-		
-		
-		ArquivoUtilitario.salvaAVL((AVL) arvore);
-		
-		System.out.println("FIM PARTE 1");
-		
-		
-		Item[] palavrasPesquisar = ArquivoUtilitario.arquivoToVetorItem("palavras.txt");
 		StringBuilder stb;
-		
 		
 		inicio = System.currentTimeMillis();
 		arvore = ArquivoUtilitario.pegaABB();

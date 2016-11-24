@@ -188,15 +188,11 @@ public abstract class ArquivoUtilitario {
 		}
 		return lista.toArray();
 	}
-	public static long pesquisaBinariaNoArquivoGetTempo(String arquivoIndice, String arquivoPesquisar){
-		pesquisaBinariaNoArquivo(arquivoIndice, arquivoPesquisar); 
-	return System.currentTimeMillis();
+	public static long pesquisaBinariaNoArquivoGetTempo(Item[] vet, Item[] vetChaves){
+		pesquisaBinariaNoArquivo(vet, vetChaves); 
+		return System.currentTimeMillis();
 	}
-	public static String pesquisaBinariaNoArquivo(String arquivoIndice, String arquivoPesquisar){
-		Item[] vetChaves = ArquivoUtilitario.arquivoToVetorItem(arquivoIndice);
-		Sort ordenador = new ShellSort();
-		ordenador.setVetor(ArquivoUtilitario.arquivoToVetorItem(arquivoPesquisar));
-		Item[] vet = ordenador.ordena();
+	public static String pesquisaBinariaNoArquivo(Item[] vet, Item[] vetChaves){
 		StringBuilder sbResultado = new StringBuilder();
 		sbResultado.append("Pesquisa: ");
 		
