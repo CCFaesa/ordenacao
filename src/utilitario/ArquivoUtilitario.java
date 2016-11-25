@@ -12,11 +12,11 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 
+import estrutura.ABB;
+import estrutura.AVL;
 import estrutura.ListaEncadeada;
 import modelo.Item;
 import modelo.No;
-import ordenador.ABB;
-import ordenador.AVL;
 import ordenador.QuickSort;
 import ordenador.ShellSort;
 import ordenador.Sort;
@@ -196,9 +196,11 @@ public abstract class ArquivoUtilitario {
 		StringBuilder sbResultado = new StringBuilder();
 		sbResultado.append("Pesquisa: ");
 		
-		for(int i = 0; i < vetChaves.length; i++){
-		String aux = vetItemToString(ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]));
-			sbResultado.append(vetChaves[0].getPalavra() + " - " + (aux.length()>0?aux:"Palavra nao encontrada") + "\n");
+		for(int j = 0; j < 5; j++){
+			for(int i = 0; i < vetChaves.length; i++){
+			String aux = vetItemToString(ArquivoUtilitario.buscaBinariaNoVetor(vet, vetChaves[i]));
+				sbResultado.append(vetChaves[0].getPalavra() + " - " + (aux.length()>0?aux:"Palavra nao encontrada") + "\n");
+			}
 		}
 		return sbResultado.toString();
 	}

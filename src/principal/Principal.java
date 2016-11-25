@@ -1,10 +1,10 @@
 package principal;
 
+import estrutura.ABB;
+import estrutura.AVL;
+import estrutura.Arvore;
 import estrutura.HashListaEncadeada;
 import modelo.Item;
-import ordenador.ABB;
-import ordenador.AVL;
-import ordenador.Arvore;
 import ordenador.HeapSort;
 import ordenador.QuickSort;
 import ordenador.QuickSortInsercaoDireta;
@@ -45,12 +45,11 @@ public class Principal {
 		tempo = ordena(ordenador, "Texto4.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
-		ArquivoUtilitario.salvaVetor(ordenador.getVetor());
-		
 		// ShellSort com Texto5.txt
 		tempo = ordena(ordenador, "Texto5.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
+		ArquivoUtilitario.salvaVetor(ordenador.getVetor());
 		
 		ordenador = new QuickSort();
 		// QuickSort com Texto1.txt
@@ -201,57 +200,13 @@ public class Principal {
 		
 		// Busca Binária com Texto1.txt
 		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
-		ArquivoUtilitario.salvaResultado("Texto1.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-		
-		// Busca Binária com Texto2.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
-		ArquivoUtilitario.salvaResultado("Texto2.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto3.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
-		ArquivoUtilitario.salvaResultado("Texto3.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto4.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
-		ArquivoUtilitario.salvaResultado("Texto4.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-	
-		// Busca Binária com Texto5.txt
-		inicio = System.currentTimeMillis();
-		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar);
-		ArquivoUtilitario.salvaResultado("Texto5.txt com Pesquisa Binária: " + (tempo/5) + " milisegundos");
-		
-		// HASH com Texto1.txt
-		hashListaEncadeada = new HashListaEncadeada(697, 697);
-		tempo = insere(hashListaEncadeada, "Texto1.txt");
-		ArquivoUtilitario.salvaResultado("Texto1.txt com HASH: " + (tempo/5) + " milisegundos");
-		
-		
-		// HASH com Texto2.txt
-		hashListaEncadeada = new HashListaEncadeada(1597, 1597);
-		tempo = insere(hashListaEncadeada, "Texto2.txt");
-		ArquivoUtilitario.salvaResultado("Texto2.txt com HASH: " + (tempo/5) + " milisegundos");
-		
-		
-		// HASH com Texto3.txt
-		hashListaEncadeada = new HashListaEncadeada(6431,6431);
-		tempo = insere(hashListaEncadeada, "Texto3.txt");
-		ArquivoUtilitario.salvaResultado("Texto3.txt com HASH: " + (tempo/5) + " milisegundos");
-		
-		
-		// HASH com Texto4.txt
-		hashListaEncadeada = new HashListaEncadeada(12881,12881);
-		tempo = insere(hashListaEncadeada, "Texto4.txt");
-		ArquivoUtilitario.salvaResultado("Texto4.txt com HASH: " + (tempo/5) + " milisegundos");
-		
+		tempo = ArquivoUtilitario.pesquisaBinariaNoArquivoGetTempo(ArquivoUtilitario.pegaVetor(), palavrasPesquisar) - inicio;
+		ArquivoUtilitario.salvaResultado("Pesquisa Binária: " + (tempo/5) + " milisegundos");
 		
 		// HASH com Texto5.txt
 		hashListaEncadeada = new HashListaEncadeada(168129,168129);
-		tempo = insere(hashListaEncadeada, "Texto5.txt");
-		ArquivoUtilitario.salvaResultado("Texto5.txt com HASH: " + (tempo/5) + " milisegundos");
+		tempo = insere(hashListaEncadeada);
+		ArquivoUtilitario.salvaResultado("HASH com lista encadeada: " + (tempo/5) + " milisegundos");
 		
 		StringBuilder stb;
 		
@@ -287,11 +242,8 @@ public class Principal {
 		
 		System.out.println("FIM PARTE 2");
 		
-		
 //		ArquivoUtilitario.salvaResultado(ArquivoUtilitario.pesquisaBinariaNoArquivo("palavras.txt","Texto5.txt"));
 	}
-
-	
 	
 	
 	public static long ordena(Sort ordenador, String arquivoLer, String arquivoSalvar){
@@ -314,10 +266,11 @@ public class Principal {
 		return System.currentTimeMillis() - inicio;
 	}
 	
-	public static long insere(HashListaEncadeada hashListaEncadeada, String arquivoLer){
+	public static long insere(HashListaEncadeada hashListaEncadeada){
 		inicio = System.currentTimeMillis();
 		for(int i = 0; i < 5; i++){
-			for (Item item : ArquivoUtilitario.arquivoToVetorItem(arquivoLer)) {
+			Item[] vetor = ArquivoUtilitario.pegaVetor();
+			for (Item item : vetor) {
 				hashListaEncadeada.add(item);
 			}
 		}

@@ -1,4 +1,4 @@
-package ordenador;
+package estrutura;
 
 import java.io.Serializable;
 

@@ -1,7 +1,0 @@
-Chip conecta processador quantico a rede de fibra optica
-Conversor fotonico
-Engenheiros da Universidade de Yale, nos EUA, criaram um pequeno chip capaz de converter a luz visivel em luz infravermelha e viceversa, sem perder o estado quantico dos fotons originais.
-Desta forma, o componente funciona como um acoplamento entre os delicados chips quanticos e a rede de dados de fibras opticas.
-Este e um elemento essencial para as tao sonhadas redes quanticas, ja usadas em sistemas avancados de criptografia e que, mais no futuro, serao a base da internet quantica.
-Embora o progresso no campo dos processadores quanticos tenhase acelerado muito nos ultimos anos, a construcao de redes quanticas praticas, que consigam transmitir informacoes a grandes distancias, ainda depende do desenvolvimento de componentes de interface entre o processamento e a transmissao de dados.
-desenvolver uma usina em escala industrial na forma de um sistema modular, de forma que o sistema em escala piloto que estamos construindo podera de fato ser usado como um modulo para um sistema em escala total, que sera formado por muitos modulos empilhados ou dispostos em conjunto, disse o professor Wenhua Yu, do Laboratorio Nacional Argonne, nos EUA.
