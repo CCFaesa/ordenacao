@@ -44,12 +44,14 @@ public class Principal {
 		// ShellSort com Texto4.txt
 		tempo = ordena(ordenador, "Texto4.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com shellsort: " + (tempo/5) + " milisegundos");
+
+		
+		ArquivoUtilitario.salvaVetor(ordenador.getVetor());
 		
 		// ShellSort com Texto5.txt
 		tempo = ordena(ordenador, "Texto5.txt", "ShellSort.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com shellsort: " + (tempo/5) + " milisegundos");
 		
-		ArquivoUtilitario.salvaVetor(ordenador.getVetor());
 		
 		ordenador = new QuickSort();
 		// QuickSort com Texto1.txt
@@ -183,14 +185,14 @@ public class Principal {
 		arvore = new AVL();
 		tempo = insere(arvore, "Texto4.txt");
 		ArquivoUtilitario.salvaResultado("Texto4.txt com AVL: " + (tempo/5) + " milisegundos");
-		
+
+		ArquivoUtilitario.salvaAVL((AVL) arvore);
 	
 		// AVL com Texto5.txt
 		arvore = new AVL();
 		tempo = insere(arvore, "Texto5.txt");
 		ArquivoUtilitario.salvaResultado("Texto5.txt com AVL: " + (tempo/5) + " milisegundos");
 	
-		ArquivoUtilitario.salvaAVL((AVL) arvore);
 		
 		//-------------------------------//
 		System.out.println("FIM PARTE 1");
